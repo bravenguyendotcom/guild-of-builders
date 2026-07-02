@@ -8,6 +8,7 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- `manuscript/volume_1/01_captain_byte_sets_sail.md` — added Volume I, Chapter 1 (Captain Byte Sets Sail): the Builder's first real line of Python, teaching **variables** (a box with a name) and the first `NameError` as a conversation.
 - `.claude/commands/ship-chapter.md` added — one-command log + commit for pasted chapters (Codie stays out of authoring).
 - `docs/CLAUDE_CODE_QUICKSTART.md` added - (Claude Code onboarding + a ready CLAUDE.md that auto-boots the workflow).
 - `manuscript/volume_1/00_welcome.md` - added Volume I, Chapter 0 (Welcome): the cold-open that recruits the Builder. Story only, no syntax yet.

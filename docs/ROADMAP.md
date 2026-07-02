@@ -57,6 +57,7 @@ Repeat the pattern, one volume at a time, always evolving the same game.
 
 | Date | Session goal | Donut delivered | Next |
 |------|--------------|-----------------|------|
+| _(session 9)_ | Phase 1: Volume I, Chapter 1 (Captain Byte Sets Sail) — our first Python: variables | manuscript/volume_1/01_captain_byte_sets_sail.md | Chapter 2 / Hungry Pizza Robot (fresh convo) |
 | _(session 8)_ | Wire Codie to log + commit only; sort GitHub connector | .claude/commands/ship-chapter.md | Chapter 2 / Hungry Pizza Robot (fresh convo) |
 | _(session 7)_ | Phase 1: Volume I, Chapter 0 (Welcome) | manuscript/volume_1/00_welcome.md | Chapter 1 (our first line of Python) |
 | _(session 6)_ | Add Real World box | STYLE_GUIDE.md (style guide v1.1) | In the Real World box + professionalism ladder |
