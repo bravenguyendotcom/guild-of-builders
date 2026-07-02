@@ -57,6 +57,7 @@ Repeat the pattern, one volume at a time, always evolving the same game.
 
 | Date | Session goal | Donut delivered | Next |
 |------|--------------|-----------------|------|
+| _(session 7)_ | Phase 1: Volume I, Chapter 0 (Welcome) | manuscript/volume_1/00_welcome.md | Chapter 1 (our first line of Python) |
 | _(session 6)_ | Add Real World box | STYLE_GUIDE.md (style guide v1.1) | In the Real World box + professionalism ladder |
 | _(session 5)_ | Add Sir Quizzalot to canon | CHARACTERS.md v1.2 (co-master of the Riddle Theatre) | Phase 1: Volume I chapters (in their own conversations) |
 | _(session 4)_ | Add two new characters to canon | CHARACTERS.md v1.1 (Prof. Pycasso + Maestro Monty) | Phase 1: Volume I, Chapter 0 (Welcome) |
