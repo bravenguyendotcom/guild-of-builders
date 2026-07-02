@@ -8,9 +8,10 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- Added `.claude/commands/ship-chapter.md` — one-command log + commit for pasted chapters (Codie stays out of authoring).
 - Added `docs/CLAUDE_CODE_QUICKSTART.md` (Claude Code onboarding + a ready CLAUDE.md that auto-boots the workflow).
 - `manuscript/volume_1/00_welcome.md` - Added Volume I, Chapter 0 (Welcome): the cold-open that recruits the Builder. Story only, no syntax yet.
-- Added Real World box | STYLE_GUIDE.md (style guide v1.1) | In the Real World box + professionalism ladder 
+- Added Real World box | `docs/STYLE_GUIDE.md` (style guide v1.1) | In the Real World box + professionalism ladder 
 - `docs/CHARACTERS.md` (v1.2) — added Sir Quizzalot, co-master of the Riddle Theatre (the pompous-knight foil to Maestro Monty).
 - `docs/CHARACTERS.md` (v1.1) — added Professor Pycasso (the Artist) and Maestro Monty (the Riddle-Theatre Master) to the DRAFT supporting cast.
 - `docs/CLAUDE_PROJECT_CONFIG.md` — Claude Project custom instructions + knowledge setup.
