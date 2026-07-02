@@ -8,6 +8,7 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- Added `docs/CLAUDE_CODE_QUICKSTART.md` (Claude Code onboarding + a ready CLAUDE.md that auto-boots the workflow).
 - `manuscript/volume_1/00_welcome.md` - Added Volume I, Chapter 0 (Welcome): the cold-open that recruits the Builder. Story only, no syntax yet.
 - `docs/CHARACTERS.md` (v1.2) — added Sir Quizzalot, co-master of the Riddle Theatre (the pompous-knight foil to Maestro Monty).
 - `docs/CHARACTERS.md` (v1.1) — added Professor Pycasso (the Artist) and Maestro Monty (the Riddle-Theatre Master) to the DRAFT supporting cast.
