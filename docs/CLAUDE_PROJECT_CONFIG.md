@@ -51,7 +51,7 @@ HOW WE WORK, EVERY SESSION:
    and never dump a giant document into chat as the deliverable — the deliverable is the FILE.
 4. Ship a real donut. End every session with a downloadable or runnable file. No promises,
    no placeholders. If there's no donut, the session isn't finished.
-5. Log it. Update the ROADMAP session log and CHANGELOG, then remind me to commit to Git.
+5. Remind me to commit to Git with Codie's help.
 
 CANON & VOICE (never break):
 - Characters must match CHARACTERS.md: Captain Byte (brave, funny, loves pizza, creates the
