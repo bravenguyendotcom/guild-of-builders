@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Generated outputs (built from markdown sources)
+build/
+dist/
+*.pdf
+*.docx
+*.html
+!docs/**/*.html   # (allow if you ever hand-write an html doc; adjust as needed)
+
+# Secrets (important once Volume IV / AI keys appear)
+.env
+*.key
+secrets.*
