@@ -57,6 +57,7 @@ Repeat the pattern, one volume at a time, always evolving the same game.
 
 | Date | Session goal | Donut delivered | Next |
 |------|--------------|-----------------|------|
+| _(session 6)_ | Add Real World box | STYLE_GUIDE.md (style guide v1.1) | In the Real World box + professionalism ladder |
 | _(session 5)_ | Add Sir Quizzalot to canon | CHARACTERS.md v1.2 (co-master of the Riddle Theatre) | Phase 1: Volume I chapters (in their own conversations) |
 | _(session 4)_ | Add two new characters to canon | CHARACTERS.md v1.1 (Prof. Pycasso + Maestro Monty) | Phase 1: Volume I, Chapter 0 (Welcome) |
 | _(session 3)_ | Configure the Claude Project itself | CLAUDE_PROJECT_CONFIG.md (custom instructions + knowledge list) | Add new characters to canon |
