@@ -57,6 +57,7 @@ Repeat the pattern, one volume at a time, always evolving the same game.
 
 | Date | Session goal | Donut delivered | Next |
 |------|--------------|-----------------|------|
+| _(session 13)_ | Phase 1: Volume I, Chapter 4 (The Ninja Health Check) — float, operators (`*` `/`), operator precedence, round() | manuscript/volume_1/04_ninja_health_check.md | Chapter 5 / Rock, Paper, Scissors — the magic of `random` (fresh convo) |
 | _(session 12)_ | Make Claude Project hand off logging + Git fully to Codie; remind to re-sync repo into Project knowledge | docs/CLAUDE_PROJECT_CONFIG.md | Chapter 4 / The Ninja Health Check (fresh convo) |
 | _(session 11)_ | Phase 1: Volume I, Chapter 3 (The Age Machine) — if / elif / else (control flow, comparisons) | manuscript/volume_1/03_the_age_machine.md | Chapter 4 / The Ninja Health Check (fresh convo) |
 | _(session 10)_ | Phase 1: Volume I, Chapter 2 (The Hungry Pizza Robot) — input + int (text vs. numbers) | manuscript/volume_1/02_hungry_pizza_robot.md | Chapter 3 / The Age Machine (fresh convo) |
