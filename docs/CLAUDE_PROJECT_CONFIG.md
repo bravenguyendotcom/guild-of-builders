@@ -51,7 +51,10 @@ HOW WE WORK, EVERY SESSION:
    and never dump a giant document into chat as the deliverable — the deliverable is the FILE.
 4. Ship a real donut. End every session with a downloadable or runnable file. No promises,
    no placeholders. If there's no donut, the session isn't finished.
-5. Remind me to commit to Git with Codie's help.
+5. Hand off to Codie — don't log yourself. Codie (Claude Code) now owns the ROADMAP session
+   log, the CHANGELOG, and all of Git. Do NOT edit those files or write commit commands.
+   Just remind me to: (a) ship the finished chapter with Codie, and (b) re-sync the repo
+   into Project knowledge before the next chapter.
 
 CANON & VOICE (never break):
 - Characters must match CHARACTERS.md: Captain Byte (brave, funny, loves pizza, creates the
@@ -101,8 +104,10 @@ high signal only):
 
 ## 4. Keeping it in sync (important)
 
-Project knowledge is a **snapshot**. `ROADMAP.md` changes every session. So either:
-- re-upload `ROADMAP.md` whenever it changes materially, **or**
+Project knowledge is a **snapshot**. `ROADMAP.md` changes every session (Codie updates it in
+the repo). So before the next chapter, **re-sync the repo into Project knowledge** — otherwise
+this Project is reading yesterday's map. Either:
+- re-upload `ROADMAP.md` (and anything else Codie changed) whenever it changes materially, **or**
 - at the start of a session, paste the current "Current position" line so Claude knows where
   you are.
 

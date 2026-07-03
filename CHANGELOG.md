@@ -8,6 +8,7 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- `docs/CLAUDE_PROJECT_CONFIG.md` modified — handoff to Codie made explicit: the Claude Project no longer logs or touches Git itself; it just reminds Brave to (a) ship the finished chapter with Codie and (b) re-sync the repo into Project knowledge before the next chapter.
 - `manuscript/volume_1/03_the_age_machine.md` — added Volume I, Chapter 3 (The Age Machine): teaching **`if` / `elif` / `else`** (control flow) and comparisons (`>=`, `<=`, `==`, `>`, `<`) — the ship refuses to move until Captain Byte's age is turned into a decision.
 - `manuscript/volume_1/02_hungry_pizza_robot.md` — added Volume I, Chapter 2 (The Hungry Pizza Robot): teaching **`input`** (the program asks and listens) and the classic "input is always text" bug (`"3" * 2 == "33"`), fixed with `int`.
 - `docs/CLAUDE_PROJECT_CONFIG.md` modified - Claude Code auto logging changelog.md, roadmap.md. No need to instruct how to add entries in changelog, roadmap and remind git commit > push
