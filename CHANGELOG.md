@@ -8,6 +8,7 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- `manuscript/volume_1/05_rock_paper_scissors.md` — added Volume I, Chapter 5 (Rock, Paper, Scissors): teaching **`import`** (waking up a module), **`random.choice()`** (the tool of chance), the difference between `=` and `==`, and the word **`and`** — Captain Byte faces Ninja Cat and teaches the ship to be unpredictable.
 - `manuscript/volume_1/04_ninja_health_check.md` — added Volume I, Chapter 4 (The Ninja Health Check): teaching **`float`** (numbers with a dot), arithmetic operators (`*`, `/`) with bracket precedence, and **`round()`** — Captain Byte calculates a readiness score to cross the Cliffs of Health.
 - `docs/CLAUDE_PROJECT_CONFIG.md` modified — handoff to Codie made explicit: the Claude Project no longer logs or touches Git itself; it just reminds Brave to (a) ship the finished chapter with Codie and (b) re-sync the repo into Project knowledge before the next chapter.
 - `manuscript/volume_1/03_the_age_machine.md` — added Volume I, Chapter 3 (The Age Machine): teaching **`if` / `elif` / `else`** (control flow) and comparisons (`>=`, `<=`, `==`, `>`, `<`) — the ship refuses to move until Captain Byte's age is turned into a decision.
