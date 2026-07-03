@@ -8,6 +8,7 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- `docs/DECISIONS.md` — locked D-13 through D-19: semantic-Markdown authoring with per-device responsive rendering (print/e-ink/web), the professionalism ladder & "In the Real World" box, personal-mastery progress with no reader-vs-reader leaderboard, flexible age-informed pacing bands (a map not a deadline), the Human & AI Manifesto as Volume IV canon, the Widening Circle as the series' thematic spine, and an original-creations-only (no copyrighted IP) policy.
 - `manuscript/volume_1/06_the_secret_treasure.md` — added Volume I, Chapter 6 (The Secret Treasure): teaching **`while` loops**, **`!=`**, **`random.randint()`**, the infinite loop as a rite-of-passage bug, and the counter pattern (`attempts = attempts + 1`) — Captain Byte hunts a hidden number and learns every loop needs a way out.
 - `manuscript/volume_1/05_rock_paper_scissors.md` — added Volume I, Chapter 5 (Rock, Paper, Scissors): teaching **`import`** (waking up a module), **`random.choice()`** (the tool of chance), the difference between `=` and `==`, and the word **`and`** — Captain Byte faces Ninja Cat and teaches the ship to be unpredictable.
 - `manuscript/volume_1/04_ninja_health_check.md` — added Volume I, Chapter 4 (The Ninja Health Check): teaching **`float`** (numbers with a dot), arithmetic operators (`*`, `/`) with bracket precedence, and **`round()`** — Captain Byte calculates a readiness score to cross the Cliffs of Health.

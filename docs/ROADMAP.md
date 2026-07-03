@@ -57,6 +57,7 @@ Repeat the pattern, one volume at a time, always evolving the same game.
 
 | Date | Session goal | Donut delivered | Next |
 |------|--------------|-----------------|------|
+| _(session 16)_ | Lock 7 parked decisions (D-13–D-19): semantic Markdown authoring + per-device responsive rendering, the professionalism ladder / "In the Real World" box, personal-mastery progress (no leaderboard), flexible age-informed pacing bands, Human & AI Manifesto as Vol IV canon, the Widening Circle theme, original-IP-only policy | docs/DECISIONS.md | Continue Chapter 7 / The Safe Password Checker (fresh convo) |
 | _(session 15)_ | Phase 1: Volume I, Chapter 6 (The Secret Treasure) — while loops, !=, random.randint, infinite loops, counters | manuscript/volume_1/06_the_secret_treasure.md | Chapter 7 / The Safe Password Checker — asking many questions at once (fresh convo) |
 | _(session 14)_ | Phase 1: Volume I, Chapter 5 (Rock, Paper, Scissors) — import, random.choice, == vs =, and | manuscript/volume_1/05_rock_paper_scissors.md | Chapter 6 / The Secret Treasure — the magic of loops (fresh convo) |
 | _(session 13)_ | Phase 1: Volume I, Chapter 4 (The Ninja Health Check) — float, operators (`*` `/`), operator precedence, round() | manuscript/volume_1/04_ninja_health_check.md | Chapter 5 / Rock, Paper, Scissors — the magic of `random` (fresh convo) |
