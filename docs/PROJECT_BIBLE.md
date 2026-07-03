@@ -128,6 +128,35 @@ because the child lives it, chapter by chapter.
 
 ---
 
+# 6.5 The Widening Circle — the series' thematic spine
+
+As the Builder grows stronger, the question changes.
+It moves from *"What can I make?"* to *"What should I make — and for whom?"*
+
+The circle of who a Builder helps **widens** across the four volumes:
+
+| Volume | The Builder builds... | The circle |
+|--------|-----------------------|------------|
+| **I** | for **myself** — *"I made a game."* | 🧒 Me |
+| **II** | for **the people I love** — *"My family can play it."* | 👨‍👩‍👧 My people |
+| **III** | for **my community** — *"Strangers can use what I built."* | 🏙️ Society |
+| **IV** | for **the world** — *"I can help solve real problems."* | 🌍 The world |
+
+Two rules keep this honest:
+
+- **Wonder first; weight later.** Volumes I–II are pure joy and building-for-self. The *weight*
+  of responsibility ("with more power comes more responsibility") arrives in Volume IV — only
+  after the child is strong enough to carry it. We never front-load the ethics.
+- **Power needs a good heart to guide it.** A widening reach is only safe in the hands of a kind
+  Builder. This is the whole reason we raise Builders, not coders.
+
+This spine is threaded through the story, never preached. Its fullest expression is the
+Volume IV credo in `HUMAN_AI_MANIFESTO.md` (Part VII).
+
+**Status: LOCKED** — see `DECISIONS.md` D-18.
+
+---
+
 # 7. Teaching Style
 
 - Never lecture. Never dump theory.
@@ -192,6 +221,10 @@ Naming · clean code · debugging · versioning · refactoring · Kaizen · deli
 AI is a **teammate, not a replacement.** We teach prompting, verification, collaboration,
 and ethics. Children should learn to **build with** AI, not merely consume it. (Volume IV.)
 
+Its fullest expression is the Volume IV credo, **`HUMAN_AI_MANIFESTO.md`** — the philosophical
+capstone that prepares a Builder's *righteous mindset* for the Human+AI age (*"Think first.
+Ask AI second."* · *"Never outsource your values."*). See `DECISIONS.md` D-17.
+
 **Status: LOCKED**
 
 ---
@@ -235,6 +268,7 @@ These live in the Treasure Chest. Maybe later. Maybe never. That's fine.
 - **Kaizen** — continuous small improvement.
 - **North Star** — the one question that decides what belongs.
 - **The Guild** — the community of Builders, characters, and readers.
+- **The Widening Circle** — how a Builder's impact grows: self → family → community → world.
 
 ## Appendix B — Document Map
 

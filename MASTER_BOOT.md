@@ -46,6 +46,10 @@ Software engineers hate God Objects. So do we.)
 | `docs/STYLE_GUIDE.md` | Voice, tone, formatting, chapter structure, accessibility rules. |
 | `docs/CURRICULUM.md` | The Python learning path, mapped volume by volume. |
 | `docs/GAME_DESIGN.md` | The spec for *Captain Byte's Treasure Quest*, v1 → v4. |
+| `docs/SERIES_OUTLINE.md` | The whole-series chapter map, all four volumes (30,000-ft view). |
+| `docs/SETUP.md` | "Preparing for the Voyage" — install Python + the per-volume requirements ladder. |
+| `docs/BUILDERS_LOGBOOK.md` | Personal progress, ranks, pacing tracks, the Fog Creatures. |
+| `docs/HUMAN_AI_MANIFESTO.md` | Volume IV's philosophical capstone — the Human & AI credo. |
 | `manuscript/` | The **story** the child reads (the novel/adventure). |
 | `workbook/` | The **missions** the child does (exercises, planning, testing). |
 | `source_code/` | The **actual game code**, one folder per volume. |
@@ -57,12 +61,18 @@ Software engineers hate God Objects. So do we.)
 
 ## Boot sequence (read in this order the first time)
 
-1. `docs/PROJECT_BIBLE.md` — understand *why* before *what*.
-2. `docs/CHARACTERS.md` — meet the crew.
-3. `docs/STYLE_GUIDE.md` — learn the voice.
-4. `docs/ROADMAP.md` — see where we're sailing.
-5. `docs/GAME_DESIGN.md` — see what we're building.
-6. Then open the volume you're working on in `manuscript/`, `workbook/`, `source_code/`.
+1. `docs/AI_WORKING_AGREEMENT.md` — **how we work.** Read this first, every time.
+2. `docs/PROJECT_BIBLE.md` — understand *why* before *what* (includes the Widening Circle).
+3. `docs/DECISIONS.md` — what's already settled (LOCKED). Don't reopen it.
+4. `docs/CHARACTERS.md` — meet the crew (and the Fog Creatures).
+5. `docs/STYLE_GUIDE.md` — learn the voice and the accessibility rules.
+6. `docs/ROADMAP.md` — see where we're sailing next.
+7. `docs/SERIES_OUTLINE.md` + `docs/GAME_DESIGN.md` — the chapter map and what we're building.
+8. For deeper context when relevant: `docs/CURRICULUM.md`, `docs/BUILDERS_LOGBOOK.md`,
+   `docs/SETUP.md`, and (for Volume IV) `docs/HUMAN_AI_MANIFESTO.md`.
+9. Then open the volume you're working on in `manuscript/`, `workbook/`, `source_code/`.
+
+> The full file roster is the index table above — check it so nothing new gets missed.
 
 ---
 

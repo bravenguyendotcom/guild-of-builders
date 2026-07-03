@@ -128,6 +128,37 @@ These appeared or were seeded in the founding conversation. Keep them consistent
 - **Pairing note:** Quizzalot is comedic bluster; **Sir Boolean** is earnest true/false logic.
   Two different knights — keep their jobs separate.
 
+### 🌫️ The Fog Creatures — the inner enemies (DRAFT; they grow with the Builder)
+
+The real boss of any adventure isn't a bug. It's the little voice that says *"later,"*
+*"I can't,"* or *"it has to be perfect."* On Python Planet, those voices take shape as the
+**Fog Creatures**. (Full weapons list lives in `BUILDERS_LOGBOOK.md`; this is the canon roster.)
+
+- **Role:** the negative-self, personified — the *inner* antagonists.
+- **Keep distinct from the Bug Monster:** Bug Monster is *external* and *friendly* (bugs are
+  teachers). Fog Creatures are *internal* and teach **perseverance and character.** Different jobs.
+- **The kindness rule:** they visit **every** Builder — even Captain Byte (the Snooze Kraken
+  sits on him most mornings). They are **never** used to call a child lazy or shame them.
+  Always beatable with one small brave step.
+- **They escalate.** Gentle in Volume I; by Volume IV they're subtler and about *character* —
+  because the stronger you get, the more the temptation is to cut corners. This is how the
+  series threads **"more power → more responsibility"** without a single lecture.
+
+**The founding five (appear from Volume I):**
+- 🌫️ **The Fog of "I Can't"** — self-doubt. Beaten by trying **Version 1**.
+- 🦑 **The Snooze Kraken** — procrastination. Beaten by **one small step**, right now.
+- ⏳ **The Quicksand of Later** — putting off. Beaten by **shipping a donut today**. 🍩
+- ✨ **The Gremlin of Never-Good-Enough** — perfectionism. Beaten by *"Version 1 beats perfect."*
+- 📱 **The Siren of Distraction** — losing focus. Beaten by **one quest, one focus**.
+
+**Later-volume seeds (DRAFT — the tougher forms):**
+- 🎭 **The Stage-Fright Wraith** *(Vol III, publishing)* — *"What will people think when they
+  play it?"* Beaten by shipping anyway; feedback is a gift, not a verdict.
+- 🐍 **The Shortcut Serpent** *(Vol IV, AI)* — *"Just let the AI do all of it — who cares if you
+  learn?"* Beaten by using AI to **learn and verify**, not to skip becoming a Builder. (Ethics.)
+- 👑 **The Ego Gremlin** *(Vol IV)* — *"You're the best now; you don't need reviews or teammates."*
+  Beaten by staying humble and kind. *"Make it kind."*
+
 > New characters are welcome **only** when the story genuinely needs them (North Star).
 > Resist the urge to add cast for decoration.
 
