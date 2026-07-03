@@ -8,6 +8,7 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- `manuscript/volume_1/03_the_age_machine.md` — added Volume I, Chapter 3 (The Age Machine): teaching **`if` / `elif` / `else`** (control flow) and comparisons (`>=`, `<=`, `==`, `>`, `<`) — the ship refuses to move until Captain Byte's age is turned into a decision.
 - `manuscript/volume_1/02_hungry_pizza_robot.md` — added Volume I, Chapter 2 (The Hungry Pizza Robot): teaching **`input`** (the program asks and listens) and the classic "input is always text" bug (`"3" * 2 == "33"`), fixed with `int`.
 - `docs/CLAUDE_PROJECT_CONFIG.md` modified - Claude Code auto logging changelog.md, roadmap.md. No need to instruct how to add entries in changelog, roadmap and remind git commit > push
 - `manuscript/volume_1/01_captain_byte_sets_sail.md` — added Volume I, Chapter 1 (Captain Byte Sets Sail): the Builder's first real line of Python, teaching **variables** (a box with a name) and the first `NameError` as a conversation.

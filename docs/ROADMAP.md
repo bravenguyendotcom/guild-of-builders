@@ -57,6 +57,7 @@ Repeat the pattern, one volume at a time, always evolving the same game.
 
 | Date | Session goal | Donut delivered | Next |
 |------|--------------|-----------------|------|
+| _(session 11)_ | Phase 1: Volume I, Chapter 3 (The Age Machine) — if / elif / else (control flow, comparisons) | manuscript/volume_1/03_the_age_machine.md | Chapter 4 / The Ninja Health Check (fresh convo) |
 | _(session 10)_ | Phase 1: Volume I, Chapter 2 (The Hungry Pizza Robot) — input + int (text vs. numbers) | manuscript/volume_1/02_hungry_pizza_robot.md | Chapter 3 / The Age Machine (fresh convo) |
 | _(session 9)_ | Phase 1: Volume I, Chapter 1 (Captain Byte Sets Sail) — our first Python: variables | manuscript/volume_1/01_captain_byte_sets_sail.md | Chapter 2 / Hungry Pizza Robot (fresh convo) |
 | _(session 8)_ | Wire Codie to log + commit only; sort GitHub connector | .claude/commands/ship-chapter.md | Chapter 2 / Hungry Pizza Robot (fresh convo) |
