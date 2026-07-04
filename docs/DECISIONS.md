@@ -200,7 +200,7 @@ of Vol IV, and among the most important things the series gives a child.
 **Decision:** Impact widens as the Builder grows: **self → family/friends → community → world**,
 mapped onto the four volumes (Vol I build for me · II for my people · III for society · IV for
 the world). The weight of responsibility arrives *late* (Vol IV), after the wonder is earned.
-*(To be recorded as a theme in `PROJECT_BIBLE.md`; already threaded in `HUMAN_AI_MANIFESTO.md` Part VII.)*
+*(Recorded as a theme in `PROJECT_BIBLE.md` §6.5; threaded in `HUMAN_AI_MANIFESTO.md` Part VII.)*
 **Reason:** It gives the series a moral through-line without preaching, and points exactly where
 we hope a Builder lands — helping others, maybe even building *with* Dad.
 
@@ -286,10 +286,28 @@ homework; found treasure becomes *their* adventure. Invitation beats obligation.
 **Decision:** The project optimizes **curiosity**; education is the *side effect*. Builders should
 rarely feel they are studying — they feel they are solving mysteries, fixing machines, helping
 friends, exploring worlds, chasing bugs, discovering treasures. Principle: *don't teach computer
-science — let children behave like computer scientists.* Full text lives in `docs/PHILOSOPHY.md`
-(to be written); this entry records the principle as canon.
+science — let children behave like computer scientists.* Full text lives in `docs/PHILOSOPHY.md`;
+this entry records the principle as canon.
 **Reason:** The best teaching becomes invisible. Years later a Builder can't name who taught them
 debugging — *"I just kind of grew up doing it."* That is the highest compliment the series can earn.
+
+---
+
+### D-26 — The workbook is embedded in the manuscript, not a separate track
+**Status: LOCKED**
+**Decision:** Missions live *inside* the story chapters, not in a parallel `workbook/` of
+standalone worksheets. The shipped chapters (0–7) already fold story + coding task +
+teaching-bug + achievement into one flowing read, and that is the model going forward. The
+worksheet elements worth keeping (the **Testing Table** and **Debug Log**) become **boxes inside
+chapters**, not a separate document. `workbook/` is **retired as an authored track**: it keeps a
+short `workbook/README.md` pointer (missions now live in the chapters; see D-26), and
+`_TEMPLATE_mission.md` is **deprecated** (kept for reference). The **Typing Dojo** (`typing_dojo/`)
+remains the distinct *pure-practice* track with its own one-screen format (no worksheets — D-22).
+`STYLE_GUIDE.md` §4 (the mission-template section) is to be updated to match (next session).
+**Reason:** One flowing read is more accessible (Teppy) than story-then-worksheet, roughly halves
+the authoring burden, and matches how chapters are *actually* being written. It also removes a
+drift trap: three different "mission" formats (workbook worksheet vs. embedded-in-chapter vs.
+Dojo one-screen) previously disagreed. Now each track has one clear job.
 
 ---
 
@@ -303,5 +321,6 @@ _(not decided yet — revisit when relevant, don't let them block progress)_
 - Whether to build a companion website with live hints/tests.
 - **Side-quests doc** (`docs/SIDE_QUESTS.md`) — home for the Typing Dojo/"The Tangle" and fast-finisher extras (incl. optional ZTM-style breadth as *side-quests only*, never core spine).
 - **Future side-quests (seeds, not commitments):** Dragon Debug's Den (logic-bug hell levels), The Lost Heaven (fix whole unfamiliar projects), The Time Machine, Archaeology, The Museum, Reverse Engineering, Bug Zoo, Hall of Fame, Blacksmith (refactor ugly→beautiful), The Librarian (read-only), Whispering Compiler (explain errors), Ghost Repository (revive abandoned projects).
-- **`docs/PHILOSOPHY.md`** — write up "The Art of Teaching Without Any Teaching" (recorded as D-25).
+- **`docs/PHILOSOPHY.md`** — write up "The Art of Teaching Without Any Teaching" (recorded as D-25). ✅ done.
 - The publishing pipeline & tool (Pandoc?) + per-format stylesheets — to become `docs/PUBLISHING.md` (see D-13).
+- **`STYLE_GUIDE.md` §4 update** — revise the mission-template section to match D-26 (workbook embedded in the manuscript; keep Testing Table & Debug Log as in-chapter boxes).
