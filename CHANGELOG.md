@@ -8,6 +8,7 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- `typing_dojo/README.md` (v1.0, frozen system spec) — added the Typing Dojo, an arcade of typing missions living alongside the main story: the Engine + Skin model (canonical programs in `coding_gold_mine/`, story wrappers in `missions/`), four mastery tiers (Typing Dojo, Detective Mode, Dragon Debug's Den, The Lost Heaven — v1 builds only the first two), the frozen one-screen mission format (Passive Memory + Detective Mode challenges, typos-only bugs), and Batch 01's first ten missions from Guess the Number through Tiny Chatbot.
 - `manuscript/volume_1/07_the_safe_password_checker.md` — added Volume I, Chapter 7 (The Safe Password Checker): teaching **booleans** (`True`/`False`), **`len()`**, and the flag-words **`and`**, **`or`**, **`not`** — Sir Boolean joins the crew, and Captain Byte learns why one blurry `and`-guard lets `"password"` slip through, while separate `if` / `elif` questions catch it and explain why.
 - `docs/HUMAN_AI_MANIFESTO.md` (DRAFT) — added the Human & AI Manifesto, Volume IV's philosophical capstone credo preparing a Builder's "righteous mindset" for the Human+AI age; structured by Brave (see `DECISIONS.md` D-17).
 - `docs/SERIES_OUTLINE.md` — added the whole-series chapter map (30,000-ft view), all four volumes; Volume I near-canon, Volumes II–IV a compass rather than a contract.
