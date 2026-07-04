@@ -2,8 +2,9 @@
 
 ### How the Guild of Builders reads, sounds, and feels
 
-> **Status:** LOCKED for principles, DRAFT for details. **v1.1** — added the 🏗️ In the
-> Real World box and the professionalism ladder.
+> **Status:** LOCKED for principles, DRAFT for details. **v1.2** — §4 rewritten for D-26
+> (missions are embedded in the manuscript, not a separate workbook). **v1.1** — added the
+> 🏗️ In the Real World box and the professionalism ladder.
 > If the Bible is *what* and *why*, this file is *how it reads*.
 
 ---
@@ -43,22 +44,33 @@ Every concept must be *motivated by the story* before any syntax appears.
 
 ---
 
-## 4. The mission template (workbook)
+## 4. The mission — embedded in the chapter (see `DECISIONS.md` D-26)
 
-Every mission follows the same shape so the child always knows where they are:
+**There is no separate workbook.** The mission the child *does* lives **inside the story
+chapter** — one flowing read, not a story followed by a worksheet. (This is kinder for Teppy,
+roughly halves the authoring work, and matches how the shipped chapters 0–7 are already
+written. The old standalone 12-part worksheet template is deprecated.)
 
-1. **Story** — one page, funny, characters return.
-2. **Mission** — exactly what to build.
-3. **Requirements** — functional requirements + programming constraints.
-4. **Example Input / Example Output** — concrete.
-5. **Think First** — computational-thinking prompts (What info? What variables? Smaller steps?).
-6. **Planning Box** — space for variables, algorithm, flowchart.
-7. **Coding Area** — room to write.
-8. **Testing Table** — `Input | Expected | Actual` (professional habit, taught early).
-9. **Debug Log** — "My bug / What caused it? / How did I fix it?"
-10. **Reflection** — What was hard? How could you improve it? What if...?
-11. **Bonus Challenge ⭐** — always an extension.
-12. **Difficulty** — ⭐ to ⭐⭐⭐⭐⭐, and the skill(s) practiced.
+A chapter carries the mission through its natural arc, not a form to fill in:
+
+1. **Story** — Captain Byte hits a problem the reader feels. (Story first.)
+2. **The task** — what to build, revealed *by* the story, not announced as "Mission 3."
+3. **The honest bug** — a real error the reader would actually hit, framed as a conversation
+   (*"Excellent. Now the conversation begins."*), then fixed.
+4. **The two boxes that survived from the old workbook** (use when they fit):
+   - 🧪 **Testing Table** — `Input | Expected | Actual`. A professional habit, taught early
+     and gently — Builders check their work.
+   - 🐛 **Debug Log** — *"My bug / What caused it? / How did I fix it?"* Turns a frustrating
+     moment into a small, proud record.
+5. **Achievement Unlocked** — the badge earned (see §6).
+6. **Cliffhanger** — pulls the reader into the next chapter.
+
+**Bonus challenges (⭐)** are welcome inline as an optional "want more?" — never required.
+
+> **Two other tracks, kept separate (don't confuse them with the chapter mission):**
+> - **Pure typing practice** → the **Typing Dojo** (`typing_dojo/`), its own one-screen
+>   format with *no* worksheet fields (D-22).
+> - **Optional extra adventures** → **`docs/SIDE_QUESTS.md`** (always optional, never gating).
 
 ---
 
@@ -68,6 +80,8 @@ Every mission follows the same shape so the child always knows where they are:
   you, not why you're bad at this."*).
 - **Dragon Debug's Wisdom** — a single memorable line.
 - **Dad's Story** — a true anecdote from Brave.
+- **🧪 Testing Table** — `Input | Expected | Actual`, when a mission benefits from checking (see §4).
+- **🐛 Debug Log** — my bug / cause / fix, when a chapter has a bug worth recording (see §4).
 - **Achievement Unlocked ⭐** — badge earned at the end of a mission.
 - **Cliffhanger** — a "To be continued..." that pulls the reader to the next chapter.
 - **🏗️ In the Real World** — the bridge to professional life. See section 5a; it has
@@ -135,6 +149,7 @@ Rookie Python 🐍 · Bug Hunter 🪲 · Algorithm Master ⚙️ · CLI Builder 
 - Walls of text (fails accessibility).
 - Sarcasm aimed at the child. (Aim it lovingly at bugs and keyboards instead.)
 - Adding features/characters that fail the North Star.
+- A separate worksheet after the story — the mission lives *in* the chapter now (D-26).
 
 ---
 
