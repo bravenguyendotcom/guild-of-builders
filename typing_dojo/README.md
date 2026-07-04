@@ -2,7 +2,8 @@
 
 ### An arcade inside the Guild — where Builders train by typing real code
 
-> **Status:** v1.0 (frozen system spec — the *format*, not the content).
+> **Status:** v1.1 (system spec). Updated for `DECISIONS.md` **D-27–D-30**: finalized tier
+> names, the owner/guardian, the honor rule, and the in-book vs. URL gate.
 > **What this is:** the **place**. Inside it live the **canonical engines** (`coding_gold_mine/`)
 > and the **mission skins** (`missions/`).
 > **What this is NOT:** a classroom, a workbook, or another lesson. The teaching lives in the
@@ -19,7 +20,24 @@ A Builder thinks they're practicing typing.
 Actually, they're building Python fluency — and meeting beautiful ideas so many times, in so
 many disguises, that one day those ideas feel like old friends.
 
-*The Art of Teaching Without Any Teaching.*
+*The Art of Teaching Without Any Teaching* (`docs/PHILOSOPHY.md`).
+
+---
+
+## Who runs it — Dragon Debug & The Tangle (D-27)
+
+The Dojo has an **owner** and a **guardian**, and they're a double-act:
+
+- 🐉 **Dragon Debug — the owner.** He built the Dojo as a calm training hall. He sips his tea,
+  watches you type, and says *"Interesting."*
+- 🦑 **The Tangle — the guardian.** A ten-tentacled Typo-Squid (an original creature, D-19) that
+  feeds on sloppy typing.
+
+The running secret: Dragon Debug *pretends* the squid is a nuisance he "hasn't gotten around to
+removing" (*"one day I'll deal with that squid…"*) — but he keeps it **on purpose.** A Dojo with
+nothing to push against teaches nothing. Type cleanly enough and The Tangle isn't *defeated* —
+it gets **bored and impressed**, and wanders off to find a sloppier Builder. Dragon Debug never
+admits he planned it. **Quackers knows. Quackers says nothing.** 🦆
 
 ---
 
@@ -36,15 +54,14 @@ It never competes with the story. It's the arcade room Captain Byte would lose h
 
 ---
 
-## The big idea: Engine + Skin (this is what makes it scale)
+## The big idea: Engine + Skin (D-21 — this is what makes it scale)
 
 We do **not** write missions from scratch. We **assemble** them.
 
 ```
 Mission  =  Engine (the Python program)
           + Skin   (the story hook + Guild flavor)
-          + Challenge I  (Passive Memory)
-          + Challenge II (Detective Mode)
+          + the challenge tiers the topic deserves (see below)
 ```
 
 One canonical `bfs.py` can wear many skins — Maze Escape, Robot Vacuum, Fire Rescue, Treasure
@@ -84,22 +101,46 @@ Nothing fancy. Git-friendly. One screen per mission.
 
 ---
 
-## The four tiers (a mastery ladder — each trains a different faculty)
+## The four tiers (D-28 — a mastery ladder; each trains a different faculty)
 
-The Dojo grows with the Builder. Each tier **unlocks by skill** (per `DECISIONS.md` D-16 logic),
-so later tiers naturally arrive in later volumes.
+Finalized names and taglines — **these are canon.** No sub-levels.
 
-| Tier | The question it asks | You train your... | Earliest |
-|------|----------------------|-------------------|----------|
-| 🥋 **Typing Dojo** | Can your *fingers* be precise? | fingers | Volume I |
-| 🕵️ **Detective Mode** | Can your *eyes* spot mistakes? | eyes | Volume I |
-| 🐉 **Dragon Debug's Den** | Can your *mind* find logic bugs? | reasoning | ~Volume II–III |
-| ☁️ **The Lost Heaven** | Can you understand a whole *system* you've never seen? | systems thinking | ~Volume III–IV |
+| Tier | Name & tagline | Trains your... | The challenge |
+|------|----------------|----------------|---------------|
+| 🥋 **I** | **Keyboard Ninja** — *"Slice your caps."* | **fingers** | Passive Memory: type the canonical program, run it, smile. Any error is probably your own typo. |
+| 🕵️ **II** | **Conan's Challenge** — *"Do you have any clue?"* | **eyes** | Detective Mode: the code has **typos only — never logic bugs.** Find & fix them. |
+| 🐉 **III** | **Dragon Debug's Den** — *"Welcome to the kingdom of bugs."* | **mind** | **Logic bugs allowed.** The observable input→output must match the canonical mission, but the *implementation may be twisted.* |
+| ☁️ **IV** | **The Lost Heaven** — *"You may feel lost; befriend AI for help."* | **systems thinking** | Not a single file and **not typing**: a whole project folder to understand and fix to meet requirements. |
 
-> **v1 builds only the first two tiers.** Dragon Debug's Den and The Lost Heaven are **design
-> seeds only** — parked, not authored, because they need debugging/OOP/multi-file skills the
-> Builder doesn't have yet. (They also carry a wink: in the Lost Heaven, *"find an AI companion"*
-> — which loops straight into `HUMAN_AI_MANIFESTO.md`.)
+**On "Hell":** *Hell I–V* is only a **difficulty rating** of how brutal a Den (Tier III) mission
+is — **not** a level name. A single Den mission is rated somewhere on that scale.
+
+**Tiers = repetition, on purpose (D-23, D-28).** A mission carries **only the tiers its topic
+deserves**: introductory topics ship **Tier I only**; important CS ideas earn more tiers —
+*because more tiers = more times the idea is carved into memory.* A topic's tier-siblings may
+publish as **separate mission IDs**, so a learner never knows they're the same idea in a new
+costume.
+
+### 🔒 The honor rule (D-28 — stated, and enforced culturally)
+
+In **Tier III (Den)** and **Tier IV (Lost Heaven)**, you **must not open the Tier I / II
+canonical source.** No peeking. That refusal is what makes the challenge real — it turns typing
+practice into genuine code review and systems reasoning. Play fair, Builder.
+
+---
+
+## Where the tiers live — in the book vs. outside (D-29)
+
+The gate is **always open — in and out of the book.** But *what appears where* differs:
+
+- **Openly offered (no self-select needed):** **Tier I & II** appear at the **end of chapters
+  from Chapter 6 onward**, freely repeating. This is the osmosis engine — it must be frequent
+  and casual, so it's never hidden (this is the exception to D-24's "don't advertise").
+- **Self-select only (quiet in-world sign, never a banner — D-24):** **Tier III & IV.**
+- **In the book (gentle end only):** Tiers I–II freely; **Tier III only rarely, and only at
+  Hell I–II** — so an "optional" chapter-end never sandbags a kid.
+- **Outside the book (the wider Dojo, reachable by URL):** **Hell III–V** Den missions and
+  **all of Tier IV** live here — for quick learners and contributors.
 
 ---
 
@@ -110,8 +151,7 @@ Mission ####  —  Title
 
 Story Hook          (2–5 lines, funny, in-world)
 
-Challenge I         Passive Memory
-Challenge II        Detective Mode
+Challenge(s)        the tier(s) this topic deserves (Keyboard Ninja / Conan's Challenge / …)
 
 CS Seeds            (3–8 tags)
 
@@ -123,11 +163,11 @@ Related Missions
 No worksheets. No "Think First." No reflection. No explanation. **That belongs to the main
 story, not here.**
 
-### Challenge I — Passive Memory
+### Tier I — Keyboard Ninja (Passive Memory)
 Type the whole program. Run it. Any error is *probably your own typo* — hunt it, fix it, smile.
 No need to analyze or understand it. If curiosity strikes, study it — but that's a bonus.
 
-### Challenge II — Detective Mode
+### Tier II — Conan's Challenge (Detective Mode)
 Same program, seeded with **typing mistakes only** — *never* logic or algorithm bugs. Retype it,
 spot each typo, fix it as you go until it runs clean.
 *"Excellent. Now the conversation begins."*
@@ -136,12 +176,23 @@ spot each typo, fix it as you go until it runs clean.
 variable/function name · missing quote · wrong bracket · wrong keyword case · missing underscore
 · wrong operator · small spelling slip. **Never an algorithm bug.**
 
+### Tier III — Dragon Debug's Den (logic bugs allowed)
+The code runs, but the output may be wrong. Read, think, debug. **Fairness rule:** the
+input→output must still match the canonical mission; the implementation may be twisted
+(for↔while, recursion↔iteration, dict↔list, built-in↔hand-rolled). Reward:
+*"Dragon Debug smiles. 'You fixed more than the code. You fixed the idea.'"*
+
+### Tier IV — The Lost Heaven (systems, not typing)
+A whole project folder. Understand it, then fix it to meet the requirements. Patterns and design.
+The tip is honest: *find an AI companion* — which loops straight into `HUMAN_AI_MANIFESTO.md`.
+
 ---
 
 ## Rules for every canonical program
 
 - ✅ executable · ✅ self-contained · ✅ terminal-based · ✅ readable · ✅ canonical
 - ✅ beautiful output whenever possible · ✅ under ~250 lines
+- ✅ **include the expected output** (so a Builder typing along in IDLE/an IDE can confirm success)
 - ❌ no external dependencies unless truly necessary
 
 ---
@@ -160,7 +211,7 @@ curiosity — never a paragraph.
 
 ---
 
-## Strategic repetition (intentional, not accidental)
+## Strategic repetition (intentional, not accidental — D-23)
 
 Normal software says *"Don't repeat yourself."* The Dojo whispers the opposite to the *learner*:
 
@@ -176,33 +227,24 @@ Normal software says *"Don't repeat yourself."* The Dojo whispers the opposite t
 
 ---
 
-## v1.0 scope — freeze it here
+## Scope — the book vs. the growing library (D-30)
 
-- **Build the format, not the mountain.** v1 = **10 missions** (Batch 01), Tiers 1–2 only.
-- **Mission 001 is the template.** Build it fully, get it right, then produce the next nine
-  fast and consistent.
+- **In the book:** roughly **one Dojo mission per chapter (~50 across the series)** — topics
+  chosen carefully, multiplied by tier-variants and skins.
+- **Outside the book:** the wider library grows over time, built by curious Builders and
+  contributors, reachable by URL. **We build the framework to practice and to inspire** — the
+  library scales through contribution, not by authoring hundreds up front.
+- **We record the *system* as canon; we do NOT commit to 300–500 programs** — that's the
+  long-term dream, parked, not a promise. *v1 > perfection.*
+
+### v1.0 build order (unchanged)
+
+- **Build the format, not the mountain.** Start with **Batch 01** (~10 missions), Tiers I–II.
+- **Mission 001 is the template.** Build it fully, get it right, then produce the rest fast and
+  consistent.
 - **Minimal metadata for v1** (authors/teachers only, never shown to kids):
   `ID · Title · CS Seeds · Prerequisites · Related`. Everything richer (Fun Factor, Visual
   Reward, Concept Density…) is parked until it earns its place.
-
-### Batch 01 — the first ten (order = when they naturally fit Volume I)
-
-| # | Mission | Why it's satisfying to type | CS Seed |
-|---|---------|------------------------------|---------|
-| 001 | Guess the Number | interactive, instant success | randomness, loops |
-| 002 | Hangman | a real game | strings, lists |
-| 003 | Caesar Cipher | secret messages | cryptography |
-| 004 | Bubble Sort Race | ASCII animation | sorting |
-| 005 | Binary Search | "magic" guessing | divide & conquer |
-| 006 | Maze Escape | beautiful terminal output | BFS |
-| 007 | Conway's Game of Life | mesmerizing patterns | emergence |
-| 008 | Markov Story Generator | funny text | probability, "AI" |
-| 009 | A* Pathfinder | smart pathfinding | heuristic search |
-| 010 | Tiny Chatbot | feels like "AI" | rules, pattern matching |
-
-Sweet spot: **90% typing practice · 10% Guild flavor · 100% authentic Computer Science.**
-The first seven are simply *fun programs*; only the last three are "classic algorithms" —
-right for a reader still in Volume I.
 
 ---
 
@@ -212,7 +254,7 @@ right for a reader still in Volume I.
 - ❌ required (skipping every mission still reaches 🏛️ Guild Builder)
 - ❌ a leaderboard against other kids (race yourself — `DECISIONS.md` D-15)
 - ❌ borrowed IP (original creatures & skins only — D-19)
-- ❌ the 300-mission mountain *today* (that's the multi-year dream; v1 is ten)
+- ❌ the 300-mission mountain *today* (that's the long-term dream; v1 is a small batch)
 
 ---
 

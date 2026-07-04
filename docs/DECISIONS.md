@@ -245,7 +245,7 @@ for years without re-designing.
 ---
 
 ### D-22 — The four-tier mastery ladder (v1 = tiers 1–2 only)
-**Status: LOCKED** (tier *content* DRAFT)
+**Status: SUPERSEDED by D-28** (kept for history; the tier names/rules below are outdated — see D-28 for canon)
 **Decision:** The Dojo grows through four tiers, each training a different faculty:
 🥋 **Typing Dojo** (fingers) → 🕵️ **Detective Mode** (eyes) → 🐉 **Dragon Debug's Den** (mind /
 logic bugs) → ☁️ **The Lost Heaven** (systems thinking / whole unfamiliar codebases). Each tier
@@ -308,6 +308,85 @@ remains the distinct *pure-practice* track with its own one-screen format (no wo
 the authoring burden, and matches how chapters are *actually* being written. It also removes a
 drift trap: three different "mission" formats (workbook worksheet vs. embedded-in-chapter vs.
 Dojo one-screen) previously disagreed. Now each track has one clear job.
+
+---
+
+### D-27 — Dragon Debug owns the Typing Dojo; The Tangle guards it
+**Status: LOCKED**
+**Decision:** **Dragon Debug** is the owner/host of the Typing Dojo (`typing_dojo/`). **The
+Tangle** (the Typo-Squid, D-19) is its guardian. They are not enemies — it's a double-act:
+Dragon Debug pretends the squid is a nuisance he "hasn't gotten around to removing" (*sips tea*,
+*"one day I'll deal with that squid"*), but he keeps it **on purpose** — a Dojo with nothing to
+push against teaches nothing. The running secret (teased, never told): type cleanly enough and
+The Tangle doesn't get *defeated*, it gets *bored and impressed* and wanders off to find a
+sloppier Builder. Dragon Debug never admits he planned it. **Quackers knows. Quackers says nothing.** 🦆
+**Reason:** Gives the Dojo a canonical host (a permanent hero, D-05) and a warm, funny mystery
+that fits both characters — and plants *"wait, is the Tangle actually helping me?"* curiosity,
+which is osmosis-flavored (D-25). Recorded in `CHARACTERS.md` and `typing_dojo/README.md`.
+
+---
+
+### D-28 — The four Dojo tiers (finalized names; supersedes D-22)
+**Status: LOCKED** (tier *content* DRAFT)
+**Decision:** The Typing Dojo grows through **four tiers**, each training a different faculty.
+Finalized names + taglines (these are canon):
+- 🥋 **Tier I — Keyboard Ninja** — *"Slice your caps."* Passive Memory: type the canonical
+  program, run it, smile. Any error is probably your own typo. (Trains the **fingers**.)
+- 🕵️ **Tier II — Conan's Challenge** — *"Do you have any clue?"* Detective Mode: the supplied
+  code has **typos only — never logic bugs**. Find and fix them. (Trains the **eyes**.)
+- 🐉 **Tier III — Dragon Debug's Den** — *"Welcome to the kingdom of bugs."* **Logic bugs are
+  now allowed.** The **observable input→output must match the canonical mission**, but the
+  *implementation may be twisted* (for↔while, recursion↔iteration, dict↔list, built-in↔hand-rolled).
+  (Trains the **mind**.)
+- ☁️ **Tier IV — The Lost Heaven** — *"You may feel lost; befriend AI for help."* Not a single
+  file and **not typing**: a whole project folder to understand and fix to meet requirements —
+  patterns and system design. (Trains **systems thinking**.)
+- **No sub-levels.** *"Hell I–V"* is only a **difficulty rating** of how brutal a Den (Tier III)
+  mission is — not a level name.
+- **The honor rule (stated, enforced culturally):** in Tier III and IV you **must not open the
+  Tier I/II canonical source.** That refusal to peek is what makes the challenge real.
+- **Tiers = repetition (osmosis).** A mission has **only the tiers its topic deserves**:
+  introductory topics ship Tier I only; important CS ideas earn more tiers — *because more tiers
+  = more times the idea is carved into memory* (D-23). A topic's tier-siblings may publish as
+  **separate mission IDs**, so a learner never knows they're the same idea in a new costume.
+**Reason:** The ladder is secretly the real software workflow — Developer (copy) → Reviewer
+(proofread) → Senior Engineer (code review) → Architect (systems) — delivered as places to
+explore, never announced as lessons. *"They start by typing and end up debugging — code, then
+life, then the world's bugs."* Tier III's reward (*"You fixed the idea"*) and Tier IV's *"befriend
+AI"* both loop into `HUMAN_AI_MANIFESTO.md`.
+
+---
+
+### D-29 — The Dojo gate splits by tier (what's in the book vs. outside)
+**Status: LOCKED** (refines D-20 & D-24 for the Dojo specifically)
+**Decision:** *"Don't advertise; discovery self-selects"* (D-24) does **not** apply to the gentle
+tiers.
+- **Tiers I & II are openly offered** — they appear at the **end of chapters from Chapter 6
+  onward**, freely repeating (osmosis). Openly labeled, never hidden.
+- **Tiers III & IV self-select** — reached by a quiet in-world sign, never a banner (D-24 applies
+  here).
+- **In the book (gentle end only):** Tiers I–II freely; **Tier III only rarely, and only at
+  Hell I–II** difficulty (so an "optional" chapter-end never sandbags a kid).
+- **Outside the book (the wider Dojo, reachable by URL):** **Hell III–V** Den missions and **all
+  of Tier IV** live here — for quick learners and contributors. **The gate is always open — in
+  and out of the book.**
+**Reason:** Tier I/II are the osmosis engine and must be frequent and casual, so hiding or gating
+them would defeat their purpose. Tier III/IV are the "unmarked cave" treasures curiosity finds on
+its own. The URL is another multiplier and the growth path for contributors.
+
+---
+
+### D-30 — Dojo scope: ~50 in-book missions; the system is canon, the mountain is not
+**Status: LOCKED**
+**Decision:** The **book** carries roughly **one Dojo mission per chapter (~50 total across the
+series)** — topics chosen carefully and smartly, multiplied by tier-variants and story "skins"
+(D-21 engine/skin). The **wider library grows *outside* the book** (the Dojo repo/URL), built up
+over time by curious Builders and contributors. We record the **system** as canon (engine/skin,
+the four tiers, tiers-as-repetition) but **do not commit** to 300–500 canonical programs — that
+number is a long-term dream, parked, not a promise.
+**Reason:** *v1 > perfection.* A framework that inspires and can grow beats a mountain we can't
+finish. Our task is to build the framework to practice and, ultimately, to inspire — the library
+scales through contribution, not through us authoring hundreds up front.
 
 ---
 
