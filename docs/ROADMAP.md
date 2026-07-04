@@ -57,6 +57,7 @@ Repeat the pattern, one volume at a time, always evolving the same game.
 
 | Date | Session goal | Donut delivered | Next |
 |------|--------------|-----------------|------|
+| _(session 21)_ | Write up "The Art of Teaching Without Any Teaching" — the project's deepest why (curiosity over education, invisible teaching, invitation not obligation, discovery must self-select, joyful repetition) as promised by D-25 | docs/PHILOSOPHY.md | Author Mission 001 (Guess the Number) — the template mission (fresh convo) |
 | _(session 20)_ | Lock 6 decisions (D-20–D-25) for the Typing Dojo & side-quest world: the arcade-beside-the-spine policy, Engine + Skin architecture, the four-tier mastery ladder, strategic repetition, discovery-must-self-select, and "The Art of Teaching Without Any Teaching" | docs/DECISIONS.md | Author Mission 001 (Guess the Number) — the template mission (fresh convo) |
 | _(session 19)_ | Freeze the Typing Dojo v1.0 system spec: an arcade of typing missions (Engine + Skin, four mastery tiers, Batch 01's first ten missions) that lives alongside the main story without ever teaching | typing_dojo/README.md | Author Mission 001 (Guess the Number) — the template mission (fresh convo) |
 | _(session 18)_ | Phase 1: Volume I, Chapter 7 (The Safe Password Checker) — booleans, `len()`, `and` / `or` / `not`, Sir Boolean joins the crew | manuscript/volume_1/07_the_safe_password_checker.md | Chapter 8 / Recycling Robot — sorting and counting a pile (fresh convo) |
