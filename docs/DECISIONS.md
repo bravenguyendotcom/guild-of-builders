@@ -218,6 +218,81 @@ at us to learn."*
 
 ---
 
+### D-20 — The Typing Dojo & the Side-Quest world
+**Status: LOCKED**
+**Decision:** The series has an **optional arcade beside the main spine** — the **Typing Dojo**
+(`typing_dojo/`), plus a wider side-quest world. Side-quests are **always optional** (a Builder
+reaches 🏛️ Guild Builder without any of them), **never gate** the main story, **unlock by skill**
+(D-16 logic), use **original creatures/skins only** (D-19), and reward **personal progress, not
+competition** (D-15). Their only jobs: practice typing, reward quick learners, keep them in the
+Guild universe, and quietly spark curiosity. **The teaching stays in the main story.**
+**Reason:** Fast Builders need somewhere to linger so they're never bored, without turning the
+side-quest into another lesson. *"If a kid Googles 'what is A*?' because of a side-quest, it worked."*
+
+---
+
+### D-21 — Engine + Skin architecture (the durable asset is the library)
+**Status: LOCKED**
+**Decision:** Dojo missions are **assembled, not authored**: a **canonical Python program**
+(`typing_dojo/coding_gold_mine/`, Layer 1, written once) wrapped in a lightweight **skin**
+(`typing_dojo/missions/`, Layer 2 — story hook + Challenge I/II + flavor). If the concept later
+deserves real teaching, the **main story** (Layer 3) does it properly, at the right time. One
+engine wears many skins (one `bfs.py` → Maze Escape, Robot Vacuum, Fire Rescue…).
+**Reason:** The durable investment is a curated **library of canonical programs**, not a list of
+missions. Improve the engine once, every mission improves (DRY). This is what lets the Dojo scale
+for years without re-designing.
+
+---
+
+### D-22 — The four-tier mastery ladder (v1 = tiers 1–2 only)
+**Status: LOCKED** (tier *content* DRAFT)
+**Decision:** The Dojo grows through four tiers, each training a different faculty:
+🥋 **Typing Dojo** (fingers) → 🕵️ **Detective Mode** (eyes) → 🐉 **Dragon Debug's Den** (mind /
+logic bugs) → ☁️ **The Lost Heaven** (systems thinking / whole unfamiliar codebases). Each tier
+**unlocks by skill**, so later tiers naturally arrive in later volumes. **v1 builds only tiers 1–2.**
+The Den and The Lost Heaven are **parked design seeds** (need debugging / OOP / multi-file skills).
+Detective Mode uses **typos only — never logic bugs.** The Lost Heaven openly invites an **AI
+companion** (ties to `HUMAN_AI_MANIFESTO.md`).
+**Reason:** A clean progression from precision → observation → reasoning → systems, delivered as
+places to explore, never as graded levels.
+
+---
+
+### D-23 — Strategic repetition is intentional (for the learner, not the code)
+**Status: LOCKED**
+**Decision:** The Dojo deliberately repeats ideas: the same engine returns under many skins;
+**Echo Missions** are earlier missions in a new costume; author-only tags mark maturity
+(🌱 Seed → 🌿 Sprout → 🌳 Tree → 🌲 Forest). The goal: *"meet a beautiful idea hundreds of times
+until your fingers know it before your brain does."*
+**Reason:** Fluency is carved by repetition, like music or martial arts. This is a conscious
+exception to "Don't Repeat Yourself" — DRY governs the *codebase* (D-21); repetition governs the
+*learner*. The two never conflict.
+
+---
+
+### D-24 — Don't advertise the treasures; discovery must self-select
+**Status: LOCKED**
+**Decision:** Side-quests (especially Dragon Debug's Den and The Lost Heaven) are **not announced**
+with "NEW UNLOCKED!" banners. At most, a small in-world sign. `TREASURE_CHEST.md` is the **Guild
+Masters' private notebook** (for authors), not a public feature list shown to Builders. We do not
+prescribe the treasures — not even to Tommy and Teppy.
+**Reason:** *"Discovery loses something when it's prescribed."* Prescribed treasure becomes
+homework; found treasure becomes *their* adventure. Invitation beats obligation.
+
+---
+
+### D-25 — The Art of Teaching Without Any Teaching
+**Status: LOCKED**
+**Decision:** The project optimizes **curiosity**; education is the *side effect*. Builders should
+rarely feel they are studying — they feel they are solving mysteries, fixing machines, helping
+friends, exploring worlds, chasing bugs, discovering treasures. Principle: *don't teach computer
+science — let children behave like computer scientists.* Full text lives in `docs/PHILOSOPHY.md`
+(to be written); this entry records the principle as canon.
+**Reason:** The best teaching becomes invisible. Years later a Builder can't name who taught them
+debugging — *"I just kind of grew up doing it."* That is the highest compliment the series can earn.
+
+---
+
 ## Open questions parked in the Treasure Chest 🧰
 _(not decided yet — revisit when relevant, don't let them block progress)_
 
@@ -227,4 +302,6 @@ _(not decided yet — revisit when relevant, don't let them block progress)_
 - Which AI provider(s) for Volume IV.
 - Whether to build a companion website with live hints/tests.
 - **Side-quests doc** (`docs/SIDE_QUESTS.md`) — home for the Typing Dojo/"The Tangle" and fast-finisher extras (incl. optional ZTM-style breadth as *side-quests only*, never core spine).
+- **Future side-quests (seeds, not commitments):** Dragon Debug's Den (logic-bug hell levels), The Lost Heaven (fix whole unfamiliar projects), The Time Machine, Archaeology, The Museum, Reverse Engineering, Bug Zoo, Hall of Fame, Blacksmith (refactor ugly→beautiful), The Librarian (read-only), Whispering Compiler (explain errors), Ghost Repository (revive abandoned projects).
+- **`docs/PHILOSOPHY.md`** — write up "The Art of Teaching Without Any Teaching" (recorded as D-25).
 - The publishing pipeline & tool (Pandoc?) + per-format stylesheets — to become `docs/PUBLISHING.md` (see D-13).
