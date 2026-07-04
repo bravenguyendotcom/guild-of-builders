@@ -2,16 +2,23 @@
 
 ### The whole series from 30,000 feet — every volume, every chapter
 
-> **Status:** Volume I is **near-canon** (maps to the existing mission ladder). Volumes II–IV
+> **Status:** Volume I is **in production** (chapters 0–7 shipped; 8–15 planned). Volumes II–IV
 > are a **compass, not a contract** — directional outlines, revised as each volume's real game
 > state comes to exist. (Per canon: we don't fully draft a volume before the previous game
 > is built.)
 >
 > **This file is the map. The detail lives elsewhere:** skills → `CURRICULUM.md`; game
-> evolution → `GAME_DESIGN.md`; how chapters read → `STYLE_GUIDE.md`; who appears → `CHARACTERS.md`.
+> evolution → `GAME_DESIGN.md`; how chapters read → `STYLE_GUIDE.md`; who appears → `CHARACTERS.md`;
+> side-quests → `SIDE_QUESTS.md` + `typing_dojo/`.
 >
-> **Chapter entries are compact on purpose:** Story (the beat) · Learn (Python/CS) ·
-> Game (how the Quest evolves) · Real World 🏗️ (the professionalism rung) · Cast.
+> **Chapter entries are compact on purpose.**
+> **Core fields (most chapters):** Story (the beat) · Learn (Python/CS) · Game (how the Quest
+> evolves) · 🏗️ Real World (the professionalism rung) · Cast · Achievement (badge earned).
+> **Optional threads (shown only when a chapter has one):**
+> 🥋 **Dojo** — a Typing Dojo mission unlocks here (by skill; see `typing_dojo/`) ·
+> 🎭 **Riddle/Joke** — a riddle or joke beat (Monty & Quizzalot / the Joke Board) ·
+> 🎨 **Art** — a "make it beautiful" beat (Pycasso) ·
+> 🌫️ **Fog Creature** — the inner enemy this chapter quietly helps a Builder face.
 
 ---
 
@@ -34,80 +41,106 @@ solution to a *real* problem, with confidence. Everything before it is the climb
 # 📘 VOLUME I — The First Voyage
 **Python:** basics (CLI). **Deliverable:** *Treasure Quest v1* — a playable, shareable text game.
 **Rung:** vocabulary — every skill quietly gets its real-world name.
-*(Chapters 0–7 below reflect the **shipped** manuscript. Chapters 8–14 are the **planned** map,
+*(Chapters 0–7 below reflect the **shipped** manuscript. Chapters 8–15 are the **planned** map,
 subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
- 
+
 **Ch 0 — Welcome: The Ship That Needs You** *(shipped)*
 - Story: Captain Byte, alone in a storm on a leaking ship, needs a Builder.
 - Learn: the Builder's mindset — *"Version 1 beats a blank page."* (story only, no syntax)
 - Game: you join the Guild and set sail.
 - 🏗️: *source code*.
+- 🌫️ Fog Creature: the Fog of "I Can't" (the first, gentlest meeting).
+
 **Ch 1 — Captain Byte Sets Sail** *(shipped)*
 - Story: the Captain keeps losing the treasure number — so the ship remembers it for him.
 - Learn: **variables** (a box with a name); the first `NameError` as a conversation.
 - Game: the ship remembers and greets by name.
 - 🏗️: *state* · Cast: Dragon Debug arrives (tea 🐉☕), Professor Quackers 🦆, TommyBot (*"is you"*).
 - Achievement: **Rookie Python** 🐍.
+
 **Ch 2 — The Hungry Pizza Robot** 🍕 *(shipped)*
 - Story: the ship's kitchen must ask how many slices — and listen.
 - Learn: **`input`** (ask + listen); the classic *"input is always text"* bug (`"3" * 2 == "33"`),
   fixed with **`int`**.
 - Game: the ship holds a real conversation with the user.
 - 🏗️: *input / user* · Achievement: **Conversation Starter** 💬.
+
 **Ch 3 — The Age Machine** ⏳ *(shipped)*
 - Story: the ship won't hand over the wheel until it *decides* you're old enough.
 - Learn: **`if` / `elif` / `else`** and comparisons (`>=`, `<=`, `==`, `>`, `<`).
 - Game: the ship makes its first decision.
 - 🏗️: *conditional*.
+
 **Ch 4 — The Ninja Health Check** 🥷 *(shipped)*
 - Story: the Cliffs of Health demand a *calculated* readiness score.
 - Learn: **`float`** (numbers with a dot), operators `*` `/` with bracket precedence, **`round()`**;
   the `int("1.5")` **ValueError** as a conversation.
 - Game: the ship computes, not just remembers.
 - 🏗️: *operator* · Cast: **Ninja Cat** debuts 🐱.
+
 **Ch 5 — Rock, Paper, Scissors** ✊ *(shipped)*
 - Story: Captain Byte faces Ninja Cat and teaches the ship to be unpredictable.
 - Learn: **`import`**, **`random.choice()`**, `=` vs `==`, the word **`and`**.
 - Game: the game can surprise you — how games are born.
 - 🏗️: *module / library* · Achievement: **Chance Dancer** 🎲.
+
 **Ch 6 — The Secret Treasure** 🔁 *(shipped)*
 - Story: a locked chest hides a number; guess it, cleverly, again and again.
 - Learn: **`while`** loops, **`!=`**, **`random.randint()`**, the **infinite loop** (rite of passage),
   the **counter** pattern (`attempts = attempts + 1`). *(Seeds binary search via Ninja Cat's hint.)*
 - Game: the chest-opening mini-game (reused later).
 - 🏗️: *loop / iteration* · Achievement: **Loop Weaver** 🔁.
+- 🥋 Dojo: **unlocks here** — Mission 001 *Guess the Number* becomes typeable (first `while` + `random`).
+  *(Introduced by a quiet sign, not a banner — D-24.)*
+
 **Ch 7 — The Safe Password Checker** 🔐 *(shipped)*
 - Story: guard the treasure — one blurry `and`-guard lets `"password"` slip through.
 - Learn: **booleans**, **`len()`**, the flag-words **`and` / `or` / `not`**; separate `if`/`elif`
   questions that explain *which* rule failed.
 - Game: a gate guarding the next area.
 - 🏗️: *validation* · Cast: **Sir Boolean** debuts 🛡️ · Achievement: **Flag Bearer** 🚩.
+
 ---
- 
+
 *Below: the **planned** remainder of Volume I (not yet written; revise as chapters ship).*
- 
+
 **Ch 8 — The Recycling Robot** ♻️ *(planned — next)*
 - Story: a mountain of salvage to sort and count.
 - Learn: counting a list *without* `.count()` (Mission 8).
 - Game: sort/count the treasure pile.
 - 🏗️: *iteration / accumulation*.
+
 **Ch 9 — The Palindrome Mirror** 🪞 *(planned)*
 - Learn: strings — reverse/compare *without* `reverse()` (Mission 9). 🏗️: *string*.
+- 🥋 Dojo: Mission 002 *Hangman* becomes typeable once lists are comfortable.
+
 **Ch 10 — The Caesar Messenger** 🗝️ *(planned)*
 - Learn: character math, a simple cipher (Mission 10). 🏗️: *encoding*.
+- 🥋 Dojo: Mission 003 *Caesar Cipher* (echoes this chapter).
+
 **Ch 11 — The Riddle Theatre** 🎭 *(planned)*
 - Story: two ridiculous hosts block the road with wordplay.
 - Cast: **Maestro Monty & Sir Quizzalot** debut 🤡🥁. 🏗️: *the show*.
+- 🎭 Riddle/Joke: the Riddle Theatre & Guild Joke Board open (write-your-own invited).
+
 **Ch 12 — Menus & Mini-Programs** ✅ *(planned)*
 - Learn: menu loops, list state — To-Do / Contact Book / shop (Missions 16–18). 🏗️: *state / CRUD*.
+
 **Ch 13 — The Painter's Deck** 🎨 *(planned)*
 - Learn: ASCII art, formatted & colored output. Cast: **Professor Pycasso**. 🏗️: *user experience*.
+- 🎨 Art: the "make it beautiful" thread opens (title screens, ASCII, colour).
+
 **Ch 14 — The Escape Room** 🚪 *(planned — pre-capstone)*
 - Learn: combine guessing + strings + logic + math (Mission 19). 🏗️: *integration*.
+
 **Ch 15 — Captain Byte's Treasure Quest v1** 🏴‍☠️ *(planned — capstone / donut)*
 - Learn: assemble it all into one clean, organized program (Mission 20).
 - Game: **the complete CLI game — shipped.**
 - 🏗️: *definition of done / shipping v1* · Achievement: **CLI Builder** 💻.
+
+> **Note:** chapter *count* is provisional — the shipped chapters reordered and expanded the
+> original 14-chapter sketch (e.g. Sir Boolean now debuts at Ch 7, not Ch 3). The map follows
+> the territory. `CURRICULUM.md`'s mission ladder remains the skill source of truth.
 
 ---
 
@@ -213,6 +246,7 @@ AI-generated content into the game. Game: **infinite quests.** Cast: Captain Byt
 
 **Ch 5 — The Honest Duck** 🦆 — Story: ...and it makes something up. Learn: hallucination &
 verification — never trust blindly. 🏗️: *testing AI output.* Cast: **Professor Quackers** (check your work).
+🌫️ Fog Creature: the **Shortcut Serpent** — *"let the AI do it all."*
 
 **Ch 6 — The Companion** — Story: a helper that gives hints, not answers. Learn: build an AI
 hint/companion system. Game: an in-game AI guide. 🏗️: *human-in-the-loop.*
@@ -228,6 +262,7 @@ reviews, teamwork; speaking like an engineer/PM. 🏗️: *collaboration.*
 
 **Ch 10 — Ethics of the Builder** — Story: with power comes *"make it kind."* Learn:
 responsibility, bias, privacy, safety. 🏗️: *responsible AI.* Cast: Dragon Debug (the creed completes).
+🌫️ Fog Creature: the **Ego Gremlin** — *"you don't need reviews or teammates."*
 
 **Ch 11 — The Real Problem** ⭐ — Story: a real need — at home, at school, in the world. Learn:
 propose and build a genuine solution; pitch it with confidence. 🏗️: **proposing a solution / the pitch.**
@@ -240,9 +275,15 @@ ships, and the Builder is ready to build things no book planned. Achievement: **
 
 ## Notes for authors
 
-- **Chapter counts are provisional** (currently ~14 / 12 / 12 / 12). Ship v1 of the outline;
-  refine per volume. Kaizen.
+- **Chapter counts are provisional** (Vol I now ~15 shipped+planned; II–IV ~12 each). Ship v1
+  of the outline; refine per volume. Kaizen.
 - **Every chapter must feed the Quest.** If a chapter doesn't evolve the game or the Builder,
   question it (North Star).
+- **Optional threads are optional.** Only tag 🥋 Dojo / 🎭 Riddle / 🎨 Art / 🌫️ Fog Creature on a
+  chapter that genuinely carries that beat — don't force one onto every chapter. The map stays
+  compact.
+- **Dojo unlocks are by skill, quietly.** A 🥋 tag marks where a Typing Dojo mission first
+  becomes *typeable*; the child meets it via a small sign, never a banner (D-24).
 - **Volumes II–IV will shift** once each prior game state exists. Treat them as direction.
+- **Volume I now follows the shipped manuscript** (chapters 0–7 real; 8–15 planned).
 - Detailed skills stay in `CURRICULUM.md`; this file is the bird's-eye map only.

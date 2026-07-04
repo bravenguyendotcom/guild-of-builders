@@ -2,7 +2,7 @@
 
 ### The Python learning path, mapped to the story
 
-> **Status:** Volume I is **DRAFT-ready to build**. Volumes II–IV are **DRAFT outlines**.
+> **Status:** Volume I is **in production** (chapters 0–7 shipped). Volumes II–IV are **DRAFT outlines**.
 > **Principle:** No skill appears because "it's next in the textbook." Every skill appears
 > because a mission in *Captain Byte's Treasure Quest* needs it.
 
@@ -25,17 +25,51 @@
 **Deliverable:** `Captain Byte's Treasure Quest v1` (CLI, playable, shareable).
 
 ### Skills covered (in story order)
-- variables, `input` / `print`
-- strings & string formatting
-- numbers, operators, integer division & modulo
-- booleans, comparison, logical operators
-- `if` / `elif` / `else`
-- `while` and `for` loops, `range`, `break` / `continue`
-- `random`
+
+*(This list reflects the **shipped** chapter order 0–7, then the planned remainder. The
+mission ladder below is the skill source of truth; this is the running order.)*
+
+**Shipped so far (Ch 1–7):**
+- variables, `input` / `print` (Ch 1–2)
+- text vs. numbers: `int()`, and the *"input is always text"* bug `"3" * 2 == "33"` (Ch 2)
+- `if` / `elif` / `else`, comparisons `>= <= == > <` (Ch 3)
+- `float`, operators `*` `/`, bracket precedence, `round()`, the `ValueError` on `int("1.5")` (Ch 4)
+- `import`, `random.choice()`, `=` vs `==`, the word `and` (Ch 5)
+- `while` loops, `!=`, `random.randint()`, the infinite loop (rite of passage), the counter pattern (Ch 6)
+- booleans (`True`/`False`), `len()`, the flag-words `and` / `or` / `not`, precise `if`/`elif` validation (Ch 7)
+
+**Still ahead (planned):**
+- `for` loops, `range`, `break` / `continue`
+- integer division `//` & modulo `%`  *(not yet introduced — planned around the gold/ATM missions)*
+- strings in depth: reversing, palindromes, character math / a simple cipher
 - lists, tuples, dictionaries (introductory)
+- menu loops & list/dict state (mini-programs)
 - basic functions
-- reading error messages & basic debugging (Rubber Duck method)
-- computational thinking: decomposition, pattern recognition, abstraction, dry-running, edge cases
+- reading error messages & Rubber Duck debugging (deepened)
+- computational thinking throughout: decomposition, pattern recognition, abstraction, dry-running, edge cases
+
+> **Note:** the shipped chapters reordered the original sketch — conditionals and `float`
+> arrived before `//`/`%`, and booleans/logical operators landed at **Ch 7** (Sir Boolean's
+> debut), not early. That's fine: every skill still appears only when a chapter's story needs
+> it (the Principle above). The map follows the territory.
+
+### Ladder ↔ shipped chapters (reconciliation)
+
+The numbered **mission ladder** below is the *skill* source of truth. The **shipped chapter
+order** expanded and resequenced it. Quick map of what's real so far:
+
+| Mission (ladder) | Shipped as | Skill actually taught |
+|---|---|---|
+| 1 Hungry Pizza Robot | Ch 2 | `input`, `int`, the `"3"*2` bug |
+| 2 Age Machine | Ch 3 | `if`/`elif`/`else` |
+| 3 Ninja Health Check | Ch 4 | `float`, `*` `/`, `round()` |
+| 4 Pirate Gold Exchange | *(not yet — `//`/`%` still ahead)* | integer division & modulo |
+| 5 Rock, Paper, Scissors | Ch 5 | `import`, `random.choice`, `and` |
+| 6 The Secret Treasure | Ch 6 | `while`, `!=`, `random.randint`, counter |
+| 7 Safe Password Checker | Ch 7 | booleans, `len()`, `and`/`or`/`not` |
+
+*(Ch 0 Welcome and Ch 1 Sets Sail precede the ladder: mindset, then variables + `NameError`.
+Mission 4's modulo hasn't shipped yet — it's planned, not skipped.)*
 
 ### The mission ladder (foundation exercises → the game)
 

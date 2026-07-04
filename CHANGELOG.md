@@ -7,6 +7,10 @@ small improvements get decimals. (Kaizen, with a memory.)
 ---
 
 ## [Unreleased]
+### Changed
+- `docs/CURRICULUM.md` — closes M-2 from `docs/MANUSCRIPT_AUDIT.md` (the story-order note listed modulo before any shipped chapter used it): status line now reads "in production (chapters 0–7 shipped)"; the skill list is split into **Shipped so far (Ch 1–7)** and **Still ahead (planned)**, with a new ladder ↔ shipped-chapters reconciliation table mapping each mission-ladder entry to the chapter it actually shipped as (or flagging it as not-yet-shipped, e.g. Mission 4's modulo).
+- `docs/SERIES_OUTLINE.md` — further tightened the Volume I reconciliation from the prior session: status line and chapter count now read "8–15 planned"; added the optional-thread legend (🥋 Dojo · 🎭 Riddle/Joke · 🎨 Art · 🌫️ Fog Creature) to the file header; tagged the Ch 6 Dojo unlock and two Volume II Fog Creature beats (the **Shortcut Serpent** at Ch 5 "The Honest Duck," the **Ego Gremlin** at Ch 10 "Ethics of the Builder"); added the authors'-notes reminder that optional threads are optional and Dojo unlocks are quiet, per D-24.
+
 ### Added
 - `docs/MANUSCRIPT_AUDIT.md` (report, not canon) — added a canon audit of shipped Volume I chapters 0–7 against `CHARACTERS.md`, `STYLE_GUIDE.md`, `CURRICULUM.md`, and `SERIES_OUTLINE.md`. Verdict: manuscript in excellent shape (voice, pedagogy, accessibility all consistent). Found M-1: `SERIES_OUTLINE.md`'s Volume I map had drifted from the actual shipped chapters (e.g. Sir Boolean's debut chapter didn't match); M-2: `CURRICULUM.md`'s story-order note is slightly ahead of shipped reality; M-3: flags the four intentional teaching-bugs for a bash-run sanity check.
 ### Changed
