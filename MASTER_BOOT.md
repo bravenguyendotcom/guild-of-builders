@@ -54,7 +54,7 @@ Software engineers hate God Objects. So do we.)
 | `docs/SIDE_QUESTS.md` | The optional side-quest world index (optional, unlocks by skill). |
 | `typing_dojo/` | The optional arcade: canonical engines (`coding_gold_mine/`) + mission skins (`missions/`). |
 | `manuscript/` | The **story** the child reads (the novel/adventure). |
-| `workbook/` | The **missions** the child does (exercises, planning, testing). |
+| `workbook/` | "retired — missions live in chapters (D-26)" |
 | `source_code/` | The **actual game code**, one folder per volume. |
 | `assets/` | Character art, badges, images. |
 | `teacher/` | Solutions, hints, teaching guide (kept separate from the child's copy). |
@@ -75,7 +75,7 @@ Software engineers hate God Objects. So do we.)
 9. For deeper context when relevant: `docs/CURRICULUM.md`, `docs/BUILDERS_LOGBOOK.md`,
    `docs/SETUP.md`, `docs/SIDE_QUESTS.md` (+ `typing_dojo/`), and (for Volume IV)
    `docs/HUMAN_AI_MANIFESTO.md`.
-10. Then open the volume you're working on in `manuscript/`, `workbook/`, `source_code/`.
+10. Then open the volume you're working on in `manuscript/`, `source_code/`.
 
 > The full file roster is the index table above — check it so nothing new gets missed.
 
