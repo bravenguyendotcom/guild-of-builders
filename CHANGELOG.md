@@ -8,6 +8,7 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- `docs/PROJECT_BIBLE.md` modified — linked `docs/PHILOSOPHY.md` into the core-lessons section (curiosity is what we optimize; education is the side effect, see `DECISIONS.md` D-25) and added "Teaching Without Teaching" to the Appendix A glossary.
 - `docs/SIDE_QUESTS.md` (DRAFT) — added the side-quest world index: how side-quests work (always optional, reward not gate, North Star still applies), the Typing Dojo as the featured side-quest (with its guardian, **The Tangle** the Typo-Squid — an original creature per D-19), the parked Side-Quest Board (Speed-Runner's Challenges, Build-Your-Own, Explorer's Extras, Pycasso's Gallery, Riddle Theatre Open-Mic), and a checklist for adding a new side-quest.
 - `MASTER_BOOT.md` modified — file index and boot sequence updated to include `docs/PHILOSOPHY.md` (read 3rd, right after the Bible), and the side-quest world (`docs/SIDE_QUESTS.md`, `typing_dojo/`) added to the index and step 9's deeper-context list.
 - `docs/PHILOSOPHY.md` — added "The Art of Teaching Without Any Teaching," the project's deepest why (see `DECISIONS.md` D-25): optimize curiosity, not education; the best teaching is invisible; the hidden curriculum table (typing → fluency, typo-hunting → observation, bug-fixing → reasoning...); invitation vs. obligation; discovery must self-select; and joyful repetition as how fluency is really built.

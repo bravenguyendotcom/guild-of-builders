@@ -102,6 +102,10 @@ Programming is only the vehicle. The real lessons are:
 curiosity · computational thinking · software craftsmanship · creativity · resilience ·
 kindness · continuous improvement.
 
+The deepest expression of this — that we optimize *curiosity*, and education is the side
+effect — lives in `PHILOSOPHY.md` ("The Art of Teaching Without Any Teaching"). See
+`DECISIONS.md` D-25.
+
 **Status: LOCKED**
 
 ---
@@ -269,6 +273,7 @@ These live in the Treasure Chest. Maybe later. Maybe never. That's fine.
 - **North Star** — the one question that decides what belongs.
 - **The Guild** — the community of Builders, characters, and readers.
 - **The Widening Circle** — how a Builder's impact grows: self → family → community → world.
+- **Teaching Without Teaching** — optimizing curiosity so learning happens as a side effect (`PHILOSOPHY.md`).
 
 ## Appendix B — Document Map
 

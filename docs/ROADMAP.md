@@ -57,6 +57,7 @@ Repeat the pattern, one volume at a time, always evolving the same game.
 
 | Date | Session goal | Donut delivered | Next |
 |------|--------------|-----------------|------|
+| _(session 24)_ | Link `docs/PHILOSOPHY.md` into `PROJECT_BIBLE.md`'s core-lessons section and glossary, so the Constitution points to the soul beneath it | docs/PROJECT_BIBLE.md | Author Mission 001 (Guess the Number) — the template mission (fresh convo) |
 | _(session 23)_ | Write the side-quest world index: how side-quests work (optional, reward not gate), the Typing Dojo featured entry (with its guardian The Tangle, the Typo-Squid), the parked Side-Quest Board, and the checklist for adding a new one | docs/SIDE_QUESTS.md | Author Mission 001 (Guess the Number) — the template mission (fresh convo) |
 | _(session 22)_ | Wire `docs/PHILOSOPHY.md` and the side-quest world (`docs/SIDE_QUESTS.md`, `typing_dojo/`) into `MASTER_BOOT.md`'s file index and boot sequence, so nothing new gets missed | MASTER_BOOT.md | Author Mission 001 (Guess the Number) — the template mission (fresh convo); write `docs/SIDE_QUESTS.md` |
 | _(session 21)_ | Write up "The Art of Teaching Without Any Teaching" — the project's deepest why (curiosity over education, invisible teaching, invitation not obligation, discovery must self-select, joyful repetition) as promised by D-25 | docs/PHILOSOPHY.md | Author Mission 001 (Guess the Number) — the template mission (fresh convo) |
