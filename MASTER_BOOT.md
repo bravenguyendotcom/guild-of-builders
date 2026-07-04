@@ -36,6 +36,7 @@ Software engineers hate God Objects. So do we.)
 |------|-------------|
 | `MASTER_BOOT.md` | **You are here.** The index and boot sequence. |
 | `docs/PROJECT_BIBLE.md` | The **Constitution**. Vision, mission, philosophy, canon. Rarely changes. |
+| `docs/PHILOSOPHY.md` | The **soul** — "The Art of Teaching Without Any Teaching" (curiosity over content). |
 | `docs/AI_WORKING_AGREEMENT.md` | **How to run a session.** Read this first, every time — human or AI. |
 | `docs/CLAUDE_PROJECT_CONFIG.md` | Custom instructions + knowledge-file list for the Claude Project. |
 | `docs/TREASURE_CHEST.md` | Backlog of good-but-not-yet ideas. Nothing good is lost. |
@@ -50,6 +51,8 @@ Software engineers hate God Objects. So do we.)
 | `docs/SETUP.md` | "Preparing for the Voyage" — install Python + the per-volume requirements ladder. |
 | `docs/BUILDERS_LOGBOOK.md` | Personal progress, ranks, pacing tracks, the Fog Creatures. |
 | `docs/HUMAN_AI_MANIFESTO.md` | Volume IV's philosophical capstone — the Human & AI credo. |
+| `docs/SIDE_QUESTS.md` | The optional side-quest world index (optional, unlocks by skill). |
+| `typing_dojo/` | The optional arcade: canonical engines (`coding_gold_mine/`) + mission skins (`missions/`). |
 | `manuscript/` | The **story** the child reads (the novel/adventure). |
 | `workbook/` | The **missions** the child does (exercises, planning, testing). |
 | `source_code/` | The **actual game code**, one folder per volume. |
@@ -63,14 +66,16 @@ Software engineers hate God Objects. So do we.)
 
 1. `docs/AI_WORKING_AGREEMENT.md` — **how we work.** Read this first, every time.
 2. `docs/PROJECT_BIBLE.md` — understand *why* before *what* (includes the Widening Circle).
-3. `docs/DECISIONS.md` — what's already settled (LOCKED). Don't reopen it.
-4. `docs/CHARACTERS.md` — meet the crew (and the Fog Creatures).
-5. `docs/STYLE_GUIDE.md` — learn the voice and the accessibility rules.
-6. `docs/ROADMAP.md` — see where we're sailing next.
-7. `docs/SERIES_OUTLINE.md` + `docs/GAME_DESIGN.md` — the chapter map and what we're building.
-8. For deeper context when relevant: `docs/CURRICULUM.md`, `docs/BUILDERS_LOGBOOK.md`,
-   `docs/SETUP.md`, and (for Volume IV) `docs/HUMAN_AI_MANIFESTO.md`.
-9. Then open the volume you're working on in `manuscript/`, `workbook/`, `source_code/`.
+3. `docs/PHILOSOPHY.md` — the soul beneath the rules: teach without teaching; curiosity first.
+4. `docs/DECISIONS.md` — what's already settled (LOCKED). Don't reopen it.
+5. `docs/CHARACTERS.md` — meet the crew (and the Fog Creatures).
+6. `docs/STYLE_GUIDE.md` — learn the voice and the accessibility rules.
+7. `docs/ROADMAP.md` — see where we're sailing next.
+8. `docs/SERIES_OUTLINE.md` + `docs/GAME_DESIGN.md` — the chapter map and what we're building.
+9. For deeper context when relevant: `docs/CURRICULUM.md`, `docs/BUILDERS_LOGBOOK.md`,
+   `docs/SETUP.md`, `docs/SIDE_QUESTS.md` (+ `typing_dojo/`), and (for Volume IV)
+   `docs/HUMAN_AI_MANIFESTO.md`.
+10. Then open the volume you're working on in `manuscript/`, `workbook/`, `source_code/`.
 
 > The full file roster is the index table above — check it so nothing new gets missed.
 
