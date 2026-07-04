@@ -34,94 +34,77 @@ solution to a *real* problem, with confidence. Everything before it is the climb
 # 📘 VOLUME I — The First Voyage
 **Python:** basics (CLI). **Deliverable:** *Treasure Quest v1* — a playable, shareable text game.
 **Rung:** vocabulary — every skill quietly gets its real-world name.
-*(Chapters map to the 20-mission ladder in `CURRICULUM.md`.)*
-
+*(Chapters 0–7 below reflect the **shipped** manuscript. Chapters 8–14 are the **planned** map,
+subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
+ 
 **Ch 0 — Welcome: The Ship That Needs You** *(shipped)*
 - Story: Captain Byte, alone in a storm on a leaking ship, needs a Builder.
-- Learn: the Builder's mindset — *"Version 1 beats a blank page."*
+- Learn: the Builder's mindset — *"Version 1 beats a blank page."* (story only, no syntax)
 - Game: you join the Guild and set sail.
-- 🏗️: *source code* — the words a Builder types are called this.
-
-**Ch 1 — The First Line** *(shipped)*
-- Story: the first thing you ever tell the computer.
-- Learn: `print` / `input`; name your captain.
-- Game: the game greets *you* by name.
-- 🏗️: *program* · Cast: Dragon Debug arrives (the tea 🐉☕).
-
-**Ch 2 — The Hungry Robot** 🍕
-- Story: the ship's cook can't count the provisions.
-- Learn: variables, string formatting (Mission 1).
-- Game: track supplies for the voyage.
-- 🏗️: *variable*.
-
-**Ch 3 — The Fork in the Tide**
-- Story: two channels, one ship — how does a program *choose*?
-- Learn: booleans + `if`/`elif`/`else` (Mission 2).
-- Game: your first branching choice.
-- 🏗️: *conditional* · Cast: **Sir Boolean** debuts (green TRUE / red FALSE).
-
-**Ch 4 — Numbers of the Sea** 🪙
-- Story: trading gold at a pirate port.
-- Learn: arithmetic, integer division & modulo (Missions 3–4).
-- Game: the treasure/gold currency is born.
-- 🏗️: *operator*.
-
-**Ch 5 — The Forest of Loops** 🌲
-- Story: the same path, again and again, until you learn to repeat *on purpose*.
-- Learn: `while`/`for`, `range`, `break`/`continue`.
-- Game: repeating encounters and turns.
-- 🏗️: *loop / iteration* · Cast: **Professor Loop**.
-
-**Ch 6 — The Guessing Cave** 🕯️
-- Story: a locked chest that answers "higher" or "lower."
-- Learn: guess-the-number logic (Mission 6).
-- Game: the chest-opening mini-game (reused in the capstone).
-- 🏗️: *algorithm*.
-
-**Ch 7 — The Locked Gate** 🔐
-- Story: only the right words open the inner island.
-- Learn: `and`/`or`/`not`, precise checks (Mission 7).
+- 🏗️: *source code*.
+**Ch 1 — Captain Byte Sets Sail** *(shipped)*
+- Story: the Captain keeps losing the treasure number — so the ship remembers it for him.
+- Learn: **variables** (a box with a name); the first `NameError` as a conversation.
+- Game: the ship remembers and greets by name.
+- 🏗️: *state* · Cast: Dragon Debug arrives (tea 🐉☕), Professor Quackers 🦆, TommyBot (*"is you"*).
+- Achievement: **Rookie Python** 🐍.
+**Ch 2 — The Hungry Pizza Robot** 🍕 *(shipped)*
+- Story: the ship's kitchen must ask how many slices — and listen.
+- Learn: **`input`** (ask + listen); the classic *"input is always text"* bug (`"3" * 2 == "33"`),
+  fixed with **`int`**.
+- Game: the ship holds a real conversation with the user.
+- 🏗️: *input / user* · Achievement: **Conversation Starter** 💬.
+**Ch 3 — The Age Machine** ⏳ *(shipped)*
+- Story: the ship won't hand over the wheel until it *decides* you're old enough.
+- Learn: **`if` / `elif` / `else`** and comparisons (`>=`, `<=`, `==`, `>`, `<`).
+- Game: the ship makes its first decision.
+- 🏗️: *conditional*.
+**Ch 4 — The Ninja Health Check** 🥷 *(shipped)*
+- Story: the Cliffs of Health demand a *calculated* readiness score.
+- Learn: **`float`** (numbers with a dot), operators `*` `/` with bracket precedence, **`round()`**;
+  the `int("1.5")` **ValueError** as a conversation.
+- Game: the ship computes, not just remembers.
+- 🏗️: *operator* · Cast: **Ninja Cat** debuts 🐱.
+**Ch 5 — Rock, Paper, Scissors** ✊ *(shipped)*
+- Story: Captain Byte faces Ninja Cat and teaches the ship to be unpredictable.
+- Learn: **`import`**, **`random.choice()`**, `=` vs `==`, the word **`and`**.
+- Game: the game can surprise you — how games are born.
+- 🏗️: *module / library* · Achievement: **Chance Dancer** 🎲.
+**Ch 6 — The Secret Treasure** 🔁 *(shipped)*
+- Story: a locked chest hides a number; guess it, cleverly, again and again.
+- Learn: **`while`** loops, **`!=`**, **`random.randint()`**, the **infinite loop** (rite of passage),
+  the **counter** pattern (`attempts = attempts + 1`). *(Seeds binary search via Ninja Cat's hint.)*
+- Game: the chest-opening mini-game (reused later).
+- 🏗️: *loop / iteration* · Achievement: **Loop Weaver** 🔁.
+**Ch 7 — The Safe Password Checker** 🔐 *(shipped)*
+- Story: guard the treasure — one blurry `and`-guard lets `"password"` slip through.
+- Learn: **booleans**, **`len()`**, the flag-words **`and` / `or` / `not`**; separate `if`/`elif`
+  questions that explain *which* rule failed.
 - Game: a gate guarding the next area.
-- 🏗️: *validation*.
-
-**Ch 8 — The Riddle Theatre** 🎭
+- 🏗️: *validation* · Cast: **Sir Boolean** debuts 🛡️ · Achievement: **Flag Bearer** 🚩.
+---
+ 
+*Below: the **planned** remainder of Volume I (not yet written; revise as chapters ship).*
+ 
+**Ch 8 — The Recycling Robot** ♻️ *(planned — next)*
+- Story: a mountain of salvage to sort and count.
+- Learn: counting a list *without* `.count()` (Mission 8).
+- Game: sort/count the treasure pile.
+- 🏗️: *iteration / accumulation*.
+**Ch 9 — The Palindrome Mirror** 🪞 *(planned)*
+- Learn: strings — reverse/compare *without* `reverse()` (Mission 9). 🏗️: *string*.
+**Ch 10 — The Caesar Messenger** 🗝️ *(planned)*
+- Learn: character math, a simple cipher (Mission 10). 🏗️: *encoding*.
+**Ch 11 — The Riddle Theatre** 🎭 *(planned)*
 - Story: two ridiculous hosts block the road with wordplay.
-- Learn: strings — palindromes, Caesar cipher (Missions 9–10).
-- Game: a riddle-gate mini-game.
-- 🏗️: *string* · Cast: **Maestro Monty & Sir Quizzalot** debut 🤡🥁.
-
-**Ch 9 — The Grand Library** 📚
-- Story: shelves of monsters, heroes, and junk to sort.
-- Learn: lists & dictionaries (Missions 8, 12, 14).
-- Game: a simple inventory and monster stats.
-- 🏗️: *data structure*.
-
-**Ch 10 — The Bug Monster's Lair** 👾
-- Story: everything breaks. Good. *"Excellent. Now the conversation begins."*
-- Learn: reading errors, Rubber Duck debugging.
-- Game: a bug-hunt sequence.
-- 🏗️: *bug / stack trace* · Cast: **Bug Monster**, **Professor Quackers** 🦆.
-
-**Ch 11 — The Workshop of Tools** 🛠️
-- Story: you keep rebuilding the same thing — until you forge a reusable tool.
-- Learn: functions; Don't Repeat Yourself.
-- Game: refactor repeated code into clean functions.
-- 🏗️: *function / DRY* · Cast: Dragon Debug (*"make it clear"*).
-
-**Ch 12 — The Painter's Deck** 🎨
-- Story: a game can be *beautiful*, not just correct.
-- Learn: ASCII art, formatted & colored output.
-- Game: a title screen and prettier text.
-- 🏗️: *user experience* · Cast: **Professor Pycasso** (*"every program is a canvas"*).
-
-**Ch 13 — The Escape Room** 🚪
-- Story: one door, guarded by everything you've learned.
-- Learn: combine guessing + strings + logic + math (Mission 19).
-- Game: the pre-capstone integration puzzle.
-- 🏗️: *integration*.
-
-**Ch 14 — Captain Byte's Treasure Quest v1** 🏴‍☠️ *(capstone / donut)*
-- Story: the full voyage, start to treasure.
+- Cast: **Maestro Monty & Sir Quizzalot** debut 🤡🥁. 🏗️: *the show*.
+**Ch 12 — Menus & Mini-Programs** ✅ *(planned)*
+- Learn: menu loops, list state — To-Do / Contact Book / shop (Missions 16–18). 🏗️: *state / CRUD*.
+**Ch 13 — The Painter's Deck** 🎨 *(planned)*
+- Learn: ASCII art, formatted & colored output. Cast: **Professor Pycasso**. 🏗️: *user experience*.
+**Ch 14 — The Escape Room** 🚪 *(planned — pre-capstone)*
+- Learn: combine guessing + strings + logic + math (Mission 19). 🏗️: *integration*.
+**Ch 15 — Captain Byte's Treasure Quest v1** 🏴‍☠️ *(planned — capstone / donut)*
 - Learn: assemble it all into one clean, organized program (Mission 20).
 - Game: **the complete CLI game — shipped.**
 - 🏗️: *definition of done / shipping v1* · Achievement: **CLI Builder** 💻.
