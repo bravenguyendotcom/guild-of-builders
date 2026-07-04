@@ -159,6 +159,32 @@ The real boss of any adventure isn't a bug. It's the little voice that says *"la
 - 👑 **The Ego Gremlin** *(Vol IV)* — *"You're the best now; you don't need reviews or teammates."*
   Beaten by staying humble and kind. *"Make it kind."*
 
+---
+
+# Side-Quest Guardians (DRAFT — they live outside the main story)
+
+These creatures belong to the optional **side-quests**, not to *Captain Byte's Treasure Quest.*
+A Builder only ever meets them if they wander off the main path on purpose.
+
+### 🦑 The Tangle — Guardian of the Typing Dojo
+
+- **Where it lives:** the **Typing Dojo** arcade (`typing_dojo/`) — **not** the main story.
+  A side-quest guardian, met only by Builders who choose to train there.
+- **What it is:** a ten-tentacled **Typo-Squid** that feeds on sloppy typing. It can't be
+  out-run — only out-*typed.* It's beaten not by speed but by **clean, correct code typed cleanly**;
+  every typo left behind is another coil around your program.
+- **Origin (D-19):** an **original creation** — the IP-safe answer to "a fast-tentacled typing
+  villain." Inspired-by, never borrowed.
+- **Voice:** almost none — it's a creature, not a talker. Mostly menace, wobble, and retreat.
+  **Silly, never scary** — the Dojo is gentle by rule (a missed key gets a wobble and a
+  *"try again!"*, never a game-over lecture).
+- **Function:** turns typing practice into a tiny boss fight. Beating it builds the quiet,
+  unglamorous superpower of **typing Python accurately** — fewer typos, fewer frustrating bugs.
+- **Keep distinct (three different jobs):**
+  - 👾 **Bug Monster** — *external, friendly* bugs in the **main story**.
+  - 🌫️ **Fog Creatures** — the *internal* negative-self.
+  - 🦑 **The Tangle** — a *side-quest* typing-accuracy guardian in the arcade.
+
 > New characters are welcome **only** when the story genuinely needs them (North Star).
 > Resist the urge to add cast for decoration.
 

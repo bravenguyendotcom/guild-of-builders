@@ -57,6 +57,7 @@ Repeat the pattern, one volume at a time, always evolving the same game.
 
 | Date | Session goal | Donut delivered | Next |
 |------|--------------|-----------------|------|
+| _(session 26)_ | Close F-1 from the integrity check: add The Tangle, the Typing Dojo's Typo-Squid guardian, to `CHARACTERS.md` as a Side-Quest Guardian, kept distinct from Bug Monster and the Fog Creatures | docs/CHARACTERS.md | Mission 001 (Guess the Number) — the template mission (fresh convo) |
 | _(session 25)_ | Whole-project cross-reference audit: verify decisions/citations/canon/index all resolve correctly; project is in strong structural health, one small canon gap found (The Tangle missing from CHARACTERS.md) | docs/INTEGRITY_CHECK.md | Add The Tangle to CHARACTERS.md (F-1); then Mission 001 (Guess the Number) — the template mission (fresh convo) |
 | _(session 24)_ | Link `docs/PHILOSOPHY.md` into `PROJECT_BIBLE.md`'s core-lessons section and glossary, so the Constitution points to the soul beneath it | docs/PROJECT_BIBLE.md | Author Mission 001 (Guess the Number) — the template mission (fresh convo) |
 | _(session 23)_ | Write the side-quest world index: how side-quests work (optional, reward not gate), the Typing Dojo featured entry (with its guardian The Tangle, the Typo-Squid), the parked Side-Quest Board, and the checklist for adding a new one | docs/SIDE_QUESTS.md | Author Mission 001 (Guess the Number) — the template mission (fresh convo) |
