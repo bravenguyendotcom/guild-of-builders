@@ -259,9 +259,21 @@ Because this is the good part.
 
 "You found a real bug, Captain.
 
-A famous one. Every Builder meets it.
+A famous one. Every Builder meets it."
 
-And a bug isn't the end of anything."
+He paused, and his voice went softer.
+
+"I met it too, once. Long ago.
+
+I was *sure* the computer was broken.
+
+It wasn't. I just hadn't learned to listen yet."
+
+He said it kindly.
+
+No shame in it at all.
+
+"A bug isn't the end of anything."
 
 He looked the Captain in the eye.
 
@@ -269,7 +281,23 @@ He looked the Captain in the eye.
 
 ---
 
-"To fix it," said Dragon Debug,
+TommyBot had been quiet in the doorway, working something out.
+
+*(TommyBot is you, remember — the one who learns by asking.)*
+
+"So we have to *tell* it," TommyBot said slowly.
+
+"That the words are really a number."
+
+Dragon Debug turned.
+
+Something in his face changed — the look of a teacher who has just been *met halfway.*
+
+"Now," he said. "You're building."
+
+---
+
+"To fix it," the dragon went on,
 
 "we tell the ship one small, clear thing:
 

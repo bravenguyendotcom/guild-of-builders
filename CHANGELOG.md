@@ -8,6 +8,7 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Changed
+- `manuscript/volume_1/02_hungry_pizza_robot.md` — deepened Dragon Debug's response to Captain Byte's bug discovery with a brief personal reflection (admitting he once thought the computer was broken, was just learning to listen), softening shame; added TommyBot's realization about type conversion ("So we have to *tell* it that the words are really a number") triggering Dragon Debug's recognition of true learning ("Now, you're building"), modeling the Inverting Mentor arc in miniature.
 - `manuscript/volume_1/01_captain_byte_sets_sail.md` — added "TommyBot was already reaching for the keyboard" after Dragon Debug's "Now you're building," and a closing bonding beat where Captain Byte admits he thought he'd broken everything and Dragon Debug welcomes him (and the reader) into "the club" every programmer belongs to.
 
 ### Added
