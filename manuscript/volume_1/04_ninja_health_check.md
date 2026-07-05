@@ -146,6 +146,10 @@ Dragon Debug took a slow, warm sip.
 
 Which — you remember — means *lean in.*
 
+"That growl in your chest is allowed, Captain," he said.
+
+"Even dragons have wanted to throw a keyboard at the sea."
+
 "It isn't broken, Captain. Read it.
 
 You reached for `int`.
