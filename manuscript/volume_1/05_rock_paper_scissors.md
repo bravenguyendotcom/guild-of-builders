@@ -210,7 +210,15 @@ Did you forget to import 'random'?
 
 "OH, COME ON!" howled the Captain.
 
-But then he stopped.
+Dragon Debug didn't flinch.
+
+"That howl," he said, warmly, "has come out of me too.
+
+More times than I'd like to count."
+
+Something in the Captain settled, just a little.
+
+He stopped.
 
 He looked closer.
 
@@ -408,6 +416,8 @@ It meant: *the wisest move is sometimes to simply enjoy the show.*
 "Builder — your turn," said Dragon Debug,
 
 turning to you.
+
+But you were already reaching for the keyboard.
 
 "Wake up the chance-tool.
 
