@@ -265,6 +265,24 @@ Somehow, it felt like wisdom.
 
 ---
 
+## 🐛 Debug Log
+
+Real Builders keep a little record of the bugs they beat.
+
+It turns a frustrating moment into something to be proud of.
+
+Here's your very first one:
+
+| My bug | What caused it? | How did I fix it? |
+|--------|-----------------|-------------------|
+| The ship said `NameError`. | I spelled the box's name wrong — `tresure_depth` instead of `treasure_depth`. | Fixed the spelling so both names matched. The ship found the box. |
+
+One missing letter.
+
+That's all a bug often is.
+
+---
+
 ## 🐉 A riddle, before you sail on
 
 Dragon Debug set down his tea and looked right at you.

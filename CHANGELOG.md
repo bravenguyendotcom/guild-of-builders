@@ -8,6 +8,7 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- `manuscript/volume_1/01_captain_byte_sets_sail.md` — added a 🐛 Debug Log box: a worked example of the chapter's teaching-bug (`NameError` from misspelling `treasure_depth` as `tresure_depth`), filled in with the bug/cause/fix table so a Builder sees the box modeled once before keeping their own.
 - `manuscript/volume_1/00_welcome.md` — added the "Fog of 'I Can't'" beat: Captain Byte names the self-doubt every Builder feels before starting something new, reveals it visits everyone (including him, and "a certain wise old dragon, long ago"), and shows it's beaten with one small move — writing one line, because "one line beats a blank page every single time"; also added a new 🏗️ In the Real World box defining **source code**.
 ### Changed
 - `docs/INTEGRITY_CHECK.md` (v3) — pre-flight audit before the chapter-revision pass: confirms the Dojo model (D-27–D-30) agrees with itself across `DECISIONS.md`, `typing_dojo/README.md`, `CHARACTERS.md`, `SIDE_QUESTS.md`, and `STYLE_GUIDE.md` §4/§4a; flags three cosmetic stale-vocabulary findings (V-1: D-20/D-21 still say "Challenge I/II" instead of the D-28 tier names; V-2: `STYLE_GUIDE.md` §4 cites superseded D-22 instead of D-28; V-3: README's mission-format header mixes "Challenge(s)"/"Tier(s)" wording) — none block the revision pass, all low-severity harmonization.
