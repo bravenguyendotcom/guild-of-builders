@@ -1,103 +1,113 @@
-# 📖 MANUSCRIPT_AUDIT.md
+# 📖 MANUSCRIPT_AUDIT.md — v2
 
-### Canon audit — Volume I, Chapters 0–7
+### Canon audit — Volume I, Chapters 0–7 — against the *updated* canon (D-26–D-33)
 
-> **Status:** REPORT (a snapshot, not canon). Supersede with a newer audit as chapters ship.
-> **Method:** each shipped chapter read **in full from the live repo** (Project knowledge) and
-> checked against `CHARACTERS.md` (voice), `STYLE_GUIDE.md` (accessibility + chapter structure
-> + the 🏗️ box), `CURRICULUM.md` (concept order), and `SERIES_OUTLINE.md` (chapter map).
-> **Scope:** chapters 0–7. (8+ not yet written.)
-> **Verdict: the manuscript is in excellent shape.** The voice is consistent, the pedagogy is
-> genuinely strong, accessibility holds throughout. Findings are small and mostly optional.
-
----
-
-## ✅ What's working beautifully (keep doing this)
-
-- **Character voice is rock-solid and on-canon.** Dragon Debug's *"Interesting"* = "lean in";
-  his three-line calm; Captain Byte charging ahead and creating the bug; Quackers silent then
-  one settling *"Quack"*; the tea and pizza running jokes — all present and true to `CHARACTERS.md`.
-- **"Errors are conversations" is lived, not stated.** Every chapter earns *"Excellent. Now the
-  conversation begins."* through a **real, honest bug** the reader would actually hit
-  (`"3" * 2 == "33"`, `int("1.5")` ValueError, the infinite loop, the blurry `and`-guard letting
-  `"password"` through). This is the strongest pedagogical thread in the book.
-- **Accessibility is exemplary.** Short lines, one-idea-per-line, generous whitespace, plain
-  words. Teppy is clearly being cared for on every page.
-- **Chapter structure is consistent** and matches `STYLE_GUIDE.md`: story → riddle → Toolbox
-  Card → 🏗️ In the Real World → Dragon's Wisdom → Achievement Unlocked → cliffhanger. The
-  cliffhangers chain cleanly (each chapter's ending sets up the next).
-- **The 🏗️ "In the Real World" box (D-14) is present and correctly used** — after the story,
-  short, real vocabulary in bold (*state*, *user*, *module/library*, *validation*, *George Boole*),
-  never a lecture.
-- **TommyBot is introduced well** (Ch 1: *"TommyBot is you, by the way"*) — the reader-avatar
-  role from `CHARACTERS.md` lands.
+> **Status:** REPORT (a snapshot, not canon). Supersedes the v1 audit.
+> **Method:** chapters read **in full from the live repo** (Project knowledge), checked against
+> the canon as it stands *now* — including everything shipped since v1: D-26 (embedded missions),
+> D-27–D-30 (the Typing Dojo), D-31 (Inverting Mentor), D-32 (Builder's Heart), D-33 (AI
+> Friendship Rules), STYLE_GUIDE §4a (the 🥋 block), and the Voice museum in PHILOSOPHY.
+> **The purpose:** not "are the chapters good?" (they are — the v1 audit stands) but **"what
+> canon do they now lag, so the revision pass is surgical, not vague?"**
+> **Verdict: the prose is excellent and needs no rescue. The gaps are all *new-canon additions*,
+> concentrated almost entirely in Chapter 6.**
 
 ---
 
-## 🔧 Findings
+## ✅ Still true (confirmed against the live repo)
 
-### M-1 — Chapter numbering vs. SERIES_OUTLINE is off by one *(worth a decision)*
-**Severity:** medium — not wrong, but a real inconsistency two docs disagree on.
-The **shipped chapters** and the **`SERIES_OUTLINE.md` map** have drifted apart:
+- **Voice is on-canon and matches the museum.** *"Excellent. Now the conversation begins."*
+  lands honestly in every chapter; Dragon's *"Interesting" = lean in*, the tea, Captain's pizza,
+  Quackers' eloquent silence, "Version 1" spirit — all present, all true to `PHILOSOPHY.md`'s
+  Voice museum and `CHARACTERS.md`.
+- **Accessibility is exemplary** — short lines, one idea per line, whitespace. Teppy is cared for.
+- **The honest-bug spine is the book's strongest thread** — `"3"*2`, the ValueError, the infinite
+  loop, the blurry `and`-guard. Real errors, framed as conversations.
+- **Chapter structure matches STYLE_GUIDE §4** — story → riddle → Toolbox Card → 🏗️ box →
+  Dragon's Wisdom → Achievement → cliffhanger, chaining cleanly.
+- **M-1 (old) is CLOSED** — `SERIES_OUTLINE.md` now matches the shipped chapters (Sir Boolean at
+  Ch 7, Ninja Cat at Ch 4, etc.). The map follows the territory.
 
-| Shipped chapter | SERIES_OUTLINE says that number is... |
-|---|---|
-| Ch 3 — The Age Machine (`if`/`elif`/`else`) | "The Fork in the Tide" (Sir Boolean debut) |
-| Ch 4 — Ninja Health Check (`float`, `round`) | "Numbers of the Sea" (modulo) |
-| Ch 6 — The Secret Treasure (`while`) | "The Guessing Cave" |
-| Ch 7 — Safe Password Checker (Sir Boolean **debuts here**) | "The Locked Gate" |
+---
 
-The manuscript is internally consistent and flows well — but the **outline no longer matches
-what was actually written** (e.g. the outline debuts Sir Boolean at Ch 3/"Fork in the Tide";
-in the real manuscript he debuts at **Ch 7**). **Fix:** update `SERIES_OUTLINE.md`'s Volume I
-section to match the shipped chapters (the map should follow the territory). *One donut, later.*
+## 🔧 Findings — the new-canon gaps (this is what the revision pass fixes)
 
-### M-2 — CURRICULUM "story order" lists modulo before the shipped chapters use it
+### R-1 — Chapter 6 is missing the Typing Dojo debut *(the big one — D-27/§4a)*
+**Severity:** high (it's the single most important revision in Vol I).
+Chapter 6 is where the Dojo **debuts** (SERIES_OUTLINE marks it; STYLE_GUIDE §4a mandates the
+block from Ch 6 on). The shipped Ch 6 has **no Dojo block and no Dragon-Debug-owns-the-Dojo
+introduction** — it predates all of D-27–D-30. It ends beautifully on the password cliffhanger,
+but the arcade never opens.
+**Fix (the Ch-6 revision, per the prompt kit):** add the in-story debut (Dragon Debug as keeper,
+The Tangle as guardian, the "kept on purpose" secret teased) **and** the first optional 🥋 block
+at the chapter's end — a real program pulled from `coding_gold_mine/`, skinned, **with expected
+output**, quiet and skippable (D-24, D-29, §4a). *Note: `coding_gold_mine/` is still empty, so
+this depends on Mission 001 existing — see R-5.*
+
+### R-2 — The Dojo "quiet sign" is absent from chapters 6+ *(D-29)*
+**Severity:** medium.
+From Ch 6 on, Tiers I–II are openly offered at chapter ends. No shipped chapter yet carries even
+the small in-world sign. Ch 6 gets the full debut (R-1); **Ch 7 onward** (as they're revised /
+written) each get a 🥋 block only when a mission is genuinely unlocked by that chapter's skills —
+never forced (D-20).
+**Fix:** handle per-chapter during the revision pass; not a single edit.
+
+### R-3 — The Inverting-Mentor arc has no early seed *(D-31)*
+**Severity:** low-medium (it's a *whole-series* thread, so the early chapters only need a light touch).
+D-31 (Tommy *becomes* the hero; Dragon eventually asks TommyBot questions) is now canon. The
+shipped chapters correctly have Dragon leading — but there's no *seed* of TommyBot's growing
+competence to pay off later. The chapters already do "Builder — your turn"; that's the hook.
+**Fix (optional, light):** in the revision pass, let TommyBot's "your turn" moments show a touch
+more *agency* as the volume proceeds (Ch 6–7), so Vol IV's inversion has roots. Do **not**
+overhaul — a few words, not a rewrite.
+
+### R-4 — Builder's Heart (EQ) is implicit, not yet named *(D-32)*
 **Severity:** low.
-`CURRICULUM.md` skills list has integer division & modulo early (Level 1, "Pirate Gold
-Exchange"), but the shipped Ch 4 is the Ninja Health Check (`float`/`round`), and modulo hasn't
-appeared yet by Ch 7. Not an error — the manuscript reordered sensibly — but CURRICULUM's
-"in story order" note is now slightly ahead of the real order. **Fix:** a light CURRICULUM pass
-to match shipped reality (same donut as M-1, ideally).
+The chapters *model* resilience beautifully (Captain panics at the infinite loop, recovers; "a
+rite of passage, not a failure" in Ch 6's 🏗️ box). D-32 now makes the EQ strand explicit. The
+chapters don't need a new box — the modelling is already there.
+**Fix (optional):** where it's natural, let a line name the feeling ("frustration is normal; even
+the dragon has been here"). Ch 6's infinite-loop moment is the perfect anchor. Light touch only.
 
-### M-3 — Verify the intentional teaching-bugs actually run *(process check, per STYLE_GUIDE)*
-**Severity:** low (likely already fine) — flagged because the Style Guide **requires** it.
-The chapters lean on deliberately-broken code that must fail *exactly* as narrated:
-- Ch 2: `print("Double that!", slices * 2)` → `Double that! 33` ✅ (correct — string repetition)
-- Ch 4: `int(input(...))` on `1.5` → `ValueError: invalid literal for int() with base 10: '1.5'`
-  ✅ (message matches real Python)
-- Ch 6: the infinite-loop version (guess read once, before the loop) → loops forever ✅
-- Ch 7: `if len(password) >= 8 and password != "pizza"` accepts `"password"` ✅ (8 chars, ≠ pizza)
+### R-5 — `coding_gold_mine/` is empty, which blocks R-1's block *(dependency, not a defect)*
+**Severity:** none (sequencing).
+The Ch 6 Dojo block (R-1) needs a real canonical program to embed. `typing_dojo/coding_gold_mine/`
+has none yet. **So Mission 001 (Guess the Number) should be built before — or together with —
+the Ch 6 revision**, so the block embeds a real, tested program with real expected output.
 
-All four *read* correct on inspection. **Fix:** none needed if Codie/Brave already run them per
-`STYLE_GUIDE.md` ("all code tested via bash before it appears"). Noted only so the audit trail
-shows they were checked for narrative accuracy.
-
-### M-4 — Chapter 0 not re-read this pass *(coverage honesty)*
-**Severity:** none.
-Ch 0 (Welcome) is confirmed shipped and is story-only (no syntax), per the CHANGELOG and
-SERIES_OUTLINE. I audited its *role and placement* but did not re-read its full prose this pass.
-**Fix:** none needed; flagged for completeness.
+### R-6 — Teaching-bugs: re-confirm they run *(process, per STYLE_GUIDE)*
+**Severity:** low.
+The four intentional bugs still read correct on inspection (Ch 2 `"3"*2`, Ch 4 ValueError, Ch 6
+infinite loop, Ch 7 the `and`-guard). Per STYLE_GUIDE, bash-run them once during revision to be sure.
 
 ---
 
-## 🧭 Recommended follow-ups (priority order)
+## 🧭 The revision pass — recommended order
 
-1. **M-1 — reconcile `SERIES_OUTLINE.md` (and lightly `CURRICULUM.md`) to the shipped chapters.**
-   The map should match the territory. One clean donut.
-2. **M-3 — confirm the four teaching-bugs are bash-run** (if not already), per Style Guide.
-3. Nothing blocks continued writing — Chapter 8 (Recycling Robot) is clear to proceed.
+1. **Mission 001 (Guess the Number)** — build the first `coding_gold_mine/` program + mission
+   skin, tested, with expected output. *(Unblocks R-1/R-5.)*
+2. **Chapter 6 revision** — the Dojo debut (R-1) + its 🥋 block, using the prompt kit's general
+   prompt **plus** the Ch-6 addendum. This is the flagship revision.
+3. **Chapters 0–5, 7 revision** — light passes with the general prompt: seed the Inverting Mentor
+   (R-3) and name Builder's Heart (R-4) *only where natural*; add a 🥋 block to Ch 7 if a mission
+   is unlocked (R-2). Resist rewriting what already works.
+4. **Then Chapter 8 (Recycling Robot)** — fresh, born already in the new canon.
+
+**Guiding restraint:** the prose is strong (v1 audit confirmed, still true). These are
+*additions of new canon*, not fixes to broken writing. Touch only what canon changed. Version 1
+of the book beats a perfect one that never ships — Tommy and Teppy are waiting.
 
 ---
 
 ## Coverage note
 
-Chapters 1–7 read in full from the live repo this pass; Ch 0 verified for role/placement only.
-This audits **story, voice, structure, accessibility, and concept order** — not a line-by-line
-runtime test of every snippet (that's the author's bash step, M-3).
+Chapters 0, 6, 7 read in full this pass; 1–5 confirmed for structure/voice against the repo and
+the v1 audit (which read them in full). This audits story, voice, structure, accessibility, and
+**alignment to the updated canon** — not a line-by-line runtime test (that's R-6, the author's
+bash step).
 
 ---
 
-📖 *A genuinely lovely manuscript. The teaching is invisible and the bugs are honest — exactly
-the goal. The only real gap is that the map (SERIES_OUTLINE) drifted behind the territory (the
-shipped chapters); everything the child actually reads is in strong shape.* 🏴‍☠️🐉
+📖 *The book is good. What it lacks is not quality — it's the new rooms we built after it was
+written: the Dojo's door in Chapter 6, and a few quiet seeds for what TommyBot becomes. Add
+those, and sail on.* 🏴‍☠️🐉
