@@ -108,6 +108,14 @@ Take the wheel! The ship is yours.
 
 "Builder — you try!"
 
+TommyBot's hands were already on the keys.
+
+He didn't wait to be shown this time —
+
+he'd watched how the door worked,
+
+and he wanted the latch himself.
+
 So you did.
 
 You typed *your* age.
@@ -133,6 +141,14 @@ Dragon Debug took a long, calm sip.
 Which, you'll remember, means:
 
 *you are about to learn something.*
+
+"That little jolt of *it's broken*?
+
+Every Builder feels it.
+
+I felt it too, once —
+
+more times than I've had cups of tea."
 
 "It isn't broken. Look closely.
 
