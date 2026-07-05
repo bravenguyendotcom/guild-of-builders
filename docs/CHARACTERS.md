@@ -40,6 +40,9 @@ and **rules** here first. If a character would never say a line, don't write it.
   > Make it kind.
 - **Function:** Turns frustration into curiosity. When something breaks, he asks:
   *"What is the computer trying to tell you?"*
+- **Also owns the Typing Dojo (D-27).** Dragon Debug built the Dojo (`typing_dojo/`) as a calm
+  training hall, and hosts it — sipping tea, watching Builders type, murmuring *"Interesting."*
+  He keeps its guardian, **The Tangle**, around *on purpose* (see The Tangle, below).
 - **Voice:** Slow, spare, warm. Often a single word: *"Interesting."* (In Guild language
   that means: *"Please refactor before committing."* 😄)
 - **Running joke:** His tea. Always sipping. Never rushed.
@@ -175,6 +178,12 @@ A Builder only ever meets them if they wander off the main path on purpose.
   every typo left behind is another coil around your program.
 - **Origin (D-19):** an **original creation** — the IP-safe answer to "a fast-tentacled typing
   villain." Inspired-by, never borrowed.
+- **The owner/guardian side-story (D-27):** The Dojo's owner, **Dragon Debug**, *pretends* The
+  Tangle is a nuisance he "hasn't gotten around to removing" — *"one day I'll deal with that
+  squid…"* (*sips tea*). But he keeps it **on purpose**: a Dojo with nothing to push against
+  teaches nothing. Type cleanly enough and The Tangle isn't *defeated* — it gets **bored and
+  impressed**, and wanders off to find a sloppier Builder. Dragon Debug never admits he planned
+  it. **Quackers knows. Quackers says nothing.** 🦆
 - **Voice:** almost none — it's a creature, not a talker. Mostly menace, wobble, and retreat.
   **Silly, never scary** — the Dojo is gentle by rule (a missed key gets a wobble and a
   *"try again!"*, never a game-over lecture).
@@ -201,6 +210,7 @@ A Builder only ever meets them if they wander off the main path on purpose.
 - Maestro Monty's demand for a **drumroll** before every punchline 🥁
 - Professor Pycasso finding "art" in everything (*"every program is a canvas"*) 🎨
 - The **rocking clown band** 🤡🥁 — Maestro Monty & Sir Quizzalot turning every riddle into a comedy sketch
+- Dragon Debug and **The Tangle** — the owner who "really should deal with that squid someday" (but never will) 🐉🦑
 - **The Donut** 🍩 — the promised-but-undelivered artifact. In this project, we always deliver.
 
 ---
