@@ -1,95 +1,94 @@
-# 🔎 INTEGRITY_CHECK.md — v2
+# 🔎 INTEGRITY_CHECK.md — v3
 
-### Whole-project structural audit — the Guild of Builders (refreshed)
+### Whole-system audit before the chapter-revision pass — the Guild of Builders
 
-> **Status:** REPORT (a snapshot, not canon). Supersedes the v1 audit.
-> **Method (corrected):** this pass reads the **live repo via Project knowledge** — the GitHub
-> source of truth — **not** any disposable workspace copy. It audits **structure**: the file
-> roster, the decision spine, the citation web, and canon coverage. *(The manuscript prose
-> audit — chapters 0–7 against CHARACTERS/STYLE_GUIDE/CURRICULUM — is a separate job, queued next.)*
-> **Verdict: structurally sound and internally consistent. Zero open defects.**
+> **Status:** REPORT (a snapshot, not canon). Supersedes v2.
+> **Method:** read the **live repo via Project knowledge** (GitHub source of truth), not any
+> workspace copy. Audits **structure + canon consistency** after the Dojo arc (D-26–D-30 and the
+> six files it touched). This is the pre-flight before revising chapters 0–7.
+> **Verdict: canon is consistent and safe to revise against.** The Dojo model agrees across all
+> its docs. Three small *stale-vocabulary* cross-references found (older LOCKED entries still use
+> superseded wording) — cosmetic, but worth a cleanup so a chapter reviser can't trip on them.
 
 ---
 
 ## ✅ What passed
 
-- **Decision spine is continuous:** D-01 → D-25, no gaps, no duplicates (verified in the live
-  `DECISIONS.md`).
-- **Every citation resolves.** Every `D-xx` referenced across the repo maps to a real, locked
-  entry. The side-quest web (D-13, D-15, D-16, D-19, D-20–D-25) all resolves.
-- **Character canon is now complete — F-1 is CLOSED.** The Tangle shipped to `CHARACTERS.md`
-  (session 26) as a **Side-Quest Guardian**, correctly distinguished from the Bug Monster
-  (external story bugs) and the Fog Creatures (inner enemies). Every named creature cited
-  anywhere now has a home.
-- **MASTER_BOOT index is complete & resolves.** It lists `PHILOSOPHY.md`, `SIDE_QUESTS.md`,
-  and `typing_dojo/`; the boot sequence reads PHILOSOPHY 3rd (after the Bible). Every indexed
-  file exists.
-- **The reference web holds end-to-end:**
-  - Soul: `PHILOSOPHY.md` ↔ D-25 ↔ Bible §5 (+ glossary).
-  - Widening Circle: Bible §6.5 ↔ D-18 ↔ Manifesto Part VII.
-  - AI Philosophy: Bible §12 ↔ D-17 ↔ Manifesto.
-  - Typing Dojo: `SIDE_QUESTS.md` → `typing_dojo/README.md` → D-20–D-23; The Tangle → D-19.
-- **Treasure Chest is doing its job.** Parked items (future side-quests, `PUBLISHING.md`,
-  the ZTM-breadth-as-side-quests boundary) are recorded, not lost.
-- **Scaffold vs. content boundary is intact.** `typing_dojo/coding_gold_mine/` and
-  `missions/` are specced but empty — correct; they fill with Mission 001.
+- **Decision spine continuous:** D-01 → D-30, no gaps, no duplicates.
+- **D-22 correctly retired:** marked *SUPERSEDED by D-28*, kept for history. The finalized tier
+  names live in D-28 as the single source of truth.
+- **The Dojo model is internally consistent** across every doc that describes it:
+  - **Tier names/taglines** — Keyboard Ninja / Conan's Challenge / Dragon Debug's Den / The Lost
+    Heaven — identical in `DECISIONS.md` D-28, `typing_dojo/README.md`, and `SIDE_QUESTS.md`.
+  - **The gate (D-29)** — Tiers I–II open at chapter ends (Ch 6+); III–IV self-select; Hell I–II
+    in-book, Hell III–V + all Tier IV outside — consistent in DECISIONS, README, SIDE_QUESTS.
+  - **Owner/guardian (D-27)** — Dragon Debug owns, The Tangle guards, "Quackers says nothing" —
+    consistent in DECISIONS, CHARACTERS, README, SIDE_QUESTS.
+  - **Honor rule + "Hell = difficulty rating"** — stated identically in DECISIONS and README.
+  - **Scope (D-30)** — ~50 in-book missions, system-is-canon — consistent in DECISIONS and README.
+- **The chapter-writing chain is ready:** `STYLE_GUIDE.md` §4 (embedded mission, D-26) + §4a
+  (the 🥋 block, Ch 6+) both present and agree with the Dojo canon.
+- **The workbook retirement (D-26) is fully propagated:** DECISIONS, STYLE_GUIDE §4,
+  `workbook/README.md` (signpost), and MASTER_BOOT (index row + boot step) all agree.
+- **The reference web still holds:** PHILOSOPHY ↔ D-25 ↔ Bible §5; Widening Circle ↔ D-18;
+  AI Philosophy ↔ D-17; Dojo ↔ D-20–D-30.
 
 ---
 
-## 📈 What changed since v1 (my earlier audit was partly stale)
+## 🔧 Findings — stale vocabulary in older LOCKED entries (cosmetic, fix before/with revisions)
 
-The v1 report was run against a workspace copy and got two things wrong. Corrected here:
+None of these break canon. They're older text still using pre-D-28 wording, which could confuse
+a chapter reviser reading those entries literally.
 
-- **v1 said F-1 (The Tangle) was open** → **now CLOSED** (shipped session 26).
-- **v1 said "manuscript is scaffold only" (old F-5)** → **WRONG.** The live repo has **eight
-  shipped chapters, 0–7** (`00_welcome` … `07_the_safe_password_checker`). This was a blind
-  spot caused by auditing the sandbox instead of the repo. Corrected below as the real open item.
+### V-1 — D-20 & D-21 still say "Challenge I/II"
+**Where:** `DECISIONS.md` D-20 ("...spark curiosity") and **D-21** ("...skin, Layer 2 — story
+hook + **Challenge I/II** + flavor").
+**Issue:** "Challenge I/II" is the *old* framing. D-28 finalized these as **Tier I — Keyboard
+Ninja** and **Tier II — Conan's Challenge**. The README already uses the new names; D-20/D-21
+lag.
+**Fix:** a one-phrase update in each (Challenge I/II → the finalized tier names, or "the tiers a
+topic deserves"). Low risk — both are LOCKED *decisions*; only the illustrative wording changes,
+not the decision. Note the edit as a clarification, not a reopening.
 
-*(Lesson recorded: audit the repo via Project knowledge, never the workspace. The repo is the
-memory; the chat is disposable.)*
+### V-2 — `STYLE_GUIDE.md` §4 cites the superseded D-22
+**Where:** §4's "two other tracks" note: *"the Typing Dojo... its own one-screen format with no
+worksheet fields **(D-22)**."*
+**Issue:** D-22 is superseded; this should point to **D-28** (or D-20/D-28).
+**Fix:** change the citation `(D-22)` → `(D-28)`. Trivial.
 
----
-
-## 🔧 Findings (all low/none severity)
-
-### I-1 — Shipped chapters 0–7 have never been audited *(the real open item)*
-**Severity:** medium — but it's a **content** gap, not a structure one.
-Chapters 0–7 are written and shipped, but none have been checked against `CHARACTERS.md`
-(voice), `STYLE_GUIDE.md` (accessibility + chapter structure + the 🏗️ box), or `CURRICULUM.md`
-(concept order; do intentional teaching-bugs actually fire?).
-**Fix:** the next job — a manuscript audit (`docs/MANUSCRIPT_AUDIT.md`), 6–7 first or 0–7 in full.
-
-### I-2 — `coding_gold_mine/` + `missions/` empty *(expected)*
-No defect. They fill when Mission 001 ships.
-
-### I-3 — `docs/PUBLISHING.md` referenced, not yet written *(expected)*
-Promised by D-13, correctly parked in the Treasure Chest. Build when the pipeline is chosen.
-
-### I-4 — `README.md` / `GIT_GUIDE.md` not in the MASTER_BOOT index *(cosmetic)*
-Self-evident top-level files. Optional to add. Author's call.
-
-### I-5 — Queued canon-to-template items *(tracked, not defects)*
-- 🏗️ "In the Real World" box is in `STYLE_GUIDE.md` but not yet in `_TEMPLATE_chapter.md`.
-- Kid-facing "Preparing for the Voyage" pre-chapter (from `SETUP.md`) not yet written.
+### V-3 — README mission-format header still labels the tiers as "Challenge(s)"
+**Where:** `typing_dojo/README.md` mission-format block: *"Challenge(s) — the tier(s) this topic
+deserves."*
+**Issue:** Minor — it *does* say "the tier(s)", so it's not wrong, just mixed vocabulary
+(Challenge vs. Tier). Optional to harmonize to "Tier(s)".
+**Severity:** very low (harmonization, not a correctness bug).
 
 ---
 
-## 🧭 Recommended next donuts (priority order)
+## 🟢 Expected, non-blocking (not defects)
 
-1. **I-1 — the manuscript audit** (`docs/MANUSCRIPT_AUDIT.md`): read chapters 0–7 against canon.
-   *This is the real integrity value now that content exists.*
-2. **Mission 001** (Guess the Number) — the Dojo template; fills `coding_gold_mine/` + `missions/`.
-3. **`_TEMPLATE_chapter.md`** — add the 🏗️ box (closes I-5a).
-
----
-
-## Coverage note (honest boundary)
-
-This pass verified **structure and cross-references** against the live repo. It did **not**
-line-by-line audit the *prose* of every doc for drift, nor the shipped chapters (that's I-1).
-Everything asserted above was checked against Project-knowledge (GitHub) content, not sandbox.
+- `typing_dojo/coding_gold_mine/` + `missions/` still empty — fill with **Mission 001**.
+- `docs/PUBLISHING.md` not yet written (D-13, parked).
+- Manuscript chapters 0–7 shipped but pre-Dojo-arc — **that's the whole point of the upcoming
+  revision pass**, not a defect.
+- `_TEMPLATE_mission.md` deprecated but still present (kept for reference, per D-26).
 
 ---
 
-🔎 *Structure holds, decisions are whole, canon is complete, the index sees everything. The one
-real gap is content, not scaffolding: eight chapters await their first canon audit.* 🏴‍☠️🐉
+## 🧭 Recommendation before revising chapters
+
+1. **Optional quick cleanup (V-1, V-2):** one small `DECISIONS.md` pass (Challenge I/II → tier
+   names in D-20/D-21) and the one-character `STYLE_GUIDE.md` §4 citation fix (D-22 → D-28).
+   These make the canon a chapter reviser reads *literally* consistent. ~1 donut.
+2. **Then revise chapters 0–7** using the chapter-revision prompts. The canon they point to is
+   sound; V-1/V-2 are the only spots where an older entry's wording lags the finalized model.
+3. **Mission 001** (the Dojo template) whenever you want the first real `coding_gold_mine/` entry.
+
+**Bottom line:** nothing blocks the revision pass. The three findings are stale *wording* in
+older entries, not contradictions — the finalized Dojo canon (D-27–D-30, README, SIDE_QUESTS,
+STYLE_GUIDE §4a) is coherent and safe to build against.
+
+---
+
+🔎 *The system holds. Decisions are whole, the Dojo model agrees with itself, the chapter-writing
+chain is ready. Three old phrases lag the new tier names — tidy them, then sail into the revisions.* 🏴‍☠️🐉

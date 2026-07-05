@@ -160,6 +160,55 @@ Told you the mess was the good part. 😄)
 
 ---
 
+## The little grey fog
+
+Captain Byte went quiet for a second.
+
+"Can I tell you a secret?" he said.
+
+"Right about now, some Builders hear a little voice.
+
+It whispers: *This looks hard. Maybe I can't do this.*"
+
+He nodded, like he knew it well.
+
+"That voice has a name.
+
+We call it the **Fog of 'I Can't.'**
+
+A small grey fog that drifts in
+whenever you're about to try something new."
+
+He leaned closer.
+
+"Here's what nobody tells you.
+
+It visits *everyone.*
+
+It sits on *me* most mornings.
+
+It once bothered a certain wise old dragon, too —
+long, long ago."
+
+"And it only knows one trick.
+
+Whispering.
+
+So you beat it with one small, brave move:
+
+you *start.*
+
+You write one line.
+
+Because one line beats a blank page —
+every single time."
+
+"And the moment you begin,
+
+the fog forgets what it was even saying."
+
+---
+
 Captain Byte leaned in a little closer,
 like he was letting you in on a secret.
 
@@ -192,6 +241,18 @@ It's four words:
 You can always fix it later.
 
 You can't fix a blank page.
+
+---
+
+> ### 🏗️ In the Real World
+>
+> The words a Builder types to make a program
+> are called **source code**.
+>
+> Every game, every app, every website
+> began as source code someone sat down and wrote.
+>
+> Tomorrow, you write the first line of ours.
 
 ---
 
