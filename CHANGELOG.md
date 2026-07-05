@@ -7,6 +7,9 @@ small improvements get decimals. (Kaizen, with a memory.)
 ---
 
 ## [Unreleased]
+### Changed
+- `manuscript/volume_1/01_captain_byte_sets_sail.md` — added "TommyBot was already reaching for the keyboard" after Dragon Debug's "Now you're building," and a closing bonding beat where Captain Byte admits he thought he'd broken everything and Dragon Debug welcomes him (and the reader) into "the club" every programmer belongs to.
+
 ### Added
 - `typing_dojo/coding_gold_mine/001_guess_the_number.py` — Engine 001, the first canonical program in the Coding Gold Mine (D-21 Layer 1): a `while`-loop number-guessing game teaching `!=`, `random.randint`, the counter pattern, and loop exit. Tested by simulated run (binary-search guesses via monkeypatched `input`) — produces "Too low."/"Too high." and the final count exactly as narrated. First typeable at Chapter 6 (The Secret Treasure), unblocking `MANUSCRIPT_AUDIT.md` R-1/R-5.
 - `typing_dojo/missions/001_guess_the_number/` — the Layer 2 skin wrapping Engine 001 (D-21): `challenge_1.py` (clean, for 🥋 Tier I — Keyboard Ninja), `challenge_2.py` (three typos — `secrit`/`imput`/`pirnt` — for 🕵️ Tier II — Conan's Challenge, verified to raise `NameError: name 'secrit' is not defined` first, matching the README's documented traceback), and `README.md` (Captain Byte story hook, expected output, CS seeds, Guild flavor, and the authors-only footer per D-30).

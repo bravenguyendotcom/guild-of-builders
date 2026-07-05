@@ -19,6 +19,22 @@
 
 ---
 
+## Two threads that run through *every* volume (not Python skills — the Builder)
+
+The Python skills below are the *vehicle*. Two things ride quietly alongside them, from
+Volume I to IV, and every author should keep them in view:
+
+- 🌱 **Builder's Heart** (`DECISIONS.md` D-32) — the emotional-resilience thread: frustration,
+  the stuck bug, comparing yourself, the Debug Break. Named and normalized as the volumes go,
+  never shamed. The skills are how a Builder *acts*; Builder's Heart is how a Builder *keeps going*.
+- 🦸 **The Inverting Mentor** (`DECISIONS.md` D-31) — across the four volumes, TommyBot shifts
+  from *asking* to *answering*, until by Volume IV Dragon Debug is the one asking questions.
+  The curriculum isn't just "more Python each volume" — it's a child *becoming* a Builder.
+
+These aren't lessons with their own chapters; they're the growth the Python skills serve.
+
+---
+
 # Volume I — The First Voyage (Python Basics)
 
 **Prerequisite:** none.
@@ -149,6 +165,13 @@ Game gains: AI NPCs, AI-generated quests/maps/dialogue, AI hints, an AI companio
 
 Beyond the game, the Builder can now: make useful AI apps, contribute tools to their class
 or school, or even try real freelance/collaborative work. **They build *with* AI, not merely consume it.**
+
+> **The AI thread is a *values* thread, not just a skills thread.** Volume IV teaches working
+> *with* AI through the **AI Friendship Rules** (`DECISIONS.md` D-33) — think first / ask AI
+> second, ask AI to help *find* the bug (not hand the answer), never copy what you can't
+> explain, AI is a teammate not a servant — the concrete, kid-facing companion to
+> `HUMAN_AI_MANIFESTO.md`. This is also where the Inverting Mentor (D-31) pays off: the Builder
+> is now the one proposing solutions.
 
 ---
 

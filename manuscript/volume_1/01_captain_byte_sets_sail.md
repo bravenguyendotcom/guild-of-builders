@@ -113,6 +113,8 @@ I put the name in a box — and I give the box a name too?"
 
 "Now," said the dragon, "you're building."
 
+TommyBot was already reaching for the keyboard.
+
 ---
 
 Here is how you tell the ship, in Python:
@@ -248,6 +250,22 @@ One fixed letter later, the ship answered perfectly:
 ```
 The treasure is at 27 paces down.
 ```
+
+---
+
+Captain Byte let out a breath he had been holding.
+
+"I really thought I'd broken everything," he admitted.
+
+"Everyone thinks that, the first time," said Dragon Debug.
+
+"I did too — long ago."
+
+He looked at the Captain, and at you, Builder, with something close to pride.
+
+"You met your first bug. You didn't run away. Welcome to the club.
+
+Every programmer in history belongs to it."
 
 ---
 
