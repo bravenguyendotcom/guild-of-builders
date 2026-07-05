@@ -27,6 +27,9 @@ At the start of a session, the AI reads, in this order:
 4. `docs/ROADMAP.md` — **where we are and what this session's goal is.**
 5. Whatever specific file is relevant (`CHARACTERS.md`, `STYLE_GUIDE.md`, `CURRICULUM.md`,
    `GAME_DESIGN.md`).
+6. **Before writing any prose or story**, re-read the **Voice — a museum of lines** in
+   `docs/PHILOSOPHY.md`. Match *those exact sentences* — the spirit lives in the specimens,
+   not in a description of them. (This is how the humor and warmth survive a fresh session.)
 
 If the AI has not been given these files, it must **ask for them** before producing content.
 Guessing from memory is how drift starts.
@@ -52,9 +55,10 @@ If a session ends with no donut, the session is not finished.
 Before adding anything, ask: **"Will this help a child become a better Builder?"**
 If no, it goes to `docs/TREASURE_CHEST.md`, not into the book.
 
-**5. Stay in canon.**
-Characters must match `CHARACTERS.md`. Voice and accessibility must match `STYLE_GUIDE.md`.
-LOCKED decisions in `DECISIONS.md` are not reopened without recording a new decision and why.
+**5. Stay in canon *and* in voice.**
+Characters must match `CHARACTERS.md`. Voice and accessibility must match `STYLE_GUIDE.md`,
+and the reference sentences in `PHILOSOPHY.md`'s Voice museum. LOCKED decisions in
+`DECISIONS.md` are not reopened without recording a new decision and why.
 
 ---
 
@@ -62,6 +66,7 @@ LOCKED decisions in `DECISIONS.md` are not reopened without recording a new deci
 
 ```
 1. Boot   → AI reads the governing files (or asks for them).
+            Before prose: re-read the Voice museum in PHILOSOPHY.md.
 2. Aim    → State this session's ONE goal (from ROADMAP.md). Confirm with Brave.
 3. Build  → Produce the single artifact, in canon, in voice.
 4. Ship   → Deliver it as a downloadable/runnable file (the donut).

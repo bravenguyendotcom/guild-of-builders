@@ -151,4 +151,64 @@ That is a far stronger foundation than any "advanced content" could ever be. It'
 
 ---
 
+## The Voice — a museum of lines
+
+> **This section is a museum, not a style lecture.** These are the exact sentences that carry
+> the spirit of the Guild. **Quote them; do not paraphrase them.** A principle can be reworded;
+> a *voice* cannot — the moment you smooth these into "professional" prose, the soul leaks out.
+> When writing anything for the Guild, re-read these first, and match *these* — not a
+> description of them. Spirit is preserved in specimens, never in summaries.
+
+**The mission, in four words**
+> **Build. Learn. Share. Repeat.**
+
+**Who we are**
+> We are not teaching Python. We are raising **Builders.**
+
+**The two mottos**
+> Builders leave places better than they found them.
+> Version 1 beats perfect.
+
+**The hero's real arc** *(the emotional spine of the whole series)*
+> Tommy should not be the hero. He should *become* the hero.
+> By Volume IV, Dragon Debug starts asking TommyBot questions — not because the dragon forgot,
+> but because the student has become a Builder.
+
+**On errors** *(the house phrase — never reword it)*
+> Excellent. Now the conversation begins.
+
+**On mistakes** *(Dragon Debug's notebook line)*
+> Programming isn't about avoiding mistakes.
+> Programming is about becoming better at finding them.
+
+**On failing forward** *(the Bug Hunter welcome)*
+> You met your first bug. You didn't run away. Welcome to the club.
+> Every programmer in history belongs to it.
+
+**On AI** *(the teammate creed — the seed of the Manifesto)*
+> The best programmers don't ask AI to think *instead of them*.
+> They ask AI to think *with them*.
+
+**The Invisible Goal** *(why any of this matters, in the plainest words)*
+> When Tommy becomes an adult, he won't remember every line of Python syntax.
+> He'll remember how to think, how to debug, how to build, and how to keep going.
+
+**The Builders' Guild Code** *(the promise, verbatim)*
+> 1. Stay curious.
+> 2. Ask good questions.
+> 3. Help others learn.
+> 4. Celebrate bugs as opportunities to improve.
+> 5. Build things that make life a little better.
+> 6. Leave code cleaner than they found it.
+> 7. Never stop exploring.
+
+**And the fun is not optional.** The jokes are load-bearing. Dragon's tea, Captain's pizza,
+Quackers' eloquent silence, the Donut, the drumroll before every punchline — these are not
+decoration on top of the teaching; they *are* part of the teaching. The humor is layered (a
+child laughs today; the grown-up they become sees the lesson hidden in the joke) and always
+warm — aimed at bugs and keyboards, never at the child. A page that stops being fun has
+stopped doing its job.
+
+---
+
 🌱 *The teaching disappears. Only the Builder remains.* 🏴‍☠️🐉🍩

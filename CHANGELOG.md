@@ -8,6 +8,15 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- `docs/PHILOSOPHY.md` — added "The Voice — a museum of lines," a section of verbatim canon sentences (the mission in four words, the two mottos, the hero's real arc, "Excellent. Now the conversation begins.", the AI teammate creed, the Invisible Goal, the Builders' Guild Code, and a closing note that the fun is not optional) to be quoted, not paraphrased, when writing any prose for the Guild.
+- `docs/DECISIONS.md` — locked **D-31** (The Inverting Mentor: Tommy doesn't start as the hero, he *becomes* one — the mentor/student balance slowly inverts across the four volumes until Dragon Debug begins asking TommyBot questions by Volume IV), **D-32** (Builder's Heart: an explicit, recurring EQ/resilience thread naming frustration, comparison, and self-doubt and answering them with growth mindset, the Debug Break, and honest role models — distinct from the Fog Creatures, which are the enemies this thread trains a Builder to face), and **D-33** (the AI Friendship Rules: five kid-facing rules for working with AI — be curious; think first, ask AI second; ask better questions; never copy what you can't explain; build together — Volume IV's concrete, in-story companion to `HUMAN_AI_MANIFESTO.md`).
+
+### Changed
+- `docs/AI_WORKING_AGREEMENT.md` — boot sequence and Rule 5 now direct authors to re-read the Voice museum in `PHILOSOPHY.md` before writing any prose, so the exact specimen sentences (not a description of them) survive into fresh sessions.
+- `docs/STYLE_GUIDE.md` — §1 now points to the Voice museum in `PHILOSOPHY.md` as the voice's "sound," alongside this guide's rules; also fixed a stale citation (D-22 → D-28) in the Typing Dojo cross-reference, closing finding V-2 from `docs/INTEGRITY_CHECK.md` v3.
+- `docs/DECISIONS.md` — D-27's wording clarified to the finalized tier vocabulary (see D-28); the decision itself is unchanged.
+
+### Added
 - `manuscript/volume_1/01_captain_byte_sets_sail.md` — added a 🐛 Debug Log box: a worked example of the chapter's teaching-bug (`NameError` from misspelling `treasure_depth` as `tresure_depth`), filled in with the bug/cause/fix table so a Builder sees the box modeled once before keeping their own.
 - `manuscript/volume_1/00_welcome.md` — added the "Fog of 'I Can't'" beat: Captain Byte names the self-doubt every Builder feels before starting something new, reveals it visits everyone (including him, and "a certain wise old dragon, long ago"), and shows it's beaten with one small move — writing one line, because "one line beats a blank page every single time"; also added a new 🏗️ In the Real World box defining **source code**.
 ### Changed

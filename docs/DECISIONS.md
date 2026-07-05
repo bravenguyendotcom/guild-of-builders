@@ -235,9 +235,10 @@ side-quest into another lesson. *"If a kid Googles 'what is A*?' because of a si
 **Status: LOCKED**
 **Decision:** Dojo missions are **assembled, not authored**: a **canonical Python program**
 (`typing_dojo/coding_gold_mine/`, Layer 1, written once) wrapped in a lightweight **skin**
-(`typing_dojo/missions/`, Layer 2 — story hook + Challenge I/II + flavor). If the concept later
-deserves real teaching, the **main story** (Layer 3) does it properly, at the right time. One
-engine wears many skins (one `bfs.py` → Maze Escape, Robot Vacuum, Fire Rescue…).
+(`typing_dojo/missions/`, Layer 2 — story hook + the tier(s) the topic deserves + flavor). If
+the concept later deserves real teaching, the **main story** (Layer 3) does it properly, at the
+right time. One engine wears many skins (one `bfs.py` → Maze Escape, Robot Vacuum, Fire Rescue…).
+*(Wording clarified to the finalized tier vocabulary — see D-28; the decision itself is unchanged.)*
 **Reason:** The durable investment is a curated **library of canonical programs**, not a list of
 missions. Improve the engine once, every mission improves (DRY). This is what lets the Dojo scale
 for years without re-designing.
@@ -387,6 +388,60 @@ number is a long-term dream, parked, not a promise.
 **Reason:** *v1 > perfection.* A framework that inspires and can grow beats a mountain we can't
 finish. Our task is to build the framework to practice and, ultimately, to inspire — the library
 scales through contribution, not through us authoring hundreds up front.
+
+---
+
+### D-31 — The Inverting Mentor (Tommy doesn't start as the hero — he *becomes* one)
+**Status: LOCKED**
+**Decision:** The emotional spine of the whole series is a **deliberate inversion of the
+mentor/student balance.** At the start, Dragon Debug knows (almost) everything and TommyBot
+knows almost nothing. Across the four volumes that balance **slowly shifts** — and by Volume IV,
+**Dragon Debug begins asking TommyBot questions.** Not because the dragon forgot, but because
+*the student has become a Builder.* Authors thread this quietly through the cast's dialogue and
+roles: TommyBot grows from asking to answering; the mentors step back as the Builder steps up.
+Never announced, always felt.
+**Reason:** *"Tommy should not be the hero. He should become the hero."* Children love competence
+— if they grow alongside TommyBot, they feel that growth in themselves. That transformation, not
+any single Python skill, is the real story the series is telling. (Voice line preserved in
+`PHILOSOPHY.md`; the arc lands in `SERIES_OUTLINE.md` Vol IV.)
+
+---
+
+### D-32 — Builder's Heart (emotional resilience is an explicit strand)
+**Status: LOCKED** (content DRAFT)
+**Decision:** The series carries an explicit, recurring **EQ / resilience** thread — *Builder's
+Heart* — not left to chance. It names and normalizes the real feelings of building: frustration,
+anger at a stubborn bug, the urge to compare yourself to others, the fear of not being good
+enough — and answers them with a **growth mindset**, the **Debug Break** (step away, breathe,
+come back), and honest role models (*"real developers have broken keyboards too"*; Edison,
+Jordan — greatness is built on handled failure). It is **distinct from the Fog Creatures**: the
+Fog Creatures are the *enemies* (D-15); Builder's Heart is the *training* that equips a Builder
+to face them. It **never shames** — every hard feeling is normal, and every one is beatable with
+one small brave step.
+**Reason:** The #1 reason a young Builder quits isn't difficulty — it's discouragement. Teaching
+the *heart* to persevere is as important as teaching the hands to type. This is core to *raising
+Builders, not coders,* and to the promise that we never shame a child (`PROJECT_BIBLE.md` §10).
+A future home may be a dedicated Guild Hall / section; recorded here as canon so it's threaded
+from the start.
+
+---
+
+### D-33 — The AI Friendship Rules (Volume IV canon, under the Manifesto)
+**Status: LOCKED**
+**Decision:** Volume IV teaches children to work *with* AI through **five kid-facing rules**
+(the concrete, in-story companion to `HUMAN_AI_MANIFESTO.md`):
+1. **Be curious.** Don't only ask *"What's the answer?"* — ask *"Can you explain it another way?"*
+2. **Think first, ask AI second.** Spend five minutes trying it yourself first; you'll learn far more.
+3. **Ask better questions.** Ask AI to help you *find the bug* — not to hand you the finished
+   solution. Good questions create good answers.
+4. **Never copy what you can't explain.** If you can't read it and say why it works, don't use it
+   yet. Knowledge grows through understanding, not copying.
+5. **Build together.** AI is a **teammate, not a servant.** Great teammates don't do your work —
+   they help you get better at it.
+**Reason:** These give the Manifesto's *"Think first. Ask AI second."* / *"Never outsource your
+values."* spirit a form a child can actually hold and use. *"The best programmers don't ask AI
+to think instead of them. They ask AI to think with them."* (Voice line preserved in
+`PHILOSOPHY.md`; ties to D-17.)
 
 ---
 

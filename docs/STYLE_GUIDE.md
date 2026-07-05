@@ -19,6 +19,11 @@ Warm. Optimistic. Funny. Respectful. **Never childish.**
   engineering lesson when they reread it at 20.
 - Encourage, never shame. Curiosity is always celebrated.
 
+> **Before writing prose, read the Voice — a museum of lines in `PHILOSOPHY.md`.** It holds the
+> exact sentences that carry the Guild's spirit (*"Excellent. Now the conversation begins."* ·
+> *"Version 1 beats perfect."* · *"He should become the hero."*). **Match those — don't
+> paraphrase them.** This section is the *rules* of the voice; the museum is its *sound*.
+
 ---
 
 ## 2. Accessibility (non-negotiable — Teppy has mild dyslexia)
@@ -70,7 +75,7 @@ A chapter carries the mission through its natural arc, not a form to fill in:
 
 > **Two other tracks, kept separate (don't confuse them with the chapter mission):**
 > - **Pure typing practice** → the **Typing Dojo** (`typing_dojo/`), its own one-screen
->   format with *no* worksheet fields (D-22).
+>   format with *no* worksheet fields (D-28).
 > - **Optional extra adventures** → **`docs/SIDE_QUESTS.md`** (always optional, never gating).
 
 ---
