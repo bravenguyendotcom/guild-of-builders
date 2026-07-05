@@ -7,7 +7,12 @@ small improvements get decimals. (Kaizen, with a memory.)
 ---
 
 ## [Unreleased]
+### Added
+- `typing_dojo/coding_gold_mine/001_guess_the_number.py` — Engine 001, the first canonical program in the Coding Gold Mine (D-21 Layer 1): a `while`-loop number-guessing game teaching `!=`, `random.randint`, the counter pattern, and loop exit. Tested by simulated run (binary-search guesses via monkeypatched `input`) — produces "Too low."/"Too high." and the final count exactly as narrated. First typeable at Chapter 6 (The Secret Treasure), unblocking `MANUSCRIPT_AUDIT.md` R-1/R-5.
+- `typing_dojo/missions/001_guess_the_number/` — the Layer 2 skin wrapping Engine 001 (D-21): `challenge_1.py` (clean, for 🥋 Tier I — Keyboard Ninja), `challenge_2.py` (three typos — `secrit`/`imput`/`pirnt` — for 🕵️ Tier II — Conan's Challenge, verified to raise `NameError: name 'secrit' is not defined` first, matching the README's documented traceback), and `README.md` (Captain Byte story hook, expected output, CS seeds, Guild flavor, and the authors-only footer per D-30).
+
 ### Changed
+- `docs/DECISIONS.md` — trimmed **D-22** from its full superseded text down to a short "MERGED → see D-28" pointer, closing the stale-vocabulary clutter flagged as finding V-1 in `docs/INTEGRITY_CHECK.md` v3.
 - `docs/MANUSCRIPT_AUDIT.md` (v2, report — not canon) — re-audited Volume I chapters 0–7 against everything shipped since the v1 audit (D-26–D-33, STYLE_GUIDE §4a, the Voice museum). Confirms the v1 verdict (prose is strong, no rescue needed) and reframes the findings as new-canon gaps rather than defects: **R-1** (high) Chapter 6 predates the Typing Dojo and is missing its debut + first 🥋 block; **R-2** the Dojo's quiet in-world sign is absent from Ch 6+; **R-3** (light) no early seed of the Inverting Mentor arc (D-31); **R-4** (light) Builder's Heart (D-32) is modeled but not yet named; **R-5** `coding_gold_mine/` is still empty, which blocks R-1 until Mission 001 exists; **R-6** re-confirm the four teaching-bugs bash-run clean. Recommends the revision order: Mission 001 → Chapter 6 (flagship revision) → light passes on 0–5/7 → Chapter 8. Closes old M-1/M-2/M-3 (superseded or resolved).
 
 ### Added

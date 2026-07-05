@@ -245,17 +245,11 @@ for years without re-designing.
 
 ---
 
-### D-22 — The four-tier mastery ladder (v1 = tiers 1–2 only)
-**Status: SUPERSEDED by D-28** (kept for history; the tier names/rules below are outdated — see D-28 for canon)
-**Decision:** The Dojo grows through four tiers, each training a different faculty:
-🥋 **Typing Dojo** (fingers) → 🕵️ **Detective Mode** (eyes) → 🐉 **Dragon Debug's Den** (mind /
-logic bugs) → ☁️ **The Lost Heaven** (systems thinking / whole unfamiliar codebases). Each tier
-**unlocks by skill**, so later tiers naturally arrive in later volumes. **v1 builds only tiers 1–2.**
-The Den and The Lost Heaven are **parked design seeds** (need debugging / OOP / multi-file skills).
-Detective Mode uses **typos only — never logic bugs.** The Lost Heaven openly invites an **AI
-companion** (ties to `HUMAN_AI_MANIFESTO.md`).
-**Reason:** A clean progression from precision → observation → reasoning → systems, delivered as
-places to explore, never as graded levels.
+### D-22 — The four-tier mastery ladder *(merged into D-28)*
+**Status: MERGED → see D-28.**
+This entry's content was finalized and absorbed into **D-28** (finalized tier names, taglines,
+the honor rule, tiers-as-repetition). The number is kept so older references don't break;
+**D-28 is the single source of truth for the Dojo tiers.** Nothing to see here — sail on. 🐉
 
 ---
 
