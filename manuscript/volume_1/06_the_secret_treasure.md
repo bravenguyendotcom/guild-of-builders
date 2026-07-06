@@ -244,6 +244,26 @@ Dragon Debug did not panic.
 
 He took a slow sip of tea.
 
+"That hot flash of *why-is-it-doing-that* you just felt?
+
+The stabbing at the keys?
+
+Every Builder feels it," he said.
+
+"I felt it myself, long ago,
+
+over a loop very much like this one.
+
+It isn't a sign that you're *bad* at this.
+
+It's a sign that you're *doing* this.
+
+There's an old Guild saying for a day like today —
+
+*that's not failure. That's called Tuesday.*"
+
+He set his cup down, then picked the thread back up.
+
 "Interesting," he said.
 
 "You have just met one of the most famous bugs in all of programming.
@@ -491,7 +511,25 @@ And when you win —
 
 see how few guesses it took."
 
-So you did.
+But TommyBot didn't wait to be told twice.
+
+He was already reaching for the keyboard —
+
+already rolling a secret,
+
+already typing the loop from memory,
+
+lips moving as he worked it out.
+
+Dragon Debug watched him go,
+
+and — just for a heartbeat —
+
+didn't need to say a single thing.
+
+He found he rather liked that.
+
+So you did it too.
 
 And the first time your loop ran forever,
 
@@ -504,6 +542,206 @@ You found the way out.
 Because now you knew the secret of loops:
 
 **they only run wild when nothing inside them changes.**
+
+---
+
+## 🥋 A door you weren't shown
+
+The iron bands hung loose now.
+
+The lid could be lifted any moment.
+
+But Dragon Debug didn't reach for it.
+
+He turned, instead, toward a stretch of the dark
+
+the torchlight had never quite reached.
+
+"Before we open it," he said,
+
+"there's a room down here I don't show many Builders.
+
+You just earned the way in."
+
+He pressed a claw to the cold stone —
+
+and a low wooden door swung open
+
+onto a warm, quiet hall
+
+that didn't seem to belong to the cave at all.
+
+Lantern light. Worn desks.
+
+And the unmistakable smell of tea.
+
+---
+
+"This," said the dragon,
+
+"is the **Typing Dojo.**
+
+Out there, in the story, I *teach* you things.
+
+In here?
+
+I teach you nothing at all.
+
+In here, you just **type.**
+
+Real code. For the pure joy of it.
+
+Faster. Cleaner. Sharper —
+
+the way a drummer practises rolls.
+
+Not to perform.
+
+Just to keep the hands awake."
+
+TommyBot stepped in, eyes wide.
+
+On the nearest desk, a little program glowed.
+
+He knew it at once.
+
+"Hey — that's the machine we just built!
+
+The guessing game!"
+
+"Mm." The dragon sipped. "Your very first mission.
+
+You already know how to type it.
+
+That's rather the point."
+
+---
+
+High in the rafters, something *shifted.*
+
+Something with a great many tentacles.
+
+Ten, if you cared to count —
+
+and TommyBot suddenly, very much, did.
+
+It uncurled one lazy coil,
+
+sniffed the air for sloppy typing,
+
+and waited.
+
+"Ah," said Dragon Debug,
+
+not bothering to look up.
+
+"That would be **The Tangle.**
+
+A Typo-Squid.
+
+It feeds on messy keys.
+
+Every typo you leave behind
+
+is one more coil around your program."
+
+He waved a claw, vaguely.
+
+"Dreadful nuisance, that squid.
+
+One of these days I really must deal with it."
+
+He did not, in any way,
+
+sound like a dragon who would ever deal with it.
+
+---
+
+"So how do you beat it?" TommyBot whispered.
+
+"You don't out-*run* it," said the dragon.
+
+"Nothing out-runs a squid.
+
+You out-*type* it.
+
+Type clean enough, and something odd happens.
+
+The Tangle doesn't lose, exactly.
+
+It just gets... **bored.**
+
+Bored, and a little impressed.
+
+And off it slinks, to go find a messier Builder."
+
+On his cushion by the door,
+
+Professor Quackers looked at the dragon.
+
+A long look. A knowing one.
+
+The dragon looked very hard at his tea.
+
+Quackers said nothing.
+
+Quackers always knows.
+
+Quackers never tells. 🦆
+
+---
+
+"There are two easy ways in, to begin," said the dragon.
+
+"The first is the simplest thing in the world.
+
+Type the program. Run it. Play.
+
+Slice your caps clean — that's the whole art of it.
+
+The second is sneakier.
+
+I leave a few *typos* in a copy of the code,
+
+and you turn detective.
+
+Nothing broken but the spelling.
+
+Find the slips. Fix them."
+
+TommyBot's eyes drifted past him,
+
+to where the hall ran back into shadow —
+
+more doors, older, stranger,
+
+each one shut.
+
+"And *those?*"
+
+For once, Dragon Debug didn't explain.
+
+He only smiled,
+
+and took a slow sip.
+
+"Those," he said, "are for another day.
+
+Some doors are better left as questions."
+
+---
+
+He nudged the low door shut behind them.
+
+The warm hall dimmed away.
+
+And the chest sat waiting in the dark —
+
+bands loose, lid trembling, ready.
+
+"Now then," said Dragon Debug.
+
+"Where were we?"
 
 ---
 
@@ -701,3 +939,84 @@ the look of someone who has picked a great many locks.
 *is only as strong as the questions it asks.*
 
 → *Next: The Safe Password Checker — and the art of asking many questions at once.* 🔐
+
+---
+
+## 🥋 Typing Dojo
+
+*A small sign hangs by that low wooden door. You don't have to open it. The story's finished — the chest is cracked, the next adventure is already calling. This part is just here, if you want it. Pure play. No story is lost if you walk right past.*
+
+**Guess the Number** — Dragon Debug's very first mission.
+
+You already built this machine.
+
+Now type it clean, from the top, and play it for real.
+
+**Type this. Run it.**
+
+```python
+# Guess the Number
+
+import random
+
+secret = random.randint(1, 100)
+guess = 0
+attempts = 0
+
+while guess != secret:
+    guess = int(input("Guess my number (1-100): "))
+    attempts = attempts + 1
+    if guess < secret:
+        print("Too low.")
+    elif guess > secret:
+        print("Too high.")
+
+print("You got it in", attempts, "guesses!")
+```
+
+**Expected output** — *your secret is random, so your numbers won't match this exactly, but it will* ***feel*** *like this:*
+
+```
+Guess my number (1-100): 50
+Too high.
+Guess my number (1-100): 25
+Too low.
+Guess my number (1-100): 37
+Too low.
+Guess my number (1-100): 43
+Too high.
+Guess my number (1-100): 40
+Too low.
+Guess my number (1-100): 41
+Too low.
+Guess my number (1-100): 42
+You got it in 7 guesses!
+```
+
+If your screen looks like that — you did it. 🥋
+
+---
+
+**🕵️ Conan's Challenge** *(optional — only if your eyes are sharp)*
+
+The Guild keeps another copy of this same machine...
+
+except **three typos** slipped into it.
+
+Nothing is broken but the spelling.
+
+Type it, run it — and Python hands you your very first clue:
+
+```
+NameError: name 'secrit' is not defined. Did you mean: 'secret'?
+```
+
+**Excellent. Now the conversation begins.**
+
+Two more slips are still hiding.
+
+Find them the same way. 🦑
+
+---
+
+🐉 *Dragon Debug sips his tea.* *"Interesting."*
