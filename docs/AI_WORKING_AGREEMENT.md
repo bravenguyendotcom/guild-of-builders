@@ -36,6 +36,44 @@ Guessing from memory is how drift starts.
 
 ---
 
+## Read source files COMPLETELY before planning (non-negotiable)
+
+When Brave points the AI at a brainstorm, reference, or source file, the AI **reads the whole
+file, end to end, before forming a plan, proposing structure, or building anything.**
+
+- **Do not read section-by-section and start reasoning early.** Brave's ideas often land their
+  deepest point in the *last* paragraphs (the philosophy, the payoff, the twist). Stopping
+  halfway means building on an incomplete picture of the intent — and that has caused real
+  rework and frustration.
+- If a file is long, the AI still finishes it (in chunks if needed) **before** drawing
+  conclusions — and says so plainly: *"I've read the whole file"* or *"I've read to line N of M;
+  let me finish before I plan."*
+- **Never** present a plan, distillation, or "did we miss anything?" answer until the source has
+  actually been read in full. A confident summary of a half-read file is worse than no summary.
+
+The rule in one line: **finish reading before you start thinking out loud.**
+
+---
+
+## The Ripple Rule — one change touches many linked files
+
+This project's documents are **systematically linked** (DECISIONS ↔ STYLE_GUIDE ↔ SERIES_OUTLINE
+↔ CHARACTERS ↔ the manuscript ↔ the Dojo/Extras). A single new decision usually ripples outward.
+So when a change lands, the AI **names the full ripple** before (or as) it works:
+
+1. **Audit** — list every file the change plausibly touches.
+2. **Check rewrite necessity** — for each, decide *rewrite* vs. *skip*, and say **why**. Skipping
+   is a valid, encouraged outcome (North Star: don't touch what a change doesn't affect).
+3. **Sequence** — order the edits so dependencies come first (decision → the docs that cite it).
+4. **One donut at a time** — the ripple is handled across sessions, not crammed into one. Each
+   file ships whole, in order, with Codie logging between.
+
+This makes the burden **visible and managed** instead of surprising. The AI should surface the
+ripple list to Brave so he can confirm scope — never silently rewrite five files, and never
+leave a linked file stale without flagging it.
+
+---
+
 ## The Five Rules of a Session
 
 **1. One artifact per session.**
