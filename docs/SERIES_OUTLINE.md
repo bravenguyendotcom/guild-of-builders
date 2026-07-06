@@ -18,6 +18,7 @@
 > 🥋 **Dojo** — a Typing Dojo mission unlocks here (by skill; see `typing_dojo/`) ·
 > 🎭 **Riddle/Joke** — a riddle or joke beat (Monty & Quizzalot / the Joke Board) ·
 > 🎨 **Art** — a "make it beautiful" beat (Pycasso) ·
+> 🖼️ **Advanced Gallery** — a 3D/motion CLI art showpiece (skill-gated; `PYCASSO_GALLERY_ADVANCED.md`) ·
 > 🌫️ **Fog Creature** — the inner enemy this chapter quietly helps a Builder face.
 
 ---
@@ -127,8 +128,10 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
 - Learn: menu loops, list state — To-Do / Contact Book / shop (Missions 16–18). 🏗️: *state / CRUD*.
 
 **Ch 13 — The Painter's Deck** 🎨 *(planned)*
-- Learn: ASCII art, formatted & colored output. Cast: **Professor Pycasso**. 🏗️: *user experience*.
+- Learn: ASCII art, formatted & colored output. Cast: **Professor Pycasso** (debut show). 🏗️: *user experience*.
 - 🎨 Art: the "make it beautiful" thread opens (title screens, ASCII, colour).
+- 🖼️ Advanced Gallery: **Matrix Rain** 🟢 — Pycasso's debut showpiece; the green code waterfall
+  (lists + random + colour = motion). See `PYCASSO_GALLERY_ADVANCED.md`.
 
 **Ch 14 — The Escape Room** 🚪 *(planned — pre-capstone)*
 - Learn: combine guessing + strings + logic + math (Mission 19). 🏗️: *integration*.
@@ -150,6 +153,8 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
 
 **Ch 1 — The Map Grows** — Story: the crew dreams bigger; Dragon Debug says *plan first.*
 Learn: writing a tiny spec. Game: the v2 wishlist. 🏗️: *spec / requirements.*
+🖼️ Advanced Gallery: **Rocket Launch** 🚀 — *"let your dreams lift off!"* a rising rocket on a
+growing exhaust trail (a moving sprite over time). See `PYCASSO_GALLERY_ADVANCED.md`.
 
 **Ch 2 — The Knapsack** — Story: too much loot, no pockets. Learn: lists & dicts in depth.
 Game: a real inventory system. 🏗️: *state.*
@@ -180,6 +185,8 @@ a tiny backlog, working in iterations. 🏗️: *standup / backlog / iteration.*
 
 **Ch 11 — Pycasso's Palette** 🎨 — Story: color comes to the terminal. Learn: ANSI color,
 formatted tables, simple art. Game: a handsome text UI. Cast: **Pycasso.**
+🖼️ Advanced Gallery: **Moon Landing** 🌙 — *"the eagle has landed"*; a lander descending with a
+slowing (easing) touchdown. See `PYCASSO_GALLERY_ADVANCED.md`.
 
 **Ch 12 — Treasure Quest v2** *(capstone / donut)* — the **same** game, grown up. Achievement: **World Builder** 🗺️.
 
@@ -222,6 +229,8 @@ writing docs a stranger can follow. 🏗️: *documentation.*
 
 **Ch 11 — Demo Night** — Story: you show the family what you built. Learn: presenting with
 confidence. 🏗️: *demo / presentation.*
+🖼️ Advanced Gallery: **Starfield** ✨ — *"to infinity and beyond!"* flying forward through stars
+(perspective by division — the first taste of 3D). See `PYCASSO_GALLERY_ADVANCED.md`.
 
 **Ch 12 — Treasure Quest v3** *(capstone / donut)* — the **published** game. Achievement: **Game Publisher** 🌍.
 
@@ -243,6 +252,8 @@ prompt engineering — clarity, examples, verification. 🏗️: *prompt enginee
 
 **Ch 4 — The AI Quartermaster** — Story: endless quests, maps, and dialogue. Learn: injecting
 AI-generated content into the game. Game: **infinite quests.** Cast: Captain Byte over-trusts the AI...
+🖼️ Advanced Gallery: **Rotating Sphere / Globe** 🌍 — a shaded planet spinning in text (3D→2D
+projection + light shading). See `PYCASSO_GALLERY_ADVANCED.md`.
 
 **Ch 5 — The Honest Duck** 🦆 — Story: ...and it makes something up. Learn: hallucination &
 verification — never trust blindly. 🏗️: *testing AI output.* Cast: **Professor Quackers** (check your work).
@@ -256,6 +267,14 @@ chaining steps; simple agents/automation. 🏗️: *agent / automation.*
 
 **Ch 8 — The Guild Repository** — Story: the whole Guild works on one codebase. Learn: Git &
 GitHub for real — branches, commits, pull requests. 🏗️: *version control / pull request* (the Vol I word *code review*, now lived).
+🖼️ Advanced Gallery: **The Spinning Donut** 🍩 — *the Gallery capstone.* The legendary a1k0n 3D
+ASCII torus (trig + two-axis rotation + z-buffer + luminance shading), built from math you now
+understand. See `PYCASSO_GALLERY_ADVANCED.md`.
+  *(Lore: this is the Guild's own emblem. Early on, Dad joked that "**.md**" didn't mean Markdown
+  — it meant **"Mommy's Donuts,"** the file he kept *promising* but never delivered. So the
+  Guild's iron law became: never promise a donut you don't ship. That's why donuts sit beside
+  the pizzas all through the book — and why the final showpiece is a donut you make **real**,
+  spinning in 3D, right where Builders learn to ship for real.)*
 
 **Ch 9 — Working With Others** — Story: two Builders, one game, zero chaos. Learn: issues,
 reviews, teamwork; speaking like an engineer/PM. 🏗️: *collaboration.*
