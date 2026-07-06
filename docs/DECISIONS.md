@@ -439,6 +439,34 @@ to think instead of them. They ask AI to think with them."* (Voice line preserve
 
 ---
 
+### D-34 — The Guild Extras: one rotating Art / Riddle / Joke beat, every chapter
+**Status: LOCKED** (content DRAFT — the library grows in `docs/GUILD_EXTRAS.md`)
+**Decision:** From **Chapter 1 onward, every chapter carries exactly one "Guild Extra"** — a
+short, funny beat that rotates in a fixed order: **😄 Joke → 🧩 Riddle → 🎨 Code Art → (repeat).**
+- **It is separate from the Dojo.** The optional 🥋 Typing Dojo block (Ch 6+, D-29/§4a) is a
+  disguised side-quest and is **not** a Guild Extra. From Ch 6 on, a chapter can carry **both**
+  a Dojo block *and* its Guild Extra — they do different jobs and never substitute for each other.
+- **Re-skinned to our cast only (D-05, D-19).** Extras use **our** characters — Captain Byte,
+  Dragon Debug, Professor Quackers, TommyBot, Professor Pycasso, Maestro Monty & Sir Quizzalot,
+  Sir Boolean, Ninja Cat, The Tangle. Foreign characters from source brainstorms (e.g. a
+  snake-"Monty," Glitch, Dunder, Pip, Cal, Dr. Byte-Size) are **dropped or re-skinned**, never
+  imported. Jokes drawn from public-domain programmer folklore are fine; everything is rewritten
+  in our voice, never pasted.
+- **🎨 Code Art follows *Run it → Hack it → Own it*.** Art extras never ask a child to copy a
+  finished picture. They give a small runnable engine with "knobs" (variables/levers) and invite
+  the child to change it and make it theirs — creativity over mimicry. Professor Pycasso hosts,
+  with his saying: *"Every child is an artist, every terminal is a canvas."*
+- **The library lives in `docs/GUILD_EXTRAS.md`** — the adapted, re-skinned content, mapped to
+  chapters and rotation slots.
+**Reason:** Humor and art are **load-bearing, not decoration** (the Voice museum in
+`PHILOSOPHY.md`). Delivered *often*, they deepen the reader's friendship with the Guild and carry
+computer-science ideas by **osmosis** (D-25) — the same repetition logic as the Dojo (D-23).
+Rotating three kinds keeps every chapter fresh without overloading a page, and starting at
+Chapter 1 (a joke needs no code skills) means the fun and the friendship begin on page one.
+Accessibility holds: one short Extra per chapter is well within a comfortable read for Teppy.
+
+---
+
 ## Open questions parked in the Treasure Chest 🧰
 _(not decided yet — revisit when relevant, don't let them block progress)_
 
