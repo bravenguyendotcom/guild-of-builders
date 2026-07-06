@@ -100,6 +100,7 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
   questions that explain *which* rule failed.
 - Game: a gate guarding the next area.
 - 🏗️: *validation* · Cast: **Sir Boolean** debuts 🛡️ · Achievement: **Flag Bearer** 🚩.
+- 🥋 Dojo: Mission **002 The Bouncer** (a rules-checker: length + forbidden word). See `typing_dojo/MISSIONS_PLAN.md`.
 
 ---
 
@@ -110,36 +111,42 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
 - Learn: counting a list *without* `.count()` (Mission 8).
 - Game: sort/count the treasure pile.
 - 🏗️: *iteration / accumulation*.
+- 🥋 Dojo: Mission **003 Tally Machine** (count items in a list, no `.count()`). See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 9 — The Palindrome Mirror** 🪞 *(planned)*
 - Learn: strings — reverse/compare *without* `reverse()` (Mission 9). 🏗️: *string*.
-- 🥋 Dojo: Mission 002 *Hangman* becomes typeable once lists are comfortable.
+- 🥋 Dojo: Mission **004 Mirror, Mirror** (reverse & compare a string). See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 10 — The Caesar Messenger** 🗝️ *(planned)*
 - Learn: character math, a simple cipher (Mission 10). 🏗️: *encoding*.
-- 🥋 Dojo: Mission 003 *Caesar Cipher* (echoes this chapter).
+- 🥋 Dojo: Mission **005 Secret Cipher** (shift letters — Caesar; echoes this chapter). See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 11 — The Riddle Theatre** 🎭 *(planned)*
 - Story: two ridiculous hosts block the road with wordplay.
 - Cast: **Maestro Monty & Sir Quizzalot** debut 🤡🥁. 🏗️: *the show*.
 - 🎭 Riddle/Joke: the Riddle Theatre & Guild Joke Board open (write-your-own invited).
+- 🥋 Dojo: Mission **006 The Guessing Cave** 🔁 (an Echo of 001 — same engine, new skin, D-23). See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 12 — Menus & Mini-Programs** ✅ *(planned)*
 - Learn: menu loops, list state — To-Do / Contact Book / shop (Missions 16–18). 🏗️: *state / CRUD*.
+- 🥋 Dojo: Mission **007 The Quest Log** (a menu loop over a list). See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 13 — The Painter's Deck** 🎨 *(planned)*
 - Learn: ASCII art, formatted & colored output. Cast: **Professor Pycasso** (debut show). 🏗️: *user experience*.
 - 🎨 Art: the "make it beautiful" thread opens (title screens, ASCII, colour).
+- 🥋 Dojo: Mission **008 The Sign Painter** (build ASCII art with loops). See `typing_dojo/MISSIONS_PLAN.md`.
 - 🖼️ Advanced Gallery: **Matrix Rain** 🟢 — Pycasso's debut showpiece; the green code waterfall
   (lists + random + colour = motion). See `PYCASSO_GALLERY_ADVANCED.md`.
 
 **Ch 14 — The Escape Room** 🚪 *(planned — pre-capstone)*
 - Learn: combine guessing + strings + logic + math (Mission 19). 🏗️: *integration*.
+- 🥋 Dojo: Mission **009 The Vault** 🔁 (Echo — combines guess + check, echoes 001/002). See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 15 — Captain Byte's Treasure Quest v1** 🏴‍☠️ *(planned — capstone / donut)*
 - Learn: assemble it all into one clean, organized program (Mission 20).
 - Game: **the complete CLI game — shipped.**
 - 🏗️: *definition of done / shipping v1* · Achievement: **CLI Builder** 💻.
+- 🥋 Dojo: Mission **010 The Ship's Console** 🔁 (Echo of 007 — a tiny menu tying it together). See `typing_dojo/MISSIONS_PLAN.md`.
 
 > **Note:** chapter *count* is provisional — the shipped chapters reordered and expanded the
 > original 14-chapter sketch (e.g. Sir Boolean now debuts at Ch 7, not Ch 3). The map follows

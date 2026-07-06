@@ -8,6 +8,7 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- `typing_dojo/MISSIONS_PLAN.md` (LIVING backlog) — the single source of truth for all ~38 planned Dojo missions across all 4 volumes, mapped to chapters with status (✅ built · 🔨 next · 📋 planned), new vs. Echo (D-23), and tier distribution. Volume I in-book: 10 missions (5 new engines + 5 echoes). Volumes II–IV planned with distribution principles: no chapter empty, skill-gated by definition, tiers earned not forced, mountain grows outside (D-30).
 - `docs/PYCASSO_GALLERY_ADVANCED.md` (DRAFT) — the Advanced Gallery — 6 skill-gated 3D & motion CLI art showpieces (🟢 Matrix Rain, ✨ Starfield, 🌍 Rotating Sphere, 🍩 Spinning Donut, 🚀 Rocket Launch, 🌙 Moon Landing), each with placement rules, skill requirements, and the "Run it → Hack it → Own it" principle; parallel to the Dojo's higher tiers (D-28), aspirational pieces that pull curiosity toward math and 3D thinking.
 
 ### Changed
