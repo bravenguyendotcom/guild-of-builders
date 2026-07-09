@@ -467,6 +467,36 @@ Accessibility holds: one short Extra per chapter is well within a comfortable re
 
 ---
 
+### D-35 — The Advanced Pycasso's Gallery (the art-twin of the Dojo's advanced tiers)
+**Status: LOCKED** (content DRAFT — the library grows in `docs/PYCASSO_GALLERY_ADVANCED.md`)
+**Decision:** Alongside the per-chapter **Guild Extras** (D-34, simple and universal from Ch 1),
+the project also carries an **Advanced Gallery** — skill-gated 3D/motion CLI art, exactly
+parallel to the Typing Dojo's higher tiers (D-28). It is **not** part of the Ch-1+ rotation;
+it is reached by curious Builders in the **later volumes**, and by contributors in the
+**open-source gallery** (same "mountain grows outside the book" logic as D-30).
+- **Seed showpieces (six, placed in `SERIES_OUTLINE.md`):** 🟢 Matrix Rain (Vol I Ch 13 —
+  Pycasso's debut) · 🚀 Rocket Launch (Vol II Ch 1) · 🌙 Moon Landing (Vol II Ch 11) ·
+  ✨ Starfield (Vol III Ch 11) · 🌍 Rotating Sphere (Vol IV Ch 4) · 🍩 **Spinning Donut**
+  (Vol IV Ch 8 — the Gallery **capstone**, and the Guild's own emblem).
+- **Skill-gated placement**, not a fixed level system: each showpiece lists the real skills it
+  needs (loops → coordinates/trig → 3D projection/z-buffer) and lands where a Builder can
+  actually reach it — the same honesty principle as the Dojo's tiers.
+- **Run it → Hack it → Own it applies here too** (D-34's rule): every showpiece ships with
+  labelled "knobs" (colour, shape, speed, light angle) so a Builder changes and owns it, never
+  just runs a copy.
+- **The donut is not incidental.** *"`.md` doesn't mean Markdown — it means Mommy's Donuts,"*
+  the file Dad joked he'd promised but never shipped. The Guild's law became: **never promise a
+  donut you don't ship** — why donuts sit beside the pizzas throughout the book, and why the
+  Gallery's capstone is a donut made **real**, spinning in 3D, at the exact chapter where
+  Builders learn to ship for real (Git/GitHub, Vol IV Ch 8).
+**Reason:** These are the *"whoa, I want to build THAT"* pieces — the Matrix rain, the spinning
+donut — that make a Builder chase trigonometry and 3D math because the result is this cool, not
+because a textbook said so (pure `PHILOSOPHY.md` osmosis, D-25). Placing them where their real
+skills exist keeps the wonder honest instead of overwhelming. As an open-source project, this is
+also the natural growth edge: contributors add showpieces the way they add Dojo missions.
+
+---
+
 ## Open questions parked in the Treasure Chest 🧰
 _(not decided yet — revisit when relevant, don't let them block progress)_
 
