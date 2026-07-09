@@ -8,6 +8,8 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 ### Added
+- `typing_dojo/coding_gold_mine/003_tally.py` — Engine 003 (The Tally Machine), the second canonical program in the Coding Gold Mine (D-21 Layer 1): a `for`-loop walking a salvage pile one item at a time, teaching `for item in list`, `==` comparison, the counter/accumulation pattern, and counting without `.count()` shortcut. First typeable at Chapter 8 (The Recycling Robot).
+- `typing_dojo/missions/003_tally/` — Mission 003 Tier I–II skins (D-21 Layer 2): `challenge_1.py` (clean, Tier I — Keyboard Ninja), `challenge_2.py` (three typos — `inpt`/`pyle`/`prnt` — Tier II — Conan's Challenge, bash-verified to raise `NameError: name 'inpt' is not defined` first), and `README.md` (story hook about the Recycling Robot and the salvage pile, expected output counting bottles/wire/missing items, CS seeds, Guild flavor with The Tangle checking for loop typos, related missions, authors' footer per D-30).
 - `docs/GUILD_EXTRAS.md` (COMPOSED LIBRARY) — Batch 1 of the Guild Extras (D-34): 15 composed extras for Chapters 1–15, Joke/Riddle/Art rotation intact (😄 → 🧩 → 🎨, one per chapter), every extra re-skinned to our cast, every riddle and art piece bash-verified with real output pasted, and ready to drop into chapter slots via `STYLE_GUIDE.md` §4b.
 
 ### Changed
