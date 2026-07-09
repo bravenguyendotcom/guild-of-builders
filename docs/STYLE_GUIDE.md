@@ -2,10 +2,11 @@
 
 ### How the Guild of Builders reads, sounds, and feels
 
-> **Status:** LOCKED for principles, DRAFT for details. **v1.3** — added §4a, the optional
-> 🥋 Typing Dojo block at chapter ends (Ch 6+), per `DECISIONS.md` D-27–D-30. **v1.2** — §4
-> rewritten for D-26 (missions embedded in the manuscript, not a separate workbook). **v1.1** —
-> added the 🏗️ In the Real World box and the professionalism ladder.
+> **Status:** LOCKED for principles, DRAFT for details. **v1.4** — added §4b, the Guild Extra
+> (Joke/Riddle/Art) beat every chapter carries from Chapter 1, per `DECISIONS.md` D-34. **v1.3**
+> — added §4a, the optional 🥋 Typing Dojo block at chapter ends (Ch 6+), per `DECISIONS.md`
+> D-27–D-30. **v1.2** — §4 rewritten for D-26 (missions embedded in the manuscript, not a
+> separate workbook). **v1.1** — added the 🏗️ In the Real World box and the professionalism ladder.
 > If the Bible is *what* and *why*, this file is *how it reads*.
 
 ---
@@ -136,6 +137,41 @@ Keep it short, warm, and skippable. The story is the meal; the Dojo block is des
 
 ---
 
+## 4b. The Guild Extra — a rotating 😄 Joke / 🧩 Riddle / 🎨 Art beat (every chapter, Ch 1+)
+
+From **Chapter 1**, every chapter carries **exactly one Guild Extra** — a short, funny beat that
+rotates in a fixed order: **😄 Joke → 🧩 Riddle → 🎨 Code Art → (repeat).** (Full canon:
+`DECISIONS.md` D-34; the adapted content lives in `docs/GUILD_EXTRAS_SOURCE.md` and its build
+kit `docs/GUILD_EXTRAS_BUILD_KIT.md`.)
+
+**It is separate from the Typing Dojo (§4a).** From Ch 6 on, a chapter carries **both** — the
+optional 🥋 Dojo side-quest *and* its rotating Guild Extra. They do different jobs and never
+substitute for each other. A Guild Extra needs no code skills, so it runs from page one.
+
+**The rules:**
+
+1. **One per chapter, rotation fixed.** Whatever the rotation lands on (Joke this chapter, Riddle
+   next, Art after) — don't skip the pattern or double up.
+2. **Match the chapter's topic where you can.** A modulo joke near the modulo chapter, a strings
+   riddle near the strings chapter — distribute mindfully, not blindly (see `SERIES_OUTLINE.md`).
+3. **Re-skinned to our cast only (D-05, D-19).** Never a foreign character. Public-domain jokes
+   are fine, always rewritten in our voice.
+4. **😄 Jokes** — one or two lines, warm, never at the child's expense.
+5. **🧩 Riddles** — a tiny **runnable** program whose output *is* the punchline. Show the real,
+   bash-tested expected output.
+6. **🎨 Code Art** follows **Run it → Hack it → Own it**: a small engine with clearly labelled
+   "knobs" (variables to change), plus one line inviting the child to make it theirs. Never a
+   finished picture to copy-and-admire. Hosted in spirit by Professor Pycasso: *"Every child is
+   an artist, every terminal is a canvas."*
+7. **Short. Optional in tone, not in presence.** It's dessert, not another lesson — one screen,
+   never a wall of text (Teppy).
+
+**Not this box:** the six *advanced* 3D/motion showpieces (Matrix Rain, Spinning Donut, etc.) are
+a **separate, skill-gated tier** — `docs/PYCASSO_GALLERY_ADVANCED.md` (`DECISIONS.md` D-35). They
+have their own placements in later volumes and are never inserted into the Ch-1+ rotation.
+
+---
+
 ## 5. Recurring boxes (use with intention)
 
 - **Toolbox Card** — a reusable programmer mindset (e.g. *"Ask what the computer is telling
@@ -150,6 +186,8 @@ Keep it short, warm, and skippable. The story is the meal; the Dojo block is des
   its own rules because it's the easiest box to get wrong.
 - **🥋 Typing Dojo block** — an optional type-along program at the chapter's end (Ch 6+).
   See section 4a; it's pure practice, never a lesson.
+- **😄🧩🎨 Guild Extra** — a rotating Joke / Riddle / Art beat, every chapter from Ch 1.
+  See section 4b; separate from the Dojo, always short.
 
 ### 5a. The "In the Real World" box 🏗️
 

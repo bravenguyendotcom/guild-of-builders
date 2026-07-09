@@ -36,7 +36,7 @@ Software engineers hate God Objects. So do we.)
 |------|-------------|
 | `MASTER_BOOT.md` | **You are here.** The index and boot sequence. |
 | `docs/PROJECT_BIBLE.md` | The **Constitution**. Vision, mission, philosophy, canon. Rarely changes. |
-| `docs/PHILOSOPHY.md` | The **soul** — "The Art of Teaching Without Any Teaching" (curiosity over content). |
+| `docs/PHILOSOPHY.md` | The **soul** — "The Art of Teaching Without Any Teaching" (curiosity over content) + the Voice museum. |
 | `docs/AI_WORKING_AGREEMENT.md` | **How to run a session.** Read this first, every time — human or AI. |
 | `docs/CLAUDE_PROJECT_CONFIG.md` | Custom instructions + knowledge-file list for the Claude Project. |
 | `docs/TREASURE_CHEST.md` | Backlog of good-but-not-yet ideas. Nothing good is lost. |
@@ -53,8 +53,13 @@ Software engineers hate God Objects. So do we.)
 | `docs/HUMAN_AI_MANIFESTO.md` | Volume IV's philosophical capstone — the Human & AI credo. |
 | `docs/SIDE_QUESTS.md` | The optional side-quest world index (optional, unlocks by skill). |
 | `typing_dojo/` | The optional arcade: canonical engines (`coding_gold_mine/`) + mission skins (`missions/`). |
+| `typing_dojo/README.md` | The Dojo's own spec — owner/guardian, the four tiers, the honor rule, the gate. |
+| `typing_dojo/MISSIONS_PLAN.md` | The living mission backlog — which mission lands in which chapter, new vs. Echo. |
+| `docs/GUILD_EXTRAS_SOURCE.md` | The distilled Joke/Riddle/Art catalog (D-34) — read this, never the raw brainstorm. |
+| `docs/GUILD_EXTRAS_BUILD_KIT.md` | How to build the Guild Extras library from the source catalog (upload list, prompt). |
+| `docs/PYCASSO_GALLERY_ADVANCED.md` | The Advanced Gallery — 3D/motion CLI art showpieces (D-35), skill-gated, later volumes. |
 | `manuscript/` | The **story** the child reads (the novel/adventure). |
-| `workbook/` | "retired — missions live in chapters (D-26)" |
+| `workbook/` | Retired — missions live in chapters (D-26). Keeps a signpost README only. |
 | `source_code/` | The **actual game code**, one folder per volume. |
 | `assets/` | Character art, badges, images. |
 | `teacher/` | Solutions, hints, teaching guide (kept separate from the child's copy). |
@@ -64,17 +69,21 @@ Software engineers hate God Objects. So do we.)
 
 ## Boot sequence (read in this order the first time)
 
-1. `docs/AI_WORKING_AGREEMENT.md` — **how we work.** Read this first, every time.
+1. `docs/AI_WORKING_AGREEMENT.md` — **how we work.** Read this first, every time. Includes the
+   "read source files completely" and "Ripple Rule" standing rules.
 2. `docs/PROJECT_BIBLE.md` — understand *why* before *what* (includes the Widening Circle).
-3. `docs/PHILOSOPHY.md` — the soul beneath the rules: teach without teaching; curiosity first.
+3. `docs/PHILOSOPHY.md` — the soul beneath the rules: teach without teaching; curiosity first;
+   the **Voice museum** — re-read before writing any prose.
 4. `docs/DECISIONS.md` — what's already settled (LOCKED). Don't reopen it.
 5. `docs/CHARACTERS.md` — meet the crew (and the Fog Creatures).
-6. `docs/STYLE_GUIDE.md` — learn the voice and the accessibility rules.
+6. `docs/STYLE_GUIDE.md` — learn the voice, accessibility, and the chapter-anatomy sections
+   (§4 mission, §4a Typing Dojo block, §4b Guild Extra).
 7. `docs/ROADMAP.md` — see where we're sailing next.
 8. `docs/SERIES_OUTLINE.md` + `docs/GAME_DESIGN.md` — the chapter map and what we're building.
 9. For deeper context when relevant: `docs/CURRICULUM.md`, `docs/BUILDERS_LOGBOOK.md`,
-   `docs/SETUP.md`, `docs/SIDE_QUESTS.md` (+ `typing_dojo/`), and (for Volume IV)
-   `docs/HUMAN_AI_MANIFESTO.md`.
+   `docs/SETUP.md`, `docs/SIDE_QUESTS.md` (+ `typing_dojo/README.md`,
+   `typing_dojo/MISSIONS_PLAN.md`), `docs/GUILD_EXTRAS_SOURCE.md` (+ its build kit),
+   `docs/PYCASSO_GALLERY_ADVANCED.md`, and (for Volume IV) `docs/HUMAN_AI_MANIFESTO.md`.
 10. Then open the volume you're working on in `manuscript/`, `source_code/`.
 
 > The full file roster is the index table above — check it so nothing new gets missed.
