@@ -32,8 +32,8 @@
 | Ch | Chapter | Mission | New/Echo | Engine | Tiers | Status |
 |----|---------|---------|----------|--------|-------|--------|
 | 6 | The Secret Treasure | **001 Guess the Number** | New | `001_guess_the_number.py` | I–II | ✅ built |
-| 7 | Safe Password Checker | **002 The Bouncer** (a rules-checker: length + forbidden word) | New | `002_bouncer.py` | I–II | 🔨 next |
-| 8 | The Recycling Robot | **003 Tally Machine** (count items in a list, no `.count()`) | New | `003_tally.py` | I–II | 📋 |
+| 7 | Safe Password Checker | **002 The Bouncer** (a rules-checker: length + forbidden word) | New | `002_bouncer.py` | I–II | ✅ built |
+| 8 | The Recycling Robot | **003 Tally Machine** (count items in a list, no `.count()`) | New | `003_tally.py` | I–II | ✅ built |
 | 9 | The Palindrome Mirror | **004 Mirror, Mirror** (reverse & compare a string) | New | `004_palindrome.py` | I–II | 📋 |
 | 10 | The Caesar Messenger | **005 Secret Cipher** (shift letters — Caesar) | New | `005_caesar.py` | I–II | 📋 |
 | 11 | The Riddle Theatre | **006 The Guessing Cave** 🔁 | Echo of 001 | `001` (new skin) | I–II | 📋 |
