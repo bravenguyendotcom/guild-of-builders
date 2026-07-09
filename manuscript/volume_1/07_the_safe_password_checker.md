@@ -234,6 +234,12 @@ The Captain's grin fell off his face.
 
 The worst password in the *history of passwords.*"
 
+That sinking feeling — the one where you were *sure* you'd built it right —
+
+is allowed, Captain.
+
+Even dragons have shipped a guard that let the wrong thing through.
+
 Dragon Debug set down his cup.
 
 "Interesting," he said.
@@ -469,6 +475,12 @@ don't shout 'WRONG.'
 
 *Tell the truth about which flag went red.*"
 
+But TommyBot was already typing —
+
+`elif` after `elif`, one honest question at a time,
+
+as if the fix had been obvious for pages.
+
 So you did.
 
 You typed a weak one first —
@@ -636,3 +648,98 @@ and watched to see what the Builder would do
 with a pile far too big to count by hand.
 
 → *Next: the Recycling Robot — counting a mountain, one thing at a time.* ♻️
+
+---
+
+## 😄 Guild Extra — Sir Boolean's One Joke
+
+Sir Boolean only ever carries two flags.
+
+A green one that means **TRUE**.
+
+A red one that means **FALSE**.
+
+Someone once asked him for a third flag. Just in case.
+
+He looked at them for a long moment.
+
+Then raised the red one.
+
+That's the whole joke.
+
+Sir Boolean doesn't do maybe.
+
+---
+
+## 🥋 Typing Dojo — Mission 002: The Bouncer
+
+*Dragon Debug's Typing Dojo. The tea is hot. The squid is watching.*
+
+The Guild door has a new bouncer, and he takes his job *seriously.*
+
+To get in, your password must clear **two** rules — long enough,
+
+and not one of the passwords every burglar tries first.
+
+Fail, and the bouncer tells you **exactly** which rule you broke.
+
+**🥋 Tier I — Keyboard Ninja.** *("Slice your caps.")*
+
+Type this. Run it.
+
+```python
+password = input("Password, please: ")
+
+if len(password) < 8:
+    print("Too short. I need at least 8 characters.")
+elif password == "password" or password == "12345678":
+    print("Nice try. That one is on every burglar's first-guess list.")
+else:
+    print("Welcome in, Builder.")
+```
+
+Expected output:
+
+```
+Password, please: abc
+Too short. I need at least 8 characters.
+```
+
+```
+Password, please: password
+Nice try. That one is on every burglar's first-guess list.
+```
+
+```
+Password, please: dragon-tea-42
+Welcome in, Builder.
+```
+
+*(Notice: `password` is eight letters long — it passes the first rule,*
+
+*then gets caught by the second. Two separate checks, so the bouncer*
+
+*always knows which door you tripped.)*
+
+**🕵️ Conan's Challenge (optional):** the Guild's copy has three typos. Can you find them?
+
+```python
+password = inupt("Password, please: ")
+
+if lem(password) < 8:
+    print("Too short. I need at least 8 characters.")
+elif password == "password" or password == "12345678":
+    prnt("Nice try. That one is on every burglar's first-guess list.")
+else:
+    print("Welcome in, Builder.")
+```
+
+Run it once, and Python hands you your first clue:
+
+```
+NameError: name 'inupt' is not defined. Did you mean: 'input'?
+```
+
+Two more are hiding on the lines below. Find them the same way. 🦑
+
+🐉 Dragon Debug sips his tea. "Interesting."
