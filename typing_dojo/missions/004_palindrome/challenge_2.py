@@ -1,10 +1,14 @@
-word = inpt("Say a word for the Mirror: ")
+# Mirror, Mirror
+# 🕵️ Conan's Challenge: three typos hide in here. No logic bugs -- only slips
+# of the fingers. Retype it, run it, and fix each one until it runs clean.
 
-reversd_word = ""
-for letter in word:
-    reversed_word = letter + reversed_word
+word = input("Say a word for the Mirror: ")
+
+reversed_word = ""
+for lettr in word
+    reversed_word = lettr + reversed_word
 
 if word == reversed_word:
-    prnt(word, "is a palindrome. The Mirror agrees with itself.")
+    print(word, "is a palindrome. The Mirror agrees with itself.)
 else:
-    prnt(word, "is not a palindrome.")
+    print(word, "is not a palindrome.")

@@ -60,12 +60,21 @@ Retype it, run it, and fix each slip until it runs clean.
 Run it once and Python hands you your first clue:
 
 ```
-NameError: name 'inpt' is not defined. Did you mean: 'input'?
+  File "challenge_2.py", line 12
+    print(word, "is a palindrome. The Mirror agrees with itself.)
+                ^
+SyntaxError: unterminated string literal (detected at line 12)
 ```
 
 **Excellent. Now the conversation begins.**
 
-Two more are hiding further down. Find them the same way. 🦑
+Close that quote, run it again, and a second clue appears — Python pointing right at the
+Mirror's own `for` line, asking for something small it's missing.
+
+The third typo is sneakier. It won't crash anything — the Mirror will run just fine and still
+judge every word correctly. But look closely at the letter the loop walks with. Does it match
+what this chapter taught you to call it? A good detective notices what *doesn't* cause trouble
+too. 🦑
 
 ---
 
@@ -81,7 +90,7 @@ Dragon Debug takes a slow sip and murmurs, *"Interesting."*
 
 The Mirror never blinks, never rushes, never grades a word twice.
 
-The Tangle checks the loop for a stray `:` to trip over, finds none, and sulks off.
+The Tangle checks the loop for a stray `:` to trip over, finds none the second time, and sulks off.
 
 Professor Quackers says nothing. Professor Quackers never does. 🦆
 
@@ -101,4 +110,9 @@ Professor Quackers says nothing. Professor Quackers never does. 🦆
 `ID:` 004 · `Title:` Mirror, Mirror · `Engine:` `coding_gold_mine/004_palindrome.py`
 · `CS Seeds:` string iteration · string concatenation · == · palindrome check
 · `Prerequisites:` Chapter 8 (`for` loop, walking a sequence one item at a time)
-· `Tiers shipped:` I–II · `Related:` Ch 8 tally loop; future character-math/cipher engines (005).</sub>
+· `Tiers shipped:` I–II · `Related:` Ch 8 tally loop; future character-math/cipher engines (005).
+· `Tier II typo palette (D-28):` missing-quote slip (line 12, common) · missing-colon slip on the
+  `for` header (operator/symbol, new-surface) · consistent `letter`→`lettr` rename (variable-name,
+  new-surface, cosmetic-only — bash-confirmed to run clean and correct on its own, per the D-28
+  guardrail against inconsistent variable renames). Bash-verified first traceback: `SyntaxError:
+  unterminated string literal (detected at line 12)`.</sub>

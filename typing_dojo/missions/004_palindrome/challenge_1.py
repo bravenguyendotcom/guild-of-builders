@@ -1,3 +1,5 @@
+# Mirror, Mirror
+
 word = input("Say a word for the Mirror: ")
 
 reversed_word = ""
