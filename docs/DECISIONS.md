@@ -440,7 +440,7 @@ to think instead of them. They ask AI to think with them."* (Voice line preserve
 ---
 
 ### D-34 — The Guild Extras: one rotating Art / Riddle / Joke beat, every chapter
-**Status: LOCKED** (content DRAFT — the library grows in `docs/GUILD_EXTRAS.md`)
+**Status: LOCKED** (content DRAFT — distilled in `docs/GUILD_EXTRAS_SOURCE.md`; the composed library `docs/GUILD_EXTRAS.md` is built later via `docs/GUILD_EXTRAS_BUILD_KIT.md`)
 **Decision:** From **Chapter 1 onward, every chapter carries exactly one "Guild Extra"** — a
 short, funny beat that rotates in a fixed order: **😄 Joke → 🧩 Riddle → 🎨 Code Art → (repeat).**
 - **It is separate from the Dojo.** The optional 🥋 Typing Dojo block (Ch 6+, D-29/§4a) is a
@@ -456,8 +456,10 @@ short, funny beat that rotates in a fixed order: **😄 Joke → 🧩 Riddle →
   finished picture. They give a small runnable engine with "knobs" (variables/levers) and invite
   the child to change it and make it theirs — creativity over mimicry. Professor Pycasso hosts,
   with his saying: *"Every child is an artist, every terminal is a canvas."*
-- **The library lives in `docs/GUILD_EXTRAS.md`** — the adapted, re-skinned content, mapped to
-  chapters and rotation slots.
+- **Where the content lives.** The raw ideas are distilled (one line each, re-skinned) in
+  **`docs/GUILD_EXTRAS_SOURCE.md`**; a writer composes the finished extras from it using
+  **`docs/GUILD_EXTRAS_BUILD_KIT.md`**. The composed, chapter-mapped library —
+  **`docs/GUILD_EXTRAS.md`** — is produced by that build session (forthcoming), not by hand here.
 **Reason:** Humor and art are **load-bearing, not decoration** (the Voice museum in
 `PHILOSOPHY.md`). Delivered *often*, they deepen the reader's friendship with the Guild and carry
 computer-science ideas by **osmosis** (D-25) — the same repetition logic as the Dojo (D-23).
