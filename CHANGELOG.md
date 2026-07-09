@@ -11,6 +11,10 @@ small improvements get decimals. (Kaizen, with a memory.)
 - `docs/GUILD_EXTRAS.md` (COMPOSED LIBRARY) — Batch 1 of the Guild Extras (D-34): 15 composed extras for Chapters 1–15, Joke/Riddle/Art rotation intact (😄 → 🧩 → 🎨, one per chapter), every extra re-skinned to our cast, every riddle and art piece bash-verified with real output pasted, and ready to drop into chapter slots via `STYLE_GUIDE.md` §4b.
 
 ### Changed
+- `manuscript/volume_1/03_the_age_machine.md` (Vol 1 Ch 3 revision) — added 🎨 Guild Extra: "The Captain's First Spark," an art piece showing a variable-driven star pattern that changes with one number (pulled from Batch 1).
+- `manuscript/volume_1/04_ninja_health_check.md` (Vol 1 Ch 4 revision) — added 😄 Guild Extra: "TommyBot's Question," a joke about the difference between a string (`"13"`) and a float (`13.0`), with Dragon Debug explaining Python never mixes types by accident (pulled from Batch 1).
+- `manuscript/volume_1/05_rock_paper_scissors.md` (Vol 1 Ch 5 revision) — added 🧩 Guild Extra: "The Honest Guard," a riddle using booleans and `and` to show why both conditions must be `True` for a rule to pass (pulled from Batch 1).
+- `manuscript/volume_1/06_the_secret_treasure.md` (Vol 1 Ch 6 revision) — added 🎨 Guild Extra: "The Chest-Builder," an art piece showing a loop that builds a growing ASCII treasure chest (pulled from Batch 1).
 - `manuscript/volume_1/01_captain_byte_sets_sail.md` (Vol 1 Ch 1 revision) — added 😄 Guild Extra: "The Captain's Boxes," a joke about variables as labeled boxes that hold only what you put in (pulled from Batch 1).
 - `manuscript/volume_1/02_hungry_pizza_robot.md` (Vol 1 Ch 2 revision) — added 🧩 Guild Extra: "Quackers' Laugh Machine," a riddle showing string repetition (`"Quack! " * 3`) as the same trick that made `"3" * 2 == "33"` (pulled from Batch 1).
 - `typing_dojo/coding_gold_mine/002_bouncer.py` (ENGINE 002) — canonical password validator teaching `len()`, booleans, `and`/`or`/`not`, `if`/`elif`/`else`, and precise error messages (Chapter 7 deployment, D-21 Layer 1). Bash-tested: runs as documented, passes both rules correctly, rejects easy passwords cleanly.

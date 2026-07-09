@@ -1020,3 +1020,30 @@ Find them the same way. 🦑
 ---
 
 🐉 *Dragon Debug sips his tea.* *"Interesting."*
+
+---
+
+## 🎨 Guild Extra — The Chest-Builder
+
+Captain Byte wanted the treasure chest to look like it was
+actually *rising* out of the sand, floor by floor.
+
+```python
+FLOOR_COUNT = 4
+floor = 1
+
+while floor <= FLOOR_COUNT:
+    print("#" * (floor * 2))
+    floor = floor + 1
+```
+
+Expected output:
+```
+##
+####
+######
+########
+```
+
+🎨 Hack it: change `FLOOR_COUNT` to `8` and watch the chest grow taller.
+Same loop. A bigger chest.

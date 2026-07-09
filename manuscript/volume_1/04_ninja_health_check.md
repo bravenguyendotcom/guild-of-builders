@@ -513,3 +513,30 @@ High above, Ninja Cat's eyes gleamed.
 *You learn to play it.*
 
 → *Next: Rock, Paper, Scissors — and the magic of `random`.* ✊
+
+---
+
+## 😄 Guild Extra — TommyBot's Question
+
+TommyBot looked at two variables on the screen.
+
+```python
+age = "13"
+height = 13.0
+```
+
+"Wait," said TommyBot. "They're both 13.
+Why do they look so different?"
+
+The string sat up straight and said,
+"Look at all these quote marks I get to wear!"
+
+The float just floated there, dotted and proud,
+and didn't say anything back.
+
+Dragon Debug chuckled into his tea.
+
+"`"13"` in quotes is text.
+`13.0` with a dot is a number with a heartbeat.
+Python never mixes the two by accident.
+Only on purpose."

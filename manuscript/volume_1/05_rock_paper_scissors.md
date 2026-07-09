@@ -597,3 +597,31 @@ that's something a program can do
 better than any pirate alive.
 
 → *Next: The Secret Treasure — and the magic of loops.* 🔁
+
+---
+
+## 😄🧩🎨 Guild Extra
+
+🧩 Guild Extra — The Honest Guard        (Riddle)
+
+High on the rail, Ninja Cat set a small test
+before the next door would open.
+
+```python
+ninja_home = True
+threw_a_move = True
+
+if ninja_home and threw_a_move:
+    print("The shadow moves. The door swings open.")
+else:
+    print("Ninja Cat is not impressed. Try again.")
+```
+
+Expected output:
+```
+The shadow moves. The door swings open.
+```
+
+🕵️ Try it: change `threw_a_move` to `False` and run it again.
+Both boxes have to say `True` for `and` to let you through.
+One `False`, and the door stays shut.

@@ -381,6 +381,31 @@ Its cousins live here too:
 
 ---
 
+🎨 Guild Extra — The Captain's First Spark        (Art)
+
+Before doors and decisions, Captain Byte just wanted to see
+something appear on the ship's screen. Something *his*.
+
+```python
+SPARK_SIZE = 3
+
+print("*" * SPARK_SIZE)
+print("*" * (SPARK_SIZE + 2))
+print("*" * (SPARK_SIZE + 4))
+```
+
+Expected output:
+```
+***
+*****
+*******
+```
+
+🎨 Hack it: change `SPARK_SIZE` to `1` or `10` and run it again.
+Same three lines. A completely different spark.
+
+---
+
 ### To be continued...
 
 The wheel was the Captain's now.
