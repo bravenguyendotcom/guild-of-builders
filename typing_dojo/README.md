@@ -2,7 +2,8 @@
 
 ### An arcade inside the Guild — where Builders train by typing real code
 
-> **Status:** v1.1 (system spec). Updated for `DECISIONS.md` **D-27–D-30**: finalized tier
+> **Status:** v1.2 (system spec). Adds the **Typo Palette** (Tier II freshness rule) to
+> Conan's Challenge. **v1.1** — updated for `DECISIONS.md` **D-27–D-30**: finalized tier
 > names, the owner/guardian, the honor rule, and the in-book vs. URL gate.
 > **What this is:** the **place**. Inside it live the **canonical engines** (`coding_gold_mine/`)
 > and the **mission skins** (`missions/`).
@@ -175,6 +176,36 @@ spot each typo, fix it as you go until it runs clean.
 **Detective bug categories (typos only):** missing punctuation · wrong indentation · wrong
 variable/function name · missing quote · wrong bracket · wrong keyword case · missing underscore
 · wrong operator · small spelling slip. **Never an algorithm bug.**
+
+#### 🎲 The Typo Palette — keep Tier II fresh and curious (don't let it go stale)
+
+The detective game dies if every mission hides the *same* typos. If a Builder learns that it's
+always `inpt` and `prnt`, they stop hunting and start *remembering* — and Conan's question
+(*"Do you have any clue?"*) stops being a real question. So:
+
+- **Two of the three typos must land on THIS chapter's new Python surface** — the keywords,
+  functions, operators, or structure the chapter just taught. A typo on the new material makes
+  the detective work *reinforce the lesson* (osmosis, D-25). Only the third may be a "common"
+  slip. Examples: Ch 7 (booleans) → `ellif`, `adn`, `Len`; Ch 8 (`for`/lists) → `fro item in`,
+  a stray bracket; Ch 9 (string loops) → `for lettr in`, a missing `:`; Ch 10 (cipher) →
+  `ord`↔`odr`, `% 62`.
+- **Vary the CATEGORY across missions.** Rotate through the palette so consecutive missions don't
+  feel identical:
+  - **Keyword slips** — `ellif`, `whlie`, `retrun`, `improt`, `adn` / `ro` / `nto`
+  - **Function-name slips** — `inpt`, `prnt`, `rnage`, `lenght`
+  - **Operator / symbol slips** — `=` for `==`, a missing `:`, `+ =` split, wrong bracket
+  - **Indentation slips** — a line nudged out of its loop/if
+  - **Variable-name slips** — declared one way, used another
+- **The Builder must not be able to guess the typos before reading the code.** If you can predict
+  all three from the last mission, the palette wasn't used.
+
+> ⚠️ **Variable-name slips are the risky category — handle with care.** A misspelled variable can
+> accidentally become a *logic/flow* bug (e.g. declaring `reversd_word` but the loop still uses
+> `reversed_word`, leaving a variable undefined at runtime). That is **no longer a pure typo** —
+> it breaks the Tier II contract. If you use a variable-name slip, the *same* misspelling must
+> appear at **every** use of that variable, so fixing that one spelling everywhere yields a clean
+> run — and nothing else changes. **Always bash-run `challenge_2.py`, confirm the first traceback
+> matches the README, then fix exactly the three typos and confirm a clean run.**
 
 ### Tier III — Dragon Debug's Den (logic bugs allowed)
 The code runs, but the output may be wrong. Read, think, debug. **Fairness rule:** the
