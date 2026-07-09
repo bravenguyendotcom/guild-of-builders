@@ -376,6 +376,34 @@ Clear names are a gift to the next Builder — and the next Builder is usually *
 
 ---
 
+## 😄 Guild Extra — The Captain's Boxes
+
+Captain Byte asked Dragon Debug,
+"What is a variable, really?"
+
+Dragon Debug smiled into his tea.
+
+"A variable is a cardboard box.
+You can put anything inside.
+And you get to write the label yourself."
+
+Captain Byte grinned. "So my box could say `pizza`?"
+
+"It could," said the dragon.
+"But it will only ever hold
+what you told it to hold.
+Not what you were hoping for."
+
+Captain Byte wrote it down anyway:
+
+```python
+pizza_slices = 12
+```
+
+"Just in case," he said.
+
+---
+
 ### To be continued...
 
 Captain Byte's stomach growled.

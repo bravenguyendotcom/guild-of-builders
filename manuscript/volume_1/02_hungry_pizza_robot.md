@@ -445,3 +445,35 @@ Because knowing a number is one thing.
 *Making a choice* with it is a brand-new kind of magic.
 
 → *Next: the Age Machine.* ⏳
+
+---
+
+## 🧩 Guild Extra — Quackers' Laugh Machine
+
+Professor Quackers never laughs.
+
+He has never laughed once, in the whole story.
+
+But run this, and see what the *ship* thinks he'd say:
+
+```python
+quack_level = 3
+laughter = "Quack! " * quack_level
+
+print("Professor Quackers rates that joke:")
+print(laughter)
+```
+
+Expected output:
+```
+Professor Quackers rates that joke:
+Quack! Quack! Quack! 
+```
+
+That trick — a piece of text, times a number — is the exact same trick
+
+that made `"3" * 2` say `"33"` a few pages back.
+
+Multiply text, and Python doesn't do math.
+
+It just repeats the text, that many times.
