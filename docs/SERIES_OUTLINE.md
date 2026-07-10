@@ -100,7 +100,7 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
   questions that explain *which* rule failed.
 - Game: a gate guarding the next area.
 - 🏗️: *validation* · Cast: **Sir Boolean** debuts 🛡️ · Achievement: **Flag Bearer** 🚩.
-- 🥋 Dojo: Mission **002 The Bouncer** (a rules-checker: length + forbidden word). See `typing_dojo/MISSIONS_PLAN.md`.
+- 🥋 Dojo: Mission **002 The Bouncer** (a rules-checker: length + forbidden word) — ✅ built. See `typing_dojo/MISSIONS_PLAN.md`.
 
 ---
 
@@ -111,11 +111,11 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
 - Learn: counting a list *without* `.count()` (Mission 8).
 - Game: sort/count the treasure pile.
 - 🏗️: *iteration / accumulation*.
-- 🥋 Dojo: Mission **003 Tally Machine** (count items in a list, no `.count()`). See `typing_dojo/MISSIONS_PLAN.md`.
+- 🥋 Dojo: Mission **003 Tally Machine** (count items in a list, no `.count()`) — ✅ built. See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 9 — The Palindrome Mirror** 🪞 *(planned)*
 - Learn: strings — reverse/compare *without* `reverse()` (Mission 9). 🏗️: *string*.
-- 🥋 Dojo: Mission **004 Mirror, Mirror** (reverse & compare a string). See `typing_dojo/MISSIONS_PLAN.md`.
+- 🥋 Dojo: Mission **004 Mirror, Mirror** (reverse & compare a string) — ✅ built. See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 10 — The Caesar Messenger** 🗝️ *(planned)*
 - Learn: character math, a simple cipher (Mission 10). 🏗️: *encoding*.

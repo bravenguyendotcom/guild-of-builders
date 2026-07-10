@@ -8,9 +8,9 @@
 
 The Mirror only opens for one kind of word —
 
-one that reads exactly the same, forwards and backwards.
+one that reads the same forwards and backwards.
 
-No shortcut tool. No `.reverse()` — strings don't carry one.
+There's no shortcut. No `.reverse()` — strings don't carry one.
 
 You build the reflection yourself, one letter at a time,
 
@@ -43,9 +43,9 @@ Say a word for the Mirror: kayak
 kayak is a palindrome. The Mirror agrees with itself.
 ```
 
-*(Watch `reversed_word` build itself backwards, one letter stacked in*
-*front of the last — the same walk-the-thing move as Chapter 8's pile,*
-*only now it's walking letters instead of items.)*
+*(Watch `reversed_word` grow backwards — each new letter stacked in front*
+*of the last. The same walk-it-one-at-a-time move as Chapter 8's pile,*
+*only now it's walking letters.)*
 
 ---
 
@@ -55,26 +55,22 @@ Open **`challenge_2.py`**.
 
 Same Mirror — but **three typos** slipped in. No logic is broken. Only fingers.
 
-Retype it, run it, and fix each slip until it runs clean.
+Two of them will stop the program cold, and Python will point right at them.
+
+The third won't. It runs just fine and still isn't how this chapter spelled things.
+
+Retype it, run it, fix what you find — and don't stop at two.
 
 Run it once and Python hands you your first clue:
 
 ```
-  File "challenge_2.py", line 12
-    print(word, "is a palindrome. The Mirror agrees with itself.)
-                ^
-SyntaxError: unterminated string literal (detected at line 12)
+  File "challenge_2.py", line 8
+    fro letter in word:
+        ^^^^^^
+SyntaxError: invalid syntax
 ```
 
-**Excellent. Now the conversation begins.**
-
-Close that quote, run it again, and a second clue appears — Python pointing right at the
-Mirror's own `for` line, asking for something small it's missing.
-
-The third typo is sneakier. It won't crash anything — the Mirror will run just fine and still
-judge every word correctly. But look closely at the letter the loop walks with. Does it match
-what this chapter taught you to call it? A good detective notices what *doesn't* cause trouble
-too. 🦑
+**Excellent. Now the conversation begins.** 🦑
 
 ---
 
@@ -90,19 +86,17 @@ Dragon Debug takes a slow sip and murmurs, *"Interesting."*
 
 The Mirror never blinks, never rushes, never grades a word twice.
 
-The Tangle checks the loop for a stray `:` to trip over, finds none the second time, and sulks off.
-
 Professor Quackers says nothing. Professor Quackers never does. 🦆
 
 ---
 
 ## Related Missions
 
-- **Chapter 9 — The Palindrome Mirror** (where you first *met* this Mirror).
-- **Mission 003 — The Tally Machine** (the same walk-it-one-at-a-time move —
-  a familiar friend, wearing letters instead of items).
-- *Coming later:* the same character-by-character walk, hunting a Caesar cipher.
-  *(Wait — shifting one letter at a time... where have you seen that before?)*
+Chapter 9 is where you first met the Mirror.
+
+Mission 003 walked a pile; this one walks a word — same move, new costume.
+
+*Coming later: one letter, shifted just a little... and a secret appears.* 🗝️
 
 ---
 
@@ -110,9 +104,16 @@ Professor Quackers says nothing. Professor Quackers never does. 🦆
 `ID:` 004 · `Title:` Mirror, Mirror · `Engine:` `coding_gold_mine/004_palindrome.py`
 · `CS Seeds:` string iteration · string concatenation · == · palindrome check
 · `Prerequisites:` Chapter 8 (`for` loop, walking a sequence one item at a time)
-· `Tiers shipped:` I–II · `Related:` Ch 8 tally loop; future character-math/cipher engines (005).
-· `Tier II typo palette (D-28):` missing-quote slip (line 12, common) · missing-colon slip on the
-  `for` header (operator/symbol, new-surface) · consistent `letter`→`lettr` rename (variable-name,
-  new-surface, cosmetic-only — bash-confirmed to run clean and correct on its own, per the D-28
-  guardrail against inconsistent variable renames). Bash-verified first traceback: `SyntaxError:
-  unterminated string literal (detected at line 12)`.</sub>
+· `Tiers shipped:` I–II · `Related:` Ch 8 tally loop; future cipher engine (005).
+
+**Tier II typo palette (D-28) — three categories, two on Ch 9's new surface, none repeating a
+prior mission:**
+1. **Keyword slip (new surface):** `for` → `fro` on the string-walk loop (line 8).
+2. **Variable-name slip (new surface, cosmetic):** `reversed_word` → `reversd_word`, misspelled
+   *consistently* at all three uses (lines 7, 9, 11) — bash-confirmed to run clean **and** correct
+   on its own, so it stays a pure typo, per the D-28 guardrail against inconsistent renames.
+3. **Operator/symbol slip (common):** `==` → `=` on the `if` line (line 11).
+
+**Bash-verified first traceback:** `SyntaxError: invalid syntax` at line 8 (`fro letter in word:`).
+Second clue after fixing it: `SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of
+'='?`. Fixing exactly the three typos reproduces `challenge_1.py` byte-for-byte.</sub>

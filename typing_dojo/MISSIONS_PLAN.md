@@ -34,8 +34,8 @@
 | 6 | The Secret Treasure | **001 Guess the Number** | New | `001_guess_the_number.py` | I–II | ✅ built |
 | 7 | Safe Password Checker | **002 The Bouncer** (a rules-checker: length + forbidden word) | New | `002_bouncer.py` | I–II | ✅ built |
 | 8 | The Recycling Robot | **003 Tally Machine** (count items in a list, no `.count()`) | New | `003_tally.py` | I–II | ✅ built |
-| 9 | The Palindrome Mirror | **004 Mirror, Mirror** (reverse & compare a string) | New | `004_palindrome.py` | I–II | 📋 |
-| 10 | The Caesar Messenger | **005 Secret Cipher** (shift letters — Caesar) | New | `005_caesar.py` | I–II | 📋 |
+| 9 | The Palindrome Mirror | **004 Mirror, Mirror** (reverse & compare a string) | New | `004_palindrome.py` | I–II | ✅ built |
+| 10 | The Caesar Messenger | **005 Secret Cipher** (shift letters — Caesar) | New | `005_caesar.py` | I–II | 🔨 next |
 | 11 | The Riddle Theatre | **006 The Guessing Cave** 🔁 | Echo of 001 | `001` (new skin) | I–II | 📋 |
 | 12 | Menus & Mini-Programs | **007 The Quest Log** (menu loop over a list) | New | `007_menu.py` | I–II | 📋 |
 | 13 | The Painter's Deck | **008 The Sign Painter** (build ASCII art with loops) | New | `008_ascii_sign.py` | I–II | 📋 |
@@ -111,14 +111,25 @@
   echoes). The wider library (harder tiers, more skins) grows in the open-source gallery (D-30).
 - **`SERIES_OUTLINE.md`'s 🥋 tags point here.** When a mission's chapter/target changes, update
   this backlog first, then the outline's one-line 🥋 tag.
+- **Tier II freshness (D-28, the 🎲 Typo Palette).** Every Conan's Challenge rotates typo
+  *category* (keyword / function-name / operator-symbol / indentation / variable-name), lands two
+  of three typos on that chapter's new Python surface, and never repeats the previous mission's
+  slips. Variable-name slips must be spelled the *same wrong way at every use* so they stay
+  cosmetic. Always bash-run `challenge_2.py` and confirm the first traceback before shipping.
 
 ---
 
 ## Build order (next up)
 
 1. ✅ **001 Guess the Number** — built (the template).
-2. 🔨 **002 The Bouncer** (Ch 7) — the next engine to author.
-3. 📋 Then 003–005 (the new Vol I engines), then the echoes.
+2. ✅ **002 The Bouncer** (Ch 7) — built.
+3. ✅ **003 Tally Machine** (Ch 8) — built.
+4. ✅ **004 Mirror, Mirror** (Ch 9) — built. Tier II rebuilt to the 🎲 Typo Palette (D-28):
+   keyword slip `for`→`fro` + consistent variable slip `reversed_word`→`reversd_word` +
+   operator slip `==`→`=`; bash-verified first traceback `SyntaxError: invalid syntax` at the
+   `fro` line.
+5. 🔨 **005 Secret Cipher** (Ch 10) — the next engine to author.
+6. 📋 Then the echoes (006+).
 
 > Build the format, not the mountain. Ship missions as chapters need them — never all at once.
 > *v1 > perfection.*
