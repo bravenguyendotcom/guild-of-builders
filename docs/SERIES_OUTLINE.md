@@ -42,7 +42,7 @@ solution to a *real* problem, with confidence. Everything before it is the climb
 # 📘 VOLUME I — The First Voyage
 **Python:** basics (CLI). **Deliverable:** *Treasure Quest v1* — a playable, shareable text game.
 **Rung:** vocabulary — every skill quietly gets its real-world name.
-*(Chapters 0–9 below reflect the **shipped** manuscript. Chapters 10–15 are the **planned** map,
+*(Chapters 0–7 below reflect the **shipped** manuscript. Chapters 8–15 are the **planned** map,
 subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
 
 **Ch 0 — Welcome: The Ship That Needs You** *(shipped)*
@@ -100,22 +100,22 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
   questions that explain *which* rule failed.
 - Game: a gate guarding the next area.
 - 🏗️: *validation* · Cast: **Sir Boolean** debuts 🛡️ · Achievement: **Flag Bearer** 🚩.
-- 🥋 Dojo: Mission **002 The Bouncer** (a rules-checker: length + forbidden word) — ✅ built. See `typing_dojo/MISSIONS_PLAN.md`.
+- 🥋 Dojo: Mission **002 The Bouncer** (a rules-checker: length + forbidden word). See `typing_dojo/MISSIONS_PLAN.md`.
 
 ---
-
-*Below: the **planned** remainder of Volume I (not yet written; revise as chapters ship).*
 
 **Ch 8 — The Recycling Robot** ♻️ *(shipped)*
 - Story: a mountain of salvage to sort and count.
 - Learn: counting a list *without* `.count()` (Mission 8).
 - Game: sort/count the treasure pile.
 - 🏗️: *iteration / accumulation*.
-- 🥋 Dojo: Mission **003 Tally Machine** (count items in a list, no `.count()`) — ✅ built. See `typing_dojo/MISSIONS_PLAN.md`.
+- 🥋 Dojo: Mission **003 Tally Machine** (count items in a list, no `.count()`). See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 9 — The Palindrome Mirror** 🪞 *(shipped)*
 - Learn: strings — reverse/compare *without* `reverse()` (Mission 9). 🏗️: *string*.
-- 🥋 Dojo: Mission **004 Mirror, Mirror** (reverse & compare a string) — ✅ built. See `typing_dojo/MISSIONS_PLAN.md`.
+- 🥋 Dojo: Mission **004 Mirror, Mirror** (reverse & compare a string). See `typing_dojo/MISSIONS_PLAN.md`.
+
+*Below: the **planned** remainder of Volume I (not yet written; revise as chapters ship).*
 
 **Ch 10 — The Caesar Messenger** 🗝️ *(planned)*
 - Learn: character math, a simple cipher (Mission 10). 🏗️: *encoding*.
