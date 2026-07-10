@@ -35,8 +35,8 @@
 | 7 | Safe Password Checker | **002 The Bouncer** (a rules-checker: length + forbidden word) | New | `002_bouncer.py` | I–II | ✅ built |
 | 8 | The Recycling Robot | **003 Tally Machine** (count items in a list, no `.count()`) | New | `003_tally.py` | I–II | ✅ built |
 | 9 | The Palindrome Mirror | **004 Mirror, Mirror** (reverse & compare a string) | New | `004_palindrome.py` | I–II | ✅ built |
-| 10 | The Caesar Messenger | **005 Secret Cipher** (shift letters — Caesar) | New | `005_caesar.py` | I–II | 🔨 next |
-| 11 | The Riddle Theatre | **006 The Guessing Cave** 🔁 | Echo of 001 | `001` (new skin) | I–II | 📋 |
+| 10 | The Caesar Messenger | **005 Secret Cipher** (shift letters — Caesar) | New | `005_caesar.py` | I–II | ✅ built |
+| 11 | The Riddle Theatre | **006 The Guessing Cave** 🔁 | Echo of 001 | `001` (new skin) | I–II | 🔨 next |
 | 12 | Menus & Mini-Programs | **007 The Quest Log** (menu loop over a list) | New | `007_menu.py` | I–II | 📋 |
 | 13 | The Painter's Deck | **008 The Sign Painter** (build ASCII art with loops) | New | `008_ascii_sign.py` | I–II | 📋 |
 | 14 | The Escape Room | **009 The Vault** 🔁 (combine guess + check — echoes 001/002) | Echo | `001`+`002` skin | I–II | 📋 |
@@ -128,8 +128,11 @@
    keyword slip `for`→`fro` + consistent variable slip `reversed_word`→`reversd_word` +
    operator slip `==`→`=`; bash-verified first traceback `SyntaxError: invalid syntax` at the
    `fro` line.
-5. 🔨 **005 Secret Cipher** (Ch 10) — the next engine to author.
-6. 📋 Then the echoes (006+).
+5. ✅ **005 Secret Cipher** (Ch 10) — built. Tier II with three typos: indentation slip at the
+   print line + two typos in the `ord()`/`chr()` character math functions; bash-verified first
+   traceback `IndentationError: unindent does not match any outer indentation level`.
+6. 🔨 **006 The Guessing Cave** (Ch 11, Echo of 001) — the next engine skin to author.
+7. 📋 Then 007+ missions.
 
 > Build the format, not the mountain. Ship missions as chapters need them — never all at once.
 > *v1 > perfection.*
