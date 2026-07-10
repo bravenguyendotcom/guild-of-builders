@@ -117,7 +117,7 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
 
 *Below: the **planned** remainder of Volume I (not yet written; revise as chapters ship).*
 
-**Ch 10 — The Caesar Messenger** 🗝️ *(planned)*
+**Ch 10 — The Caesar Messenger** 🗝️ *(shipped)*
 - Learn: character math, a simple cipher (Mission 10). 🏗️: *encoding*.
 - 🥋 Dojo: Mission **005 Secret Cipher** (shift letters — Caesar; echoes this chapter). See `typing_dojo/MISSIONS_PLAN.md`.
 
