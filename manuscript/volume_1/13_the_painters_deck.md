@@ -270,33 +270,100 @@ plain.
 
 barely a sketch of what's possible."
 
-He waved a hand at the dark theatre wall, and for just a moment — TommyBot
+He waved his brush at the dark theatre wall — and this time he didn't stop at a wave.
 
-would swear to it later, though no one else quite saw — hundreds of tiny
+"Here. Let me actually *show* you. Run this."
 
-green characters seemed to ripple down the stone like rain, then vanished.
+```python
+import random, time, shutil
 
-"Someday," Pycasso said, watching TommyBot's face carefully, "when you've
+GREEN = "\033[92m"
+RESET = "\033[0m"
+WIDTH = shutil.get_terminal_size().columns
+CHARS = "0123456789ABCDEF@#$%&*+=-"
 
-got a few more loops in your pocket, and a list that can hold a *position* —
+drops = [random.randint(0, 20) for _ in range(WIDTH)]
 
-I'll show you what a whole *waterfall* of characters looks like. Falling.
+print("\033[2J", end="")
+for frame in range(100):
+    line = "\033[H"
+    for row in range(20):
+        for col in range(WIDTH):
+            if abs(row - drops[col]) < 4:
+                line += GREEN + random.choice(CHARS) + RESET
+            else:
+                line += " "
+        line += "\n"
+    print(line, end="")
+    for col in range(WIDTH):
+        drops[col] += 1
+        if drops[col] > 20 + random.randint(0, 10):
+            drops[col] = 0
+    time.sleep(0.06)
+print(RESET)
+```
 
-Forever. On purpose."
+TommyBot ran it.
 
-"That sounds impossible," said TommyBot.
+And the whole screen came *alive* — hundreds of green characters spilling down
 
-"It's four ideas you already half-know, stacked on top of each other," said
+from the top, each column falling at its own pace, trailing light behind them
 
-Pycasso. "Everything impossible usually is." And he was gone again, back up
+like rain caught in a streetlamp. It filled the terminal edge to edge, all the
 
-into the rafters, humming.
+way to the horizon of the screen, and it did not stop.
+
+TommyBot just stared. "...how."
+
+"Four ideas," said Pycasso, holding up four fingers, entirely too pleased.
+
+"And you already half-know two of them."
+
+"One — a **list** that remembers how far each column has fallen. Two — a little
+
+**randomness**, so no two drops fall alike. Three — the **loops** you've built in
+
+every single chapter. And four —" he tapped the very top of the screen — "one
+
+new trick: **clearing the screen** between frames, so fast it looks like motion
+
+instead of a thousand separate pictures."
+
+"I don't understand most of that yet," TommyBot admitted.
+
+"*Yet,*" said Pycasso, landing on the word like it was the whole point. "You've
+
+got the loops. By Volume Two you'll have the list that holds a position — and
+
+then all four ideas will be sitting in your pocket at the same time. This will
+
+stop looking like magic and start looking like *yours.*"
+
+He was already drifting back toward the rafters, but he paused, and pointed at
+
+one line in the code — the row that read `CHARS = "0123456789ABCDEF..."`.
+
+"Until then — don't just watch it. *Poke* it. That line, right there, is the
+
+alphabet the rain falls in. Change it to `"01"` and watch it rain pure binary.
+
+Change the green to another colour. Make it wider, faster, stranger. This piece
+
+isn't finished — it's barely a sketch. What it *becomes* is the part I'm leaving
+
+to you."
+
+"That's not really an ending, then," said TommyBot.
+
+Pycasso grinned from halfway up the wall. "None of the good ones are."
+
+And he was gone, humming, leaving the rain still falling softly behind him.
 
 From TommyBot's pocket, forgotten yet again, the encoded note sat exactly
 
-where it always sat. Patient. Unread. Waiting for its own moment, same as
+where it always sat. Patient. Unread. Waiting for its own moment — same as
 
-Pycasso's waterfall.
+the four ideas, now two of them already in hand.
 
 Some mysteries take longer to paint than others.
 
