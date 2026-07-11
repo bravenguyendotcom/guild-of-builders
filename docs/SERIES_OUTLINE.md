@@ -117,7 +117,7 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
 
 *Below: the **planned** remainder of Volume I (not yet written; revise as chapters ship).*
 
-**Ch 10 — The Caesar Messenger** 🗝️ *(shipped)*
+**Ch 10 — The Caesar Messenger** 🗝️ *(planned)*
 - Learn: character math, a simple cipher (Mission 10). 🏗️: *encoding*.
 - 🥋 Dojo: Mission **005 Secret Cipher** (shift letters — Caesar; echoes this chapter). See `typing_dojo/MISSIONS_PLAN.md`.
 
@@ -136,7 +136,9 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
 - 🎨 Art: the "make it beautiful" thread opens (title screens, ASCII, colour).
 - 🥋 Dojo: Mission **008 The Sign Painter** (build ASCII art with loops). See `typing_dojo/MISSIONS_PLAN.md`.
 - 🖼️ Advanced Gallery: **Matrix Rain** 🟢 — Pycasso's debut showpiece; the green code waterfall
-  (lists + random + colour = motion). See `PYCASSO_GALLERY_ADVANCED.md`.
+  (lists + random + colour = motion). **Shown *and runnable* here** — the child runs it and watches
+  it fall; the full build waits for Vol II. Built: `pycasso_gallery/matrix_rain.py`. See
+  `PYCASSO_GALLERY_ADVANCED.md`.
 
 **Ch 14 — The Escape Room** 🚪 *(planned — pre-capstone)*
 - Learn: combine guessing + strings + logic + math (Mission 19). 🏗️: *integration*.

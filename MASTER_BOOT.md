@@ -58,6 +58,7 @@ Software engineers hate God Objects. So do we.)
 | `docs/GUILD_EXTRAS_SOURCE.md` | The distilled Joke/Riddle/Art catalog (D-34) — read this, never the raw brainstorm. |
 | `docs/GUILD_EXTRAS_BUILD_KIT.md` | How to build the Guild Extras library from the source catalog (upload list, prompt). |
 | `docs/PYCASSO_GALLERY_ADVANCED.md` | The Advanced Gallery — 3D/motion CLI art showpieces (D-35), skill-gated, later volumes. |
+| `pycasso_gallery/` | The Advanced Gallery's showpiece code (art-twin of `coding_gold_mine/`). Built: `matrix_rain.py`. |
 | `manuscript/` | The **story** the child reads (the novel/adventure). |
 | `workbook/` | Retired — missions live in chapters (D-26). Keeps a signpost README only. |
 | `source_code/` | The **actual game code**, one folder per volume. |

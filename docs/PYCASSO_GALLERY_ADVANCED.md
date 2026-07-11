@@ -2,7 +2,11 @@
 
 ### The Advanced Gallery — 3D & motion CLI art (the "whoa, I want to build THAT" tier)
 
-> **Status:** DRAFT (seed topics — 6 showpieces). A planning doc, not the code library.
+> **Status:** LIVE (canon per `DECISIONS.md` D-35). The showpiece **code lives in the
+> `pycasso_gallery/` folder** (the art-twin of `typing_dojo/coding_gold_mine/`). Seed topics: 6.
+> **Built so far:** 🟢 Matrix Rain (`pycasso_gallery/matrix_rain.py`) — real, bash-verified,
+> shown-and-runnable at Vol I Ch 13. The other five are planned topics, built as their chapters
+> arrive.
 > **What this is:** the *advanced* wing of Professor Pycasso's Gallery — aspirational, animated,
 > math-and-loops-heavy CLI art. These are **not** the per-chapter Guild Extras (D-34). They are
 > a **skill-gated advanced tier**, exactly parallel to the Typing Dojo's higher tiers (D-28):
@@ -42,9 +46,13 @@ All of them share one honest technique, so a Builder who learns it once can buil
 - **Real technique:** one falling position per column (a list), advance each per frame, print a
   random char at the head, dimmer chars for the trail, `time.sleep` between frames.
 - **Skills:** lists, `random`, loops, `time`, ANSI colour codes. **Level: Medium** (Vol II).
-- **Placement:** Vol II Gallery / early advanced. The friendliest of the six — good first showpiece.
-- **Chapter fit:** pairs beautifully with any chapter about **lists + randomness** (echoes the
-  Vol I random/loops chapters).
+- **Placement:** **Built** → `pycasso_gallery/matrix_rain.py` (adaptive width, `CHARS`/`COLOR`
+  knobs). **Shown-and-runnable at Vol I Ch 13** (Pycasso's debut): the child runs a short version
+  right in the chapter and watches it fall, even though the full four-idea build (a list that
+  holds a *position*) isn't taught until Vol II. So it's not "shown, not built" — it's *shown,
+  runnable, and gleefully unfinished*, with Pycasso handing the tweaks to the Builder.
+- **Chapter fit:** Ch 13 (debut — inspire now, understand fully by Vol II); pairs with any later
+  chapter about **lists + randomness**.
 
 ### 2. ✨ The Starfield — *"flying through space"*
 - **What:** white dots streaming outward from the centre, faster as they near the edges — the
@@ -132,6 +140,7 @@ All of them share one honest technique, so a Builder who learns it once can buil
 - **Run it → Hack it → Own it (D-34).** Even these ship with "knobs" — change the rain colour,
   the rocket shape, the sphere's light angle — so a Builder *owns* it, never just runs it.
 
-> **Next step (a future decision):** promote this into canon as **the Advanced Pycasso's Gallery**
-> (a D-35 candidate), the art-side twin of the Dojo's advanced tiers — then the 6 seeds here get
-> real code in the gallery folder, built and bash-verified like Dojo missions.
+> **Status of the build:** D-35 is locked; the `pycasso_gallery/` folder now exists with the
+> first showpiece built (Matrix Rain). The remaining five get real, bash-verified code in that
+> folder as their chapters arrive — built and tested like Dojo missions (Donut Law). The mountain
+> grows outside the book by contribution (D-30).

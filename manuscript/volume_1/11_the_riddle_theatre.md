@@ -533,6 +533,24 @@ You got it in 7 guesses!
 
 Same Cave — but **three typos** slipped in. No logic is broken. Only fingers.
 
+```python
+import random
+
+secret = randon.randint(1, 100)
+guess = 0
+attemps = 0
+
+whlie guess != secret:
+    guess = int(input("Guess my number (1-100): "))
+    attemps = attemps + 1
+    if guess < secret:
+        print("Too low.")
+    elif guess > secret:
+        print("Too high.")
+
+print("You got it in", attemps, "guesses!")
+```
+
 Run it once and Python hands you your first clue:
 
 ```
@@ -544,9 +562,19 @@ SyntaxError: invalid syntax
 
 **Excellent. Now the conversation begins.** 🦑
 
-Fix that one, run again, and two more clues are waiting in the Cave's oldest
+Fix that `whlie`, run again, and Python hands you the second clue:
 
-machinery — the counting, and the calling of the number itself.
+```
+NameError: name 'randon' is not defined. Did you mean: 'random'?
+```
+
+Fix that one too — and the third typo won't shout at all. `attemps` runs clean
+
+and gives the right answer both times. Only your own eyes will catch it: it's
+
+spelled the same wrong way everywhere it's used, so once you spot it, one fix
+
+is all it takes.
 
 Dragon Debug takes a slow sip and murmurs, *"Interesting."*
 
