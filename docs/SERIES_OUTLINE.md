@@ -113,27 +113,32 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
 
 **Ch 9 — The Palindrome Mirror** 🪞 *(shipped)*
 - Learn: strings — reverse/compare *without* `reverse()` (Mission 9). 🏗️: *string*.
+- Game: a mirror-word puzzle the game can use as a gate.
 - 🥋 Dojo: Mission **004 Mirror, Mirror** (reverse & compare a string). See `typing_dojo/MISSIONS_PLAN.md`.
 
 *Below: the **planned** remainder of Volume I (not yet written; revise as chapters ship).*
 
 **Ch 10 — The Caesar Messenger** 🗝️ *(planned)*
 - Learn: character math, a simple cipher (Mission 10). 🏗️: *encoding*.
+- Game: a secret coded message the player must decode to advance.
 - 🥋 Dojo: Mission **005 Secret Cipher** (shift letters — Caesar; echoes this chapter). See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 11 — The Riddle Theatre** 🎭 *(planned)*
 - Story: two ridiculous hosts block the road with wordplay.
 - Cast: **Maestro Monty & Sir Quizzalot** debut 🤡🥁. 🏗️: *the show*.
+- Game: riddle-asking characters who guard a path in the game.
 - 🎭 Riddle/Joke: the Riddle Theatre & Guild Joke Board open (write-your-own invited).
 - 🥋 Dojo: Mission **006 The Guessing Cave** 🔁 (an Echo of 001 — same engine, new skin, D-23). See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 12 — Menus & Mini-Programs** ✅ *(planned)*
 - Learn: menu loops, list state — To-Do / Contact Book / shop (Missions 16–18). 🏗️: *state / CRUD*.
+- Game: **the menu loop that becomes the game's main console** (the spine of the capstone).
 - 🥋 Dojo: Mission **007 The Quest Log** (a menu loop over a list). See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 13 — The Painter's Deck** 🎨 *(planned)*
 - Learn: ASCII art, formatted & colored output. Cast: **Professor Pycasso** (debut show). 🏗️: *user experience*.
 - 🎨 Art: the "make it beautiful" thread opens (title screens, ASCII, colour).
+- Game: a coloured title screen and prettier output for the game.
 - 🥋 Dojo: Mission **008 The Sign Painter** (build ASCII art with loops). See `typing_dojo/MISSIONS_PLAN.md`.
 - 🖼️ Advanced Gallery: **Matrix Rain** 🟢 — Pycasso's debut showpiece; the green code waterfall
   (lists + random + colour = motion). **Shown *and runnable* here** — the child runs it and watches
@@ -142,6 +147,7 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
 
 **Ch 14 — The Escape Room** 🚪 *(planned — pre-capstone)*
 - Learn: combine guessing + strings + logic + math (Mission 19). 🏗️: *integration*.
+- Game: the first time several mini-games join into one gated sequence — a dry run for the capstone.
 - 🥋 Dojo: Mission **009 The Vault** 🔁 (Echo — combines guess + check, echoes 001/002). See `typing_dojo/MISSIONS_PLAN.md`.
 
 **Ch 15 — Captain Byte's Treasure Quest v1** 🏴‍☠️ *(planned — capstone / donut)*
