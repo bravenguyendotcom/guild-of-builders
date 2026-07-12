@@ -37,10 +37,10 @@
 | 9 | The Palindrome Mirror | **004 Mirror, Mirror** (reverse & compare a string) | New | `004_palindrome.py` | I–II | ✅ built |
 | 10 | The Caesar Messenger | **005 Secret Cipher** (shift letters — Caesar) | New | `005_caesar.py` | I–II | ✅ built |
 | 11 | The Riddle Theatre | **006 The Guessing Cave** 🔁 | Echo of 001 | `001` (new skin) | I–II | ✅ built |
-| 12 | Menus & Mini-Programs | **007 The Quest Log** (menu loop over a list) | New | `007_menu.py` | I–II | 🔨 next |
-| 13 | The Painter's Deck | **008 The Sign Painter** (build ASCII art with loops) | New | `008_ascii_sign.py` | I–II | 📋 |
-| 14 | The Escape Room | **009 The Vault** 🔁 (combine guess + check — echoes 001/002) | Echo | `001`+`002` skin | I–II | 📋 |
-| 15 | Treasure Quest v1 (capstone) | **010 The Ship's Console** 🔁 (a tiny menu tying it together) | Echo of 007 | `007` (new skin) | I–II | 📋 |
+| 12 | Menus & Mini-Programs | **007 The Quest Log** (menu loop over a list) | New | `007_menu.py` | I–II | ✅ built |
+| 13 | The Painter's Deck | **008 The Sign Painter** (build ASCII art with loops) | New | `008_ascii_sign.py` | I–II | ✅ built |
+| 14 | The Escape Room | **009 The Vault** 🔁 (combine guess + check — echoes 001/002) | Echo | `001`+`002` skin | I–II | ✅ built |
+| 15 | Treasure Quest v1 (capstone) | **010 The Ship's Console** 🔁 (a tiny menu tying it together) | Echo of 007 | `007` (new skin) | I–II | ✅ built |
 
 *Volume I total: 10 missions (5 new engines + echoes) — the "Batch 01" scope, now chapter-mapped.*
 
@@ -111,29 +111,15 @@
   echoes). The wider library (harder tiers, more skins) grows in the open-source gallery (D-30).
 - **`SERIES_OUTLINE.md`'s 🥋 tags point here.** When a mission's chapter/target changes, update
   this backlog first, then the outline's one-line 🥋 tag.
-- **Tier II freshness (D-28, the 🎲 Typo Palette).** Every Conan's Challenge rotates typo
-  *category* (keyword / function-name / operator-symbol / indentation / variable-name), lands two
-  of three typos on that chapter's new Python surface, and never repeats the previous mission's
-  slips. Variable-name slips must be spelled the *same wrong way at every use* so they stay
-  cosmetic. Always bash-run `challenge_2.py` and confirm the first traceback before shipping.
 
 ---
 
 ## Build order (next up)
 
-1. ✅ **001 Guess the Number** — built (the template).
-2. ✅ **002 The Bouncer** (Ch 7) — built.
-3. ✅ **003 Tally Machine** (Ch 8) — built.
-4. ✅ **004 Mirror, Mirror** (Ch 9) — built. Tier II rebuilt to the 🎲 Typo Palette (D-28):
-   keyword slip `for`→`fro` + consistent variable slip `reversed_word`→`reversd_word` +
-   operator slip `==`→`=`; bash-verified first traceback `SyntaxError: invalid syntax` at the
-   `fro` line.
-5. ✅ **005 Secret Cipher** (Ch 10) — built. Tier II with three typos: indentation slip at the
-   print line + two typos in the `ord()`/`chr()` character math functions; bash-verified first
-   traceback `IndentationError: unindent does not match any outer indentation level`.
-6. ✅ **006 The Guessing Cave** (Ch 11, Echo of 001) — built. Tier II with three typos: keyword slip `while`→`whlie` + two others in the core loop logic; bash-verified first traceback `SyntaxError: invalid syntax` at the `whlie` line. Story reframes the guess-the-number game at the Riddle Theatre (Maestro Monty & Sir Quizzalot hosts) — same engine, new skin per D-23.
-7. 🔨 **007 The Quest Log** (Ch 12, menu loop engine) — the next engine to author.
-8. 📋 Then 008+ missions.
+1. ✅ **Volume I complete** — Missions 001–010 all built and bash-verified (engines in
+   `coding_gold_mine/`, skins in `missions/`). The full Vol I Dojo ladder is shipped.
+2. 🔨 **Volume II missions (011+)** — begin as their chapters approach (Ch 1 → Mission 011,
+   The Blueprint). Build to the chapter's skills; don't run ahead of the manuscript.
 
 > Build the format, not the mountain. Ship missions as chapters need them — never all at once.
 > *v1 > perfection.*

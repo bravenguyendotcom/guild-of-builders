@@ -42,8 +42,9 @@ solution to a *real* problem, with confidence. Everything before it is the climb
 # 📘 VOLUME I — The First Voyage
 **Python:** basics (CLI). **Deliverable:** *Treasure Quest v1* — a playable, shareable text game.
 **Rung:** vocabulary — every skill quietly gets its real-world name.
-*(Chapters 0–7 below reflect the **shipped** manuscript. Chapters 8–15 are the **planned** map,
-subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
+*(**Volume I is complete — Chapters 0–15 all shipped**, and every Dojo mission (001–010) built.
+The capstone game ships in `source_code/volume_1/treasure_quest/`. Skill detail lives in
+`CURRICULUM.md`.)*
 
 **Ch 0 — Welcome: The Ship That Needs You** *(shipped)*
 - Story: Captain Byte, alone in a storm on a leaking ship, needs a Builder.
@@ -116,26 +117,24 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
 - Game: a mirror-word puzzle the game can use as a gate.
 - 🥋 Dojo: Mission **004 Mirror, Mirror** (reverse & compare a string). See `typing_dojo/MISSIONS_PLAN.md`.
 
-*Below: the **planned** remainder of Volume I (not yet written; revise as chapters ship).*
-
-**Ch 10 — The Caesar Messenger** 🗝️ *(planned)*
+**Ch 10 — The Caesar Messenger** 🗝️ *(shipped)*
 - Learn: character math, a simple cipher (Mission 10). 🏗️: *encoding*.
 - Game: a secret coded message the player must decode to advance.
 - 🥋 Dojo: Mission **005 Secret Cipher** (shift letters — Caesar; echoes this chapter). See `typing_dojo/MISSIONS_PLAN.md`.
 
-**Ch 11 — The Riddle Theatre** 🎭 *(planned)*
+**Ch 11 — The Riddle Theatre** 🎭 *(shipped)*
 - Story: two ridiculous hosts block the road with wordplay.
 - Cast: **Maestro Monty & Sir Quizzalot** debut 🤡🥁. 🏗️: *the show*.
 - Game: riddle-asking characters who guard a path in the game.
 - 🎭 Riddle/Joke: the Riddle Theatre & Guild Joke Board open (write-your-own invited).
 - 🥋 Dojo: Mission **006 The Guessing Cave** 🔁 (an Echo of 001 — same engine, new skin, D-23). See `typing_dojo/MISSIONS_PLAN.md`.
 
-**Ch 12 — Menus & Mini-Programs** ✅ *(planned)*
+**Ch 12 — Menus & Mini-Programs** ✅ *(shipped)*
 - Learn: menu loops, list state — To-Do / Contact Book / shop (Missions 16–18). 🏗️: *state / CRUD*.
 - Game: **the menu loop that becomes the game's main console** (the spine of the capstone).
 - 🥋 Dojo: Mission **007 The Quest Log** (a menu loop over a list). See `typing_dojo/MISSIONS_PLAN.md`.
 
-**Ch 13 — The Painter's Deck** 🎨 *(planned)*
+**Ch 13 — The Painter's Deck** 🎨 *(shipped)*
 - Learn: ASCII art, formatted & colored output. Cast: **Professor Pycasso** (debut show). 🏗️: *user experience*.
 - 🎨 Art: the "make it beautiful" thread opens (title screens, ASCII, colour).
 - Game: a coloured title screen and prettier output for the game.
@@ -145,12 +144,12 @@ subject to change as they're written. Skill detail lives in `CURRICULUM.md`.)*
   it fall; the full build waits for Vol II. Built: `pycasso_gallery/matrix_rain.py`. See
   `PYCASSO_GALLERY_ADVANCED.md`.
 
-**Ch 14 — The Escape Room** 🚪 *(planned — pre-capstone)*
+**Ch 14 — The Escape Room** 🚪 *(shipped — pre-capstone)*
 - Learn: combine guessing + strings + logic + math (Mission 19). 🏗️: *integration*.
 - Game: the first time several mini-games join into one gated sequence — a dry run for the capstone.
 - 🥋 Dojo: Mission **009 The Vault** 🔁 (Echo — combines guess + check, echoes 001/002). See `typing_dojo/MISSIONS_PLAN.md`.
 
-**Ch 15 — Captain Byte's Treasure Quest v1** 🏴‍☠️ *(planned — capstone / donut)*
+**Ch 15 — Captain Byte's Treasure Quest v1** 🏴‍☠️ *(shipped — capstone / the volume's donut)*
 - Learn: assemble it all into one clean, organized program (Mission 20).
 - Game: **the complete CLI game — shipped.**
 - 🏗️: *definition of done / shipping v1* · Achievement: **CLI Builder** 💻.
