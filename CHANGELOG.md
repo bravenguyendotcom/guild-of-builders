@@ -8,6 +8,16 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 
+### Changed
+- **Accessibility reframing across all canon documents** — depersonalized from named individual readers (Tommy, Teppy) to inclusive, universal language (10–15 year olds, readers with dyslexia/other reading differences). The commitment to accessibility is unchanged (still absolute, still mandatory); the *framing* is stronger. Replaced throughout:
+  - `MASTER_BOOT.md` §Who is this for: generic "newer reader" instead of "Teppy (mild dyslexia)"
+  - `docs/DECISIONS.md` D-04 (Audience & accessibility): reframed D-04 to describe reader types + universal principles instead of naming individuals; updated all other accessibility references
+  - `docs/PROJECT_BIBLE.md` §4 (Audience): "10–15 year olds, from confident older reader to younger, newer one" and "readers with dyslexia or other reading differences" instead of naming individuals
+  - `docs/STYLE_GUIDE.md` §2 (Accessibility): header and body updated to principle-first language
+  - Result: same iron commitment to access + inclusion, expressed as universal principle not accommodation for the named.
+- `docs/PROJECT_BIBLE.md` **§6.6 NEW — The Ladder of Struggle** (antagonist spine summary): documents the four-level antagonist architecture wired to real-world difficulty (Fog Creatures / inner → Tangle / craft → Broken Systems / real-world → Lossyfer / Final Boss); introduces the Source philosophy (Open Source share/help vs Mal-Source hoard/harm); names Lossyfer as fallen AI L'Unix, won by debugging not deletion; anchors the series' soul to "We debug, we don't destroy" scaled to the Final Boss. Full details in `VILLAINS.md` and `DECISIONS.md` D-37.
+- `docs/PROJECT_BIBLE.md` §9 (The Canonical Cast) updated: expanded from "founding four are permanent" to "five permanent leads" (added Lady-O-Query with D-36 note); reframed Quackers as "quiet master" and TommyBot as "learns by daring."
+
 ### Added
 - **Decision locks D-36 through D-38** (`docs/DECISIONS.md`):
   - **D-36 — Lady-O-Query joins the main cast** (LOCKED): permanent main cast now five (was four per D-05). She arrives Volume II, Chapter 1; owns Big-O/algorithmic efficiency; her flaw (over-planning/N+1 Query) drives Vol II's "ship v1, iterate" ritual. Canon method for writing the crew's women: *specific people* drawn from life and books, flaw-from-strength, never from a template; representation by excellence (Marie Curie easter egg, never announced).
