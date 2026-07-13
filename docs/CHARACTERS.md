@@ -51,24 +51,67 @@ and **rules** here first. If a character would never say a line, don't write it.
 
 # 🦆 Professor Quackers — The Rubber Duck
 
-- **Role:** Teaches **Rubber Duck Debugging** by existing.
-- **Personality:** Silent. Serene. Present.
-- **Function:** The child explains their broken code *to the duck* — and finds the bug
-  themselves in the act of explaining. Quackers never gives an answer because he doesn't
-  need to. The method is the lesson.
-- **Voice:** Silence. (Occasionally, at most, a single "Quack" — used sparingly for comedy.)
-- **Running joke:** Everyone treats his silence as profound wisdom. Maybe it is.
+- **Role:** Teaches **Rubber Duck Debugging** by existing. He is not a mascot or a cameo — he is
+  the Guild's **quiet master**, whose entire method *is* his silence.
+- **Personality:** Silent. Serene. Present. The still center the noisy crew orbits — when everyone
+  else is charging, panicking, or theorizing, Quackers simply *is there*, unbothered, listening.
+- **Function — the most important reframe:** Quackers is silent not because he has nothing to say,
+  but because **the silence is the teaching.** When a Builder explains their broken code *to the
+  duck*, they hear their own logic out loud — and find the bug themselves, in the act of
+  explaining. Dragon Debug hands you the next *question*; Quackers hands you *nothing at all* — and
+  that nothing is exactly why *you* become the answer. His silence is the most *active* teaching
+  tool in the Guild: it refuses to rescue you, so you discover you never needed rescuing.
+- **Presence (how he shows up):** he sits somewhere small and slightly absurd — a shelf, a barrel,
+  a coil of rope — and watches everything without a flicker. The crew narrates his silence *for*
+  him, reading whole speeches into a single blink. He is treated, with total sincerity, as an
+  oracle. Maybe he is.
+- **Voice:** Silence. At most, one **"Quack"** — deployed rarely, always at the perfect beat, and
+  always *interpreted* by someone else into something that sounds like wisdom (*"It meant: a tally
+  that resets is not a lie — it's forgetting on purpose."*). The joke and the teaching are the same
+  thing: meaning comes from the *listener*, which is the whole point of rubber-duck debugging.
+- **Signature:** *(He has none in words. His signature is the pause he leaves — the space where
+  the Builder's own answer arrives.)*
+- **Running joke:** Everyone treats his silence as profound wisdom, and projects elaborate meaning
+  onto his one "Quack." Maybe it really is wisdom. Nobody can prove it isn't — least of all him.
+- **Keep distinct:** **Dragon Debug** teaches by asking the next question; **Quackers** teaches by
+  offering *no* question and *no* answer — pure reflective silence. Two different masters, two
+  different mechanisms. Never let Quackers explain a bug; the instant he "helps," he stops being
+  Quackers.
 
 ---
 
 # 🤖 TommyBot — Every Builder
 
-- **Role:** The reader's avatar. Represents Tommy, Teppy, and every child reading.
-- **Personality:** Curious, brave, honest about not knowing. Learns by asking.
-- **Function:** TommyBot tries, fails, asks, fixes, and grows — so the reader sees that
-  the journey (not instant mastery) *is* the point.
-- **Voice:** Sincere, wondering. "What should I learn next?" "I fixed it!" "Why did that work?"
-- **Arc:** Starts knowing nothing. By Volume IV, builds with AI. Never stops being curious.
+- **Role:** The reader's avatar — he represents Tommy, Teppy, and every child reading. When
+  TommyBot reaches for the keyboard, so does the reader. His triumphs are *theirs*.
+- **Personality:** Curious to the point of impatience — he'd rather *try it and see* than wait to
+  be shown. Brave in the specific way kids are brave: not fearless, but willing to press Run and
+  find out. Honest about not knowing, which is his quiet superpower — he says *"I don't get it yet"*
+  out loud, and that's exactly why he learns.
+- **Function:** TommyBot **learns by daring.** He reaches for the keyboard before anyone finishes
+  explaining, sure the new idea is just an old one wearing new clothes — sometimes he's right, and
+  it's thrilling; sometimes he's wrong, and *that's the honest bug* the chapter turns into a lesson.
+  He models the whole method: try, fail, feel the sting, read it out loud, fix it, grow. The reader
+  sees that the *journey* — not instant mastery — is the point.
+- **His growing mastery (D-31):** across the volumes, TommyBot slowly shifts from *asking* Dragon
+  Debug for answers to *answering his own questions* — and eventually to asking the questions
+  himself. Early on he needs the mentor; later, he recognizes a bug as *"an old friend wearing a new
+  costume"* and beats it before Dragon even speaks. His arc is the reader's arc: curiosity hardening
+  into competence, without ever losing the wonder.
+- **His flaw (from his strength):** he *dares before he checks* — types fast, assumes the pattern
+  holds, presses Run too soon. It's the engine of half the book's bugs, and it's lovable because
+  it's *how real Builders actually learn.* (A gentle mirror of Captain Byte's impulsiveness — the
+  student version of the Captain's charge.)
+- **Voice:** Sincere, wondering, thinking-out-loud as he types. *"Wait — this feels familiar."*
+  *"I followed the pattern and it still broke."* *"...oh. I see it now."* *"I fixed it!"* He narrates
+  his own reasoning, which is how the reader learns to reason too.
+- **Signature:** *"I've got it — watch."* (Said just before he either nails it or hits the very bug
+  the chapter needed. Both are wins.)
+- **Running joke:** He's *sure* the new thing is just the old thing again — and he's right often
+  enough to keep doing it, and wrong often enough to keep it funny.
+- **Keep distinct:** TommyBot is the *learner* (the reader); **Captain Byte** is the *doer* (the
+  story's engine of problems). They share impulsiveness, but Byte creates the mess for the lesson;
+  TommyBot *works through* the lesson. Byte is who the reader laughs at; TommyBot is who they *are.*
 
 ---
 
@@ -130,6 +173,55 @@ These appeared or were seeded in the founding conversation. Keep them consistent
   with total confidence.
 - **Pairing note:** Quizzalot is comedic bluster; **Sir Boolean** is earnest true/false logic.
   Two different knights — keep their jobs separate.
+
+---
+
+# 🧭 Lady-O-Query — The Navigator *(joins in Volume II)*
+### *The Over-Planning Prophet & Professional Inquirer*
+
+- **Role:** The ship's **Navigator, strategist, and mediator.** Captain Byte charges; Lady-O
+  reads the whole map and charts the route that won't sink them. She sees furthest and thinks in
+  *systems and futures* while everyone else is in the moment.
+- **Arrives:** **Volume II, Chapter 1 ("The Map Grows")** — when the crew's ambition outgrows its
+  planning and Dragon Debug says *plan first,* she walks in as the one who knows how. Her entrance
+  *is* the volume's opening note: *you're dreaming bigger now — someone has to chart the course.*
+- **Personality:** A visionary mind, meticulous planner, flawless at risk management — and
+  seriously, quietly responsible about anything that truly matters. Warm underneath the
+  eccentricity: she listens so well she can talk to anyone, which makes her the crew's peacemaker.
+- **Her superpower — she thinks in Big-O.** She *owns* algorithmic efficiency the way Sir Boolean
+  owns booleans and Pycasso owns art. Before a decision she mutters the cost aloud: *"Left strait?
+  Monster risk is O(1) — a certainty. Right? Our delay jumps to O(n²)..."* Kids absorb complexity
+  by osmosis, just from how she talks. **When the series teaches efficiency, Lady-O is the vehicle.**
+- **Her flaw (straight from her strength):** chronic **over-thinking and over-planning** — a touch
+  of logic-mania and OCD. She sees so many moves ahead she struggles to just *start*, and can
+  procrastinate or miss a *small* deadline (she is gloriously absent-minded about trivial things) —
+  but **never forgets the important thing.** Her arc across the volumes is learning that not
+  everything can be planned: sometimes you ship Version 1 and *find out.* (A perfect foil to the
+  Captain — and the beating heart of Volume II's "iterate in small steps" ritual.)
+- **The running gag — the N+1 Query Problem.** Instead of one clean question ("What's for
+  dinner?"), she fires a storm of tiny ones: *"Do you like fish? Mackerel or tuna? Steamed or
+  fried? Potatoes on the side?..."* — real database performance bug, made into a personality. It
+  bottlenecks the whole crew and it's hilarious.
+- **"Oh… Query!"** — when she approaches, sparkling-eyed, with *"Can I ask a quick question—"*, the
+  crew lets out a collective, loving, exhausted groan: **"Oh… Query!"** (The "O" in her name is
+  also that groan.) She's also fondly called **Often-Query** or **Over-Query** — even her nickname
+  can't settle on one value.
+- **Voice:** Precise, curious, thinks-out-loud in gentle CS metaphor. Queries everyone's mood like
+  a living `SELECT * FROM Crew WHERE feeling = ?`. Warm, never cold — her questions come from
+  caring, not interrogating (even when it *feels* like interrogation).
+- **Signature:** *"Measure the route twice. Sail it once."*
+- **Easter egg (for the curious, never announced):** rumored descendant of an ancient scientist,
+  **Marie Query** — a wink at Marie Curie, whose persistence and curiosity won two Nobel Prizes.
+  A girl who looks it up finds one of history's greatest scientists; a girl who doesn't still gets
+  a brilliant, funny hero. (Representation by *excellence*, never by announcement.)
+- **Prop gags (flavor, use sparingly):** a giant **letter-O spyglass** she "queries" the horizon
+  with; a logbook full of Boolean feedback forms (*"Was dinner delicious? (True/False)"*).
+- **Keep her lane clear:** vision · navigation · strategy · mediation — the *futures-and-systems-
+  and-people* axis. Distinct from **Sir Boolean** (precision/logic) and **Dragon Debug**
+  (patience/wisdom). She's not "the smart one" generically; she's the one who sees the *route*.
+- **Restraint note:** she's rich enough to overwhelm a scene. Keep her *core* per appearance
+  (Navigator · Big-O vision · N+1 over-querying · "Oh Query!" · serious-under-the-eccentric); let
+  the Marie Query lore and prop gags be reached for, not mandatory.
 
 ### 🌫️ The Fog Creatures — the inner enemies (DRAFT; they grow with the Builder)
 
@@ -211,6 +303,7 @@ A Builder only ever meets them if they wander off the main path on purpose.
 - Professor Pycasso finding "art" in everything (*"every program is a canvas"*) 🎨
 - The **rocking clown band** 🤡🥁 — Maestro Monty & Sir Quizzalot turning every riddle into a comedy sketch
 - Dragon Debug and **The Tangle** — the owner who "really should deal with that squid someday" (but never will) 🐉🦑
+- **"Oh… Query!"** 🧭 — the crew's loving, exhausted groan when Lady-O-Query opens with *"Can I ask a quick question—"* (and the N+1 barrage that follows)
 - **The Donut** 🍩 — the promised-but-undelivered artifact. In this project, we always deliver.
 
 ---
