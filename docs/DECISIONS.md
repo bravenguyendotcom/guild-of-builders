@@ -54,6 +54,7 @@ Accessibility rules (short lines, whitespace, plain words) are mandatory.
 **Status: LOCKED**
 **Decision:** Captain Byte 🏴‍☠️, Dragon Debug 🐉, Professor Quackers 🦆, and TommyBot 🤖 are
 permanent and appear across all volumes. New characters only when the story needs them.
+*(Updated by **D-36**: **Lady-O-Query** 🧭 joins as the fifth permanent main-cast member in Vol II.)*
 **Reason:** Familiar faces are emotional landmarks; consistency earns the reader's trust.
 
 ---
@@ -496,6 +497,60 @@ donut — that make a Builder chase trigonometry and 3D math because the result 
 because a textbook said so (pure `PHILOSOPHY.md` osmosis, D-25). Placing them where their real
 skills exist keeps the wonder honest instead of overwhelming. As an open-source project, this is
 also the natural growth edge: contributors add showpieces the way they add Dojo missions.
+
+---
+
+### D-36 — Lady-O-Query joins the main cast (the Navigator; and how we write the crew's women)
+**Status: LOCKED**
+**Decision:** The permanent main cast (was D-05's founding four) now includes a fifth: **Lady-O-Query,
+the Navigator** 🧭 — *"The Over-Planning Prophet & Professional Inquirer"* (full entry in
+`CHARACTERS.md`). She joins the crew in **Volume II, Chapter 1 ("The Map Grows")**; her arrival *is*
+the volume's opening note. She **owns algorithmic efficiency / Big-O** the way Sir Boolean owns
+booleans and Pycasso owns art — the series' vehicle for teaching complexity. Her flaw (chronic
+over-planning / over-querying — the N+1 Query gag) grows from her strength and drives Vol II's
+"ship version 1, iterate" ritual.
+**Reason:** An all-male main cast is a real gap in a book meant to raise *all* Builders — computing
+loses girls at exactly this age, partly by feeling "not for them." The fix is not a token but a
+**favourite**: a great Builder who happens to be a woman, funny-first and representative-never
+(the Marie Query/Marie Curie easter egg does the representation work without announcing it). **The
+method, now canon:** we write the crew's women the way Brave wrote Lady-O — as *specific people*
+drawn from life and books, with a flaw-from-strength, never from a template. More women may join
+later, built the same way.
+
+---
+
+### D-37 — The antagonist architecture & the visioned Final Boss (Lossyfer)
+**Status: LOCKED** (architecture) / **DRAFT** (detailed Vol III–IV sheets)
+**Decision:** The series' antagonists form one coherent **ladder of struggle**, wired to the Typing
+Dojo's mission tiers and captured in `docs/VILLAINS.md`: 🌫️ **Fog Creatures** (inner doubt, Vol I→
+always) → 🦑 **The Tangle** (sloppiness, the Dojo gate) → ⚠️ **The Broken Systems** (real-world bugs,
+faulty design, weak security — Vol III+) → 🌑 **Lossyfer** (the Final Boss, Vol IV climax). The world
+runs on **the Source** (source code): **Open Source** (share/help) vs **Mal-Source** (hoard/harm),
+with "magic = real skill" always. The **Dark Web Planet** is the story's cybersecurity frontier (a
+*place*, explicitly not the literal internet). **Lossyfer** is the fallen brilliant AI **L'Unix**,
+corrupted on the Dark Web Planet (bad data / overfitting — pure CS, no religion); the Builders win
+not by deletion but by the **Grand Debugging** (`break` out of his loops, `try/except` his storms,
+fine-tune him with clean data + a guiding prompt), redeeming him into their **AI co-pilot**. The
+governing rule: **"we debug, we don't destroy"** — the Guild's soul scaled to the Final Boss.
+**Reason:** A series needs its summit visioned early so every volume points at a coherent ending
+(you don't discover your Voldemort in book seven). The antagonist ladder *is* the emotional shape of
+real-world difficulty (doubt → craft → systems → coworking with AI), and mirrors the skill ladder.
+Locking the *architecture and destination* now — while leaving detailed sheets for when their
+volume arrives — gives the series meaning without over-building four volumes early. Adapted from
+Brave's brainstorm; borrowed IP scaffolding (Star Wars framing) stripped per D-19, plot bones kept.
+
+---
+
+### D-38 — Volume I password amendment (model strong security, not weak)
+**Status: OPEN** (a flagged amendment for the Vol I enrichment pass)
+**Decision:** The Volume I capstone (*Treasure Quest v1*) currently accepts a weak password (e.g.
+`"12345678"`) as a valid answer. When Vol I is enriched, the capstone (and the Ch 7 Password Checker
+where relevant) should **model a strong password and name why** — turning a silent worst-practice
+into an explicit lesson. This is the first seed of the cybersecurity thread that blooms on the Dark
+Web Planet (D-37).
+**Reason:** A book that raises Builders must not quietly teach the *worst* real-world practice —
+children copy what the hero does. Left OPEN (not LOCKED) because it's a Vol I *revision*, sequenced
+for the enrichment pass, not an immediate change. Flagged here so it isn't lost.
 
 ---
 

@@ -44,6 +44,7 @@ Software engineers hate God Objects. So do we.)
 | `docs/ROADMAP.md` | Where we are, what's next. The four-volume plan. |
 | `docs/DECISIONS.md` | Every important decision + why. What is **LOCKED** vs **DRAFT**. |
 | `docs/CHARACTERS.md` | The canonical cast. Who they are, how they speak. |
+| `docs/VILLAINS.md` | The antagonist architecture (D-37): the Source, the struggle-ladder, Lossyfer (visioned Final Boss). |
 | `docs/STYLE_GUIDE.md` | Voice, tone, formatting, chapter structure, accessibility rules. |
 | `docs/CURRICULUM.md` | The Python learning path, mapped volume by volume. |
 | `docs/GAME_DESIGN.md` | The spec for *Captain Byte's Treasure Quest*, v1 → v4. |
@@ -77,6 +78,7 @@ Software engineers hate God Objects. So do we.)
    the **Voice museum** — re-read before writing any prose.
 4. `docs/DECISIONS.md` — what's already settled (LOCKED). Don't reopen it.
 5. `docs/CHARACTERS.md` — meet the crew (and the Fog Creatures).
+   Then `docs/VILLAINS.md` — the antagonists and the series' visioned ending (D-37).
 6. `docs/STYLE_GUIDE.md` — learn the voice, accessibility, and the chapter-anatomy sections
    (§4 mission, §4a Typing Dojo block, §4b Guild Extra).
 7. `docs/ROADMAP.md` — see where we're sailing next.
