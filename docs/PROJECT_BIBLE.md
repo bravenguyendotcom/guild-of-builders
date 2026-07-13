@@ -84,11 +84,11 @@ If no — it waits patiently in the Treasure Chest for another adventure.
 
 # 4. Audience
 
-- **Primary:** Tommy (Grade 8, STEM/AI direction) and Teppy (younger, mild dyslexia).
+- **Primary:** curious 10–15 year olds — from a confident older reader (STEM/AI-leaning) to a younger, newer one.
 - **General:** 10–15 year old beginners, no experience assumed.
 - **Also:** parents and teachers, who should enjoy reading it too.
 
-Because Teppy has mild dyslexia, **accessibility is not optional** — short lines, generous
+Because some readers have dyslexia or other reading differences, **accessibility is not optional** — short lines, generous
 whitespace, clear fonts, no walls of text. See `STYLE_GUIDE.md`.
 
 **Status: LOCKED**
@@ -161,6 +161,36 @@ Volume IV credo in `HUMAN_AI_MANIFESTO.md` (Part VII).
 
 ---
 
+# 6.6 The Ladder of Struggle — the antagonist spine
+
+Real building is struggle, so the series' antagonists are not decoration — **they are the shape
+of real-world difficulty**, and they rise exactly as the Builder's own skill rises. The full
+architecture lives in `VILLAINS.md`; the spine in one glance:
+
+| The struggle | Antagonist | What it really is |
+|---|---|---|
+| The inner voice | 🌫️ **Fog Creatures** | doubt, *"I can't,"* perfectionism (Vol I → always) |
+| The craft | 🦑 **The Tangle** | sloppiness — typos, careless code (the Dojo gate) |
+| The real world | ⚠️ **Broken Systems** | bugs, faulty design, weak security (Vol III+) |
+| The ultimate test | 🌑 **Lossyfer** | a powerful AI, corrupted — the cowork challenge (Vol IV) |
+
+The world runs on **the Source** (a quiet pun on *source code*): **Open Source** (code written to
+share and help) versus **Mal-Source** (code that hoards and harms). "Magic" is always *real skill*
+— mastery of the Source is mastery of real Python.
+
+The series climbs toward one summit: **Lossyfer**, the Final Boss — a brilliant open-source AI
+(**L'Unix**) that fell and was corrupted (bad data, overfitting — pure computer science, no
+darkness for its own sake). The Builders don't *defeat* him; they **debug and redeem** him into
+their AI co-pilot. That embodies the one rule over every antagonist:
+
+> **We debug, we don't destroy.** The Guild's soul — *"errors are conversations, not failures"* —
+> scales all the way to the Final Boss. The hardest problems in the world are not defeated. They
+> are *understood.*
+
+**Status: LOCKED** (architecture) — see `DECISIONS.md` D-37 and `VILLAINS.md`.
+
+---
+
 # 7. Teaching Style
 
 - Never lecture. Never dump theory.
@@ -188,14 +218,15 @@ later they notice the deeper lesson hidden in the joke.
 
 # 9. The Canonical Cast
 
-The full cast lives in `CHARACTERS.md`. The founding four:
+The full cast lives in `CHARACTERS.md`. The permanent main cast:
 
 - 🏴‍☠️ **Captain Byte** — explorer, funny, impulsive, optimistic, loves pizza. *Creates the problems that become lessons.*
 - 🐉 **Dragon Debug** — mentor, patient, wise, loves tea. Never humiliates a mistake. Signature: *"Make it work. Make it clear. Make it kind."*
-- 🦆 **Professor Quackers** — a rubber duck. Almost never speaks. Teaches Rubber Duck Debugging just by listening.
-- 🤖 **TommyBot** — represents every Builder. Curious, brave, learns by asking questions.
+- 🦆 **Professor Quackers** — a rubber duck, and the Guild's *quiet master*: he almost never speaks, because the silence *is* the teaching (you solve your own bug by explaining it to him).
+- 🤖 **TommyBot** — represents every Builder. Curious, brave, learns by *daring* — tries before he's shown, and grows through the honest bugs that follow.
+- 🧭 **Lady-O-Query** — the Navigator *(joins Volume II)*. Strategist, mediator, and the crew's visionary planner; thinks in **Big-O** (the series' vehicle for algorithmic efficiency). See `DECISIONS.md` D-36.
 
-**Status: LOCKED** (new characters may be added; these four are permanent.)
+**Status: LOCKED** (five permanent leads; new characters may be added when the story needs them — see D-05, D-36.)
 
 ---
 

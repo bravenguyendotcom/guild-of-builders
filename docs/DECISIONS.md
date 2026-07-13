@@ -44,9 +44,13 @@ and Teppy to read real documentation and AI/ML resources later.
 
 ### D-04 — Audience & accessibility
 **Status: LOCKED**
-**Decision:** Primary readers are Tommy (Grade 8) and Teppy (younger, mild dyslexia).
-Accessibility rules (short lines, whitespace, plain words) are mandatory.
-**Reason:** The book must welcome Teppy on every page, and any 10–15 year old beginner.
+**Decision:** Primary readers are curious 10–15 year olds — spanning a confident older reader and
+a younger, newer one. **Accessibility is mandatory** (short lines, generous whitespace, plain
+words, reader-controlled text) so the book genuinely welcomes readers with **dyslexia and other
+reading differences**, and every beginner.
+**Reason:** The book must welcome the reader who finds reading hardest on *every* page — that's the
+reader we protect most — and it happens to serve every young and mobile reader beautifully. The
+accessible format is permanent across all volumes (I–IV), never a Volume-I-only accommodation.
 
 ---
 
@@ -126,10 +130,10 @@ semantic Markdown and let each output format apply its own accessibility-first s
   width**, and we **never bake layout into the source.**
 - **Outputs, each responsive:**
   - *Print / PDF (color on paper):* measure ~60–70 characters/line, generous margins,
-    dyslexia-friendly body font ~12–14pt, line spacing ~1.4–1.5, **left-aligned (never
+    accessibility-friendly body font ~12–14pt, line spacing ~1.4–1.5, **left-aligned (never
     justified)**, no forced hyphenation.
   - *E-ink (Kindle / Kobo Clara Color):* export **EPUB** with minimal styling and **let the
-    reader control font size and spacing** (vital for Teppy). Don't override reader settings.
+    reader control font size and spacing** (vital for readers with reading differences). Don't override reader settings.
   - *Mobile / web:* responsive HTML, `max-width` ~60–66 characters, comfortable spacing,
     dark mode.
 - **The cross-device rule:** design to be **legible in grayscale first**; color is an
@@ -138,7 +142,7 @@ semantic Markdown and let each output format apply its own accessibility-first s
 
 **Reason:** One source, many devices. Baking layout into the manuscript would break every
 format except the one it was tuned for, and would hurt the exact reader we protect most
-(Teppy, who needs to resize text freely). Authoring semantically keeps the work future-proof
+(readers who need to resize text freely). Authoring semantically keeps the work future-proof
 and accessible everywhere.
 
 **Still open (tooling):** the build tool (e.g. Pandoc) and per-format stylesheets are not
@@ -168,7 +172,7 @@ non-shaming "world records" (ridiculous or personal-best only). The real enemies
 **Fog Creatures** — the negative-self (procrastination, self-doubt, perfectionism) — which
 visit *every* Builder and are never used to shame a child. (See `BUILDERS_LOGBOOK.md`, `CHARACTERS.md`.)
 **Reason:** A competitive ranking would break the LOCKED emotional rules (never shame;
-celebrate Version 1; every pace welcome) and hurt the reader we protect most (Teppy).
+celebrate Version 1; every pace welcome) and hurt the reader we protect most — the one who finds reading hardest.
 *"Finishing is the achievement. When you finish is not the point."*
 
 ---
@@ -300,7 +304,7 @@ short `workbook/README.md` pointer (missions now live in the chapters; see D-26)
 `_TEMPLATE_mission.md` is **deprecated** (kept for reference). The **Typing Dojo** (`typing_dojo/`)
 remains the distinct *pure-practice* track with its own one-screen format (no worksheets — D-22).
 `STYLE_GUIDE.md` §4 (the mission-template section) is to be updated to match (next session).
-**Reason:** One flowing read is more accessible (Teppy) than story-then-worksheet, roughly halves
+**Reason:** One flowing read is more accessible (for readers with reading differences) than story-then-worksheet, roughly halves
 the authoring burden, and matches how chapters are *actually* being written. It also removes a
 drift trap: three different "mission" formats (workbook worksheet vs. embedded-in-chapter vs.
 Dojo one-screen) previously disagreed. Now each track has one clear job.
@@ -466,7 +470,7 @@ short, funny beat that rotates in a fixed order: **😄 Joke → 🧩 Riddle →
 computer-science ideas by **osmosis** (D-25) — the same repetition logic as the Dojo (D-23).
 Rotating three kinds keeps every chapter fresh without overloading a page, and starting at
 Chapter 1 (a joke needs no code skills) means the fun and the friendship begin on page one.
-Accessibility holds: one short Extra per chapter is well within a comfortable read for Teppy.
+Accessibility holds: one short Extra per chapter is well within a comfortable read for a newer reader.
 
 ---
 

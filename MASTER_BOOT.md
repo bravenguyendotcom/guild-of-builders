@@ -18,7 +18,7 @@ We are raising **Builders**.
 ## Who is this for?
 
 - **Tommy** (Grade 8, heading toward STEM/AI) — the primary Builder.
-- **Teppy** (younger, mild dyslexia) — every page must welcome him too.
+- **The newer reader** — younger, or a reader with dyslexia or other reading differences — every page must welcome them too.
 - Any curious 10–15 year old. No experience assumed.
 - Parents and teachers, who should enjoy reading it as well.
 

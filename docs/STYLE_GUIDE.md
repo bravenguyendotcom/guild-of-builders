@@ -27,7 +27,7 @@ Warm. Optimistic. Funny. Respectful. **Never childish.**
 
 ---
 
-## 2. Accessibility (non-negotiable — Teppy has mild dyslexia)
+## 2. Accessibility (non-negotiable — for readers with dyslexia & other reading differences)
 
 - **Short lines. Short paragraphs.** Often one sentence per line in the manuscript.
 - **Generous whitespace.** White space is a feature, not wasted paper.
@@ -54,7 +54,7 @@ Every concept must be *motivated by the story* before any syntax appears.
 ## 4. The mission — embedded in the chapter (see `DECISIONS.md` D-26)
 
 **There is no separate workbook.** The mission the child *does* lives **inside the story
-chapter** — one flowing read, not a story followed by a worksheet. (This is kinder for Teppy,
+chapter** — one flowing read, not a story followed by a worksheet. (This is kinder for a newer reader,
 roughly halves the authoring work, and matches how the shipped chapters 0–7 are already
 written. The old standalone 12-part worksheet template is deprecated.)
 
@@ -164,7 +164,7 @@ substitute for each other. A Guild Extra needs no code skills, so it runs from p
    finished picture to copy-and-admire. Hosted in spirit by Professor Pycasso: *"Every child is
    an artist, every terminal is a canvas."*
 7. **Short. Optional in tone, not in presence.** It's dessert, not another lesson — one screen,
-   never a wall of text (Teppy).
+   never a wall of text (accessibility).
 
 **Not this box:** the six *advanced* 3D/motion showpieces (Matrix Rain, Spinning Donut, etc.) are
 a **separate, skill-gated tier** — `docs/PYCASSO_GALLERY_ADVANCED.md` (`DECISIONS.md` D-35). They
@@ -210,7 +210,7 @@ use them every day. This is how wonder gradually becomes professionalism.
    of the trade like treasure.
 4. **Always warm, never scary.** The real world is presented as a place where the child
    already belongs: *"You just did what professionals do."*
-5. **Optional by design.** A tired reader (or Teppy on a heavy day) can skip every box
+5. **Optional by design.** A tired reader (or anyone on a heavy day) can skip every box
    and lose no story. A curious reader collects them all.
 6. **True things only.** No fairy tales about the industry. Real Builders have bugs,
    reviews, deadlines, and teammates. That's the point.
