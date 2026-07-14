@@ -558,6 +558,53 @@ for the enrichment pass, not an immediate change. Flagged here so it isn't lost.
 
 ---
 
+### D-39 — The Builder's Shield (security & privacy awareness as a through-thread)
+**Status: LOCKED**
+**Decision:** A third through-thread joins Builder's Heart 🌱 and the Inverting Mentor 🦸: **The
+Builder's Shield** 🛡️ — developing **security and privacy awareness and good practice** across the
+series. Principle: *"A real Builder makes it work — and thinks about who it protects."* It teaches
+the **WHATs** (strong passwords; data minimization — store only what you need; never trust user
+input blindly; guard your secret keys; think about who can see this) as *habits*, through
+story-natural beats, never as a lecture. **It emerges in Volume II, voiced naturally by
+Lady-O-Query** (her risk-management mind is the natural security voice), where the game first
+handles real data for real people. Volume I keeps its existing seeds (the password door Ch 7, the
+cipher Ch 10) *unlabeled* — the thread emerges, it is not retrofitted.
+**The hard scope boundary (canon rule, must survive every future contributor):** the Shield teaches
+awareness and defensive good practice only. **It NEVER teaches the HOWs** — no pen-testing, hacking
+or cracking, malware or virus-writing, social engineering, exploit techniques — nor heavy security
+theory (cryptography internals, threat modeling, hardware/network attack surfaces). *If a chapter's
+security beat would require explaining how to break something, that is the signal to stop.* **The
+Shield protects; it never arms.** Beats stay light and rare (a reflex, not a sermon) — the same
+gentle-recurring-touch discipline as Builder's Heart.
+**Reason:** Security and privacy awareness is real-world essential for anyone who builds, and a
+*habit of mind* is built by repetition across the whole book, not one chapter. Framing it as
+craftsmanship ("build the door to lock") keeps it on-brand and non-scary. The strict WHATs-only
+boundary is a **child-safety and responsibility requirement**: a children's book must never arm a
+reader with attack techniques. Awareness protects; technique-teaching would harm.
+
+---
+
+### D-40 — Cloud persistence, tasted for real (file → cloud, in Volume III)
+**Status: LOCKED** (specific product is an *example*, not a locked dependency)
+**Decision:** Volume III (the *published* game) includes a real, motivated **cloud-persistence
+taste**: the natural upgrade from Vol II's local file-save (the Memory Stone) to *shared* cloud
+data — a **multiplayer high-score table** and/or cloud-saved progress ("save it so your friend can
+see your score"). Taught **concept-first**: the durable lesson is *"shared, persistent data lives
+in a database, not a file,"* with a **simple modern hosted database as the illustrative example**
+(e.g. **Supabase** — hosted Postgres with a dead-simple API, so a child stores a score in a few
+lines without learning SQL, schemas, or running a server). Flagged like the Vol IV AI service
+(SETUP.md): an exciting real-world tool that needs an account, parent-aware. This beat is also a
+prime **Builder's Shield** moment (D-39): *data minimization* — store only a name and a score,
+never more than you need.
+**Reason:** "Save your high score to the cloud so your friend can see it" is too good and too
+on-mission a moment (the game *needs* it) to reduce to a footnote — it's the quintessential
+"published game people share" feature, and a beautiful story-driven bridge from local files to real
+databases. Teaching the *concept* (product as swappable example) keeps it durable when products
+change, per the spirit of D-19. Placed in Vol III to space the real-world-account weight (database
+in III, AI in IV) rather than piling both into IV.
+
+---
+
 ## Open questions parked in the Treasure Chest 🧰
 _(not decided yet — revisit when relevant, don't let them block progress)_
 

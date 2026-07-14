@@ -106,6 +106,15 @@ The deepest expression of this — that we optimize *curiosity*, and education i
 effect — lives in `PHILOSOPHY.md` ("The Art of Teaching Without Any Teaching"). See
 `DECISIONS.md` D-25.
 
+**Three through-threads carry the Builder (not just the Python)** across every volume, each a
+light recurring beat, never a lecture:
+
+- 🌱 **Builder's Heart** — emotional resilience; errors and frustration named and normalized, never shamed.
+- 🦸 **The Inverting Mentor** — the child shifts from *asking* to *answering*; by Vol IV the mentor asks *them* (D-31).
+- 🛡️ **The Builder's Shield** — security & privacy *awareness and good practice* (the WHATs — strong
+  passwords, data minimization, don't-trust-input, guard your keys); emerges in Vol II, voiced by
+  Lady-O-Query. It teaches habits, **never** attack-craft: *the Shield protects, it never arms* (D-39).
+
 **Status: LOCKED**
 
 ---

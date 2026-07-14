@@ -164,8 +164,14 @@ The capstone game ships in `source_code/volume_1/treasure_quest/`. Skill detail 
 # 📗 VOLUME II — Growing the Adventure
 **Python:** data structures in depth, files, modules, `try`/`except`. **Deliverable:** *Treasure Quest v2* (same game, evolved).
 **Rung:** rituals — plan before you build; iterate in small steps.
+**New this volume:** 🧭 **Lady-O-Query** joins the main cast (Ch 1). The **Fog Creatures** deepen
+(Shortcut Serpent, Ego Gremlin), and the antagonist ladder begins its climb toward the visioned
+Final Boss (see `VILLAINS.md`, D-37). *Soul: "it's alive" (the world grows into a place) → "my
+family plays it" (the Widening Circle homecoming) — dare boldly, come home warmly.*
 
-**Ch 1 — The Map Grows** — Story: the crew dreams bigger; Dragon Debug says *plan first.*
+**Ch 1 — The Map Grows** — Story: the crew dreams bigger; Dragon Debug says *plan first* — and
+**🧭 Lady-O-Query, the Navigator, joins the crew** (her entrance *is* the volume's opening note;
+she owns Big-O / planning — see `CHARACTERS.md`, D-36). Cast: **Lady-O-Query debuts.**
 Learn: writing a tiny spec. Game: the v2 wishlist. 🏗️: *spec / requirements.*
 🖼️ Advanced Gallery: **Rocket Launch** 🚀 — *"let your dreams lift off!"* a rising rocket on a
 growing exhaust trail (a moving sprite over time). See `PYCASSO_GALLERY_ADVANCED.md`.
@@ -178,9 +184,11 @@ return values, nested data. Game: buying & selling; first true NPC. 🏗️: *in
 
 **Ch 4 — When Things Go Wrong** — Story: Captain Byte feeds the ship nonsense and it sinks.
 Learn: `try`/`except`, graceful failure. Game: the game stops crashing on bad input. 🏗️: *exception / edge case.*
+🛡️ **Shield beat (D-39):** *never trust what a user types* — validation as a safety reflex, voiced by Lady-O.
 
 **Ch 5 — The Memory Stone** — Story: a stone that remembers your journey. Learn: reading &
 writing files (save/load). Game: **save and continue.** 🏗️: *persistence.* Cast: Quackers (check it saved).
+🛡️ **Shield beat:** the first privacy touch — *what's safe to store, and what isn't?*
 
 **Ch 6 — The Cartographer** — Story: a world with many rooms. Learn: data-driven maps
 (dicts of rooms). Game: a multi-location world. 🏗️: *data-driven design.* Cast: **Ninja Cat** (navigation).
@@ -237,6 +245,10 @@ dependencies. 🏗️: *dependencies / build.*
 
 **Ch 9 — The Lighthouse** — Story: a light others can find. Learn: deployment, hosting.
 Game: **a shareable URL.** 🏗️: *deployment.*
+💾 **Cloud persistence (D-40):** the file→cloud upgrade — a **multiplayer high-score table**
+("save it so your friend can see your score"). Concept-first (*shared data lives in a database, not
+a file*), with a simple hosted database (e.g. Supabase) as the example; needs an account
+(parent-aware). 🛡️ **Shield beat:** *data minimization* — store only a name and a score, never more.
 
 **Ch 10 — The README for Strangers** — Story: someone you'll never meet wants to play. Learn:
 writing docs a stranger can follow. 🏗️: *documentation.*

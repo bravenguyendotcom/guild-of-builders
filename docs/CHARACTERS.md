@@ -192,6 +192,18 @@ These appeared or were seeded in the founding conversation. Keep them consistent
   owns booleans and Pycasso owns art. Before a decision she mutters the cost aloud: *"Left strait?
   Monster risk is O(1) — a certainty. Right? Our delay jumps to O(n²)..."* Kids absorb complexity
   by osmosis, just from how she talks. **When the series teaches efficiency, Lady-O is the vehicle.**
+- **She carries the Builder's Shield 🛡️ (D-39).** Her risk-management mind is the crew's natural
+  security-and-privacy voice — she teaches the *WHATs* as habits, from Volume II onward, when the
+  game first handles real data for real people: *"never trust what a user types,"* *"store only what
+  you need — never more,"* *"guard your keys like the ship's keys."* She develops **awareness and
+  good practice**, never attack-craft — *the Shield protects, it never arms.* Light, story-natural,
+  never a lecture.
+- **She seeds the deeper CS, to inspire (never to teach it here).** DS&A, design patterns, the
+  hard roads to a real job — she *gestures* at them like treasure over the horizon, and sometimes
+  gently mocks how gnarly they are: *"Sorting this properly? That's a whole art. Remind me to bore
+  you about it someday — O(n log n), it's beautiful."* She makes the hard thing feel *wanted*, a
+  door left ajar — she never walks the child through it. (Wonder that pulls, per `PHILOSOPHY.md`;
+  scope per `CURRICULUM.md`'s "Where to go from here.")
 - **Her flaw (straight from her strength):** chronic **over-thinking and over-planning** — a touch
   of logic-mania and OCD. She sees so many moves ahead she struggles to just *start*, and can
   procrastinate or miss a *small* deadline (she is gloriously absent-minded about trivial things) —
