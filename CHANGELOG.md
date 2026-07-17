@@ -8,6 +8,9 @@ small improvements get decimals. (Kaizen, with a memory.)
 
 ## [Unreleased]
 
+### Added
+- **Volume II, Chapter 1 — The Map Grows** (`manuscript/volume_2/01_the_map_grows.md`): Volume II's opening chapter. Captain Byte dreams an entire living world onto v1's finished game; Dragon Debug refuses to build without a plan; **Lady-O-Query joins the permanent crew** as the Navigator (spyglass shaped like a letter O, thinks in Big-O, running gag "Oh... Query!"). Teaches **the small spec** as a ritual, not a keyword: TommyBot names the real bug (the chest and the gate don't know each other), Lady-O-Query plans for nine straight hours and catches herself before shipping nothing ("Perfect routes don't sail"), and the crew lands on one page — what it is, what ships first (v1), what "done" means, everything else scheduled under Later and never deleted. Closes on Pycasso's Rocket Launch showpiece and folds in Mission 011 (The Blueprint) as the chapter's Typing Dojo. Includes Toolbox Card (The Small Spec), In the Real World (specs/requirements/tickets/RFCs, and "every plan is a guess"), Achievement (The Blueprint 📐), and the Guild Extra (Oh... Query! joke).
+
 ### Changed
 - **Mission 011 marked built** (`typing_dojo/MISSIONS_PLAN.md`): build table and build-order section updated from 📋 planned to ✅ built, and flags Mission 012 (The Inventory) as next up, pre-assigned **Shape B / silent device S2** (silent over-indent) per the Tier II typo rotation schedule locked last session.
 - **Mission 011 README de-telegraphed** (`typing_dojo/missions/011_blueprint/README.md`): the Tier II hook still read "Two of them will stop the planning cold... the third won't" — exactly the shape-telegraphing habit the typo rotation lock banned. Rewritten to Conan's non-telegraphing phrasing: "Three slips are in here. Do you have any clue?"
