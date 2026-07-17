@@ -52,7 +52,7 @@
 
 | Ch | Chapter | Mission idea | New/Echo | Tiers | Status |
 |----|---------|--------------|----------|-------|--------|
-| 1 | The Map Grows | **011 The Blueprint** (read a tiny spec → checklist) | New | I–II | 📋 |
+| 1 | The Map Grows | **011 The Blueprint** (read a tiny spec → checklist) | New | I–II | ✅ built |
 | 2 | The Knapsack | **012 The Inventory** (add/remove from a list) | New | I–II | 📋 |
 | 3 | The Merchant's Wharf | **013 The Haggler** (functions that return a price) | New | I–II | 📋 |
 | 4 | When Things Go Wrong | **014 The Safety Net** (`try`/`except` a bad input) | New | I–II | 📋 |
@@ -183,8 +183,11 @@ the Builder discover the shape by hunting. The mission must never hand over the 
 
 1. ✅ **Volume I complete** — Missions 001–010 all built and bash-verified (engines in
    `coding_gold_mine/`, skins in `missions/`). The full Vol I Dojo ladder is shipped.
-2. 🔨 **Volume II missions (011+)** — begin as their chapters approach (Ch 1 → Mission 011,
-   The Blueprint). Build to the chapter's skills; don't run ahead of the manuscript.
+2. ✅ **011 The Blueprint** — built & bash-verified (Vol II Ch 1's ritual mission: scoping a
+   wishlist into v1/later, zero new syntax on purpose — see D-28a).
+3. 🔨 **012 The Inventory** (Ch 2) — the next engine to author. First mission under the new typo
+   rotation: **Shape B · silent device S2** (over-indent) — it breaks the five-in-a-row
+   variable-rename tell. Build to the chapter's skills; don't run ahead of the manuscript.
 
 > Build the format, not the mountain. Ship missions as chapters need them — never all at once.
 > *v1 > perfection.*

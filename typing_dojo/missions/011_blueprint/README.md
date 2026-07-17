@@ -55,11 +55,9 @@ Open **`challenge_2.py`**.
 
 Same blueprint — but **three typos** slipped in. No logic is broken. Only fingers.
 
-Two of them will stop the planning cold, and Python will point right at them.
+Three slips are in here. Do you have any clue?
 
-The third won't. It plans just fine and still isn't spelled the way you'd spell it.
-
-Retype it, run it, fix what you find — and don't stop at two.
+Retype it, run it — and don't stop until the plan reads exactly the way you'd write it.
 
 Run it once and Python hands you your first clue:
 
