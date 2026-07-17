@@ -196,6 +196,13 @@ always `inpt` and `prnt`, they stop hunting and start *remembering* — and Cona
   - **Operator / symbol slips** — `=` for `==`, a missing `:`, `+ =` split, wrong bracket
   - **Indentation slips** — a line nudged out of its loop/if
   - **Variable-name slips** — declared one way, used another
+  - **String-literal slips** — a typo *inside* a quoted string: the program runs perfectly
+    and prints something misspelled. The only slip a traceback will never catch — it's found
+    by reading your own output against the mission's **Expected output**. (Trains the habit
+    that matters most: *does what I built match what it should do?*)
+    ⚠️ **Never** use one where the misspelled text is *itself* the lesson — a prompt the
+    Builder types back, a password, a cipher input. That turns a cosmetic slip into a logic
+    bug and breaks the Tier II contract.
 - **The Builder must not be able to guess the typos before reading the code.** If you can predict
   all three from the last mission, the palette wasn't used.
 

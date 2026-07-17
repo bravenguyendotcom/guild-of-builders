@@ -355,6 +355,30 @@ explore, never announced as lessons. *"They start by typing and end up debugging
 life, then the world's bugs."* Tier III's reward (*"You fixed the idea"*) and Tier IV's *"befriend
 AI"* both loop into `HUMAN_AI_MANIFESTO.md`.
 
+#### D-28a — "New surface" when a chapter has none (addendum)
+**Status: LOCKED**
+**Decision:** The Tier II rule *"two of the three typos must land on this chapter's new Python
+surface"* assumes the chapter introduces new syntax. Some chapters don't:
+
+- **Echo missions (D-23)** reuse a prior engine and add no new syntax (e.g. 006, 009, 010).
+- **Ritual chapters** teach a *habit* rather than a keyword — Volume II Chapter 1 teaches
+  spec-writing; its mission (011) is a new engine built entirely from Volume I parts.
+
+In both cases, read **"the chapter's new surface"** as **"the engine's signature surface"** —
+the machinery the mission exists to drill (the guessing loop; the bouncer's `len`; the menu's
+`break`; the Blueprint's list-walk and cutoff compare). Two of the three typos land there.
+
+Everything else in D-28 is unchanged and still binding: three typos, **purely cosmetic, never a
+logic or flow bug**; rotate the typo *category* so a Builder can't predict the pattern from the
+last mission; a variable-name slip must be spelled the **same wrong way at every use**; and the
+`challenge_2.py` cascade is **bash-verified** before shipping.
+
+**Reason:** the clause's intent is *the detective work reinforces what this mission teaches* —
+not *every chapter must contain new syntax.* Echoes and ritual chapters teach real things
+(recognition; planning), and their Tier II should point at those things. Without this, the rule
+either blocks Echoes or gets improvised per mission — which is what happened four times across
+Volume I (Missions 006, 009, 010) and again at 011 before this lock.
+
 ---
 
 ### D-29 — The Dojo gate splits by tier (what's in the book vs. outside)
@@ -602,6 +626,39 @@ on-mission a moment (the game *needs* it) to reduce to a footnote — it's the q
 databases. Teaching the *concept* (product as swappable example) keeps it durable when products
 change, per the spirit of D-19. Placed in Vol III to space the real-world-account weight (database
 in III, AI in IV) rather than piling both into IV.
+
+---
+
+### D-41 — Volume II's soul, and the audience step-up (who each volume is really for)
+**Status: LOCKED**
+**Decision — the audience, honestly split:**
+- **Volume I is a gentle first touch** — for younger readers (roughly Grade 5 and below, and any
+  beginner). It is *enough on its own.* A child may read it, enjoy it, and forget most of it —
+  **that's a success, not a failure.** It plants wonder (Pycasso's Gallery, simple games that feel
+  *cool*) and the sense *"I could do this."* No pressure to master. Vol I may be *enriched* later
+  with more delight; it will never be made heavier.
+- **From Volume II, the stage light moves** — to Grade 6+ / middle-schoolers. This is the real
+  expedition, and the ceiling rises accordingly.
+
+**Decision — Volume II's soul:** **"it's alive" → "my family plays it."** The world grows into a
+*place* (rooms, NPCs, a bestiary, memory) — and then that living thing is given to the people the
+Builder loves. The emotional arc: **dare boldly, come home warmly.**
+
+**Reason — who middle-schoolers actually are:** they have enormous energy, creativity, courage —
+and an immature pride. *They dare.* They don't like being called kids, even though they aren't men
+yet. And sometimes they still need home, or someone to come back to. **That tension is Volume II's
+engine:** the volume lets them dare greatly (a bigger, living world), then brings them home (they
+built it *for* someone). It gently sands down the pride without a single lecture — you built
+something huge, and its meaning is that you *gave* it away.
+**Craft consequences:** the skill ceiling rises but the *fear* must drop; the humour matures
+slightly with the reader (from *silly* toward *satisfying* — the joy of a system clicking together);
+and Vol II must end by letting the Builder *feel the ceiling* of dicts-and-functions ("I wish a
+monster could just *be* one thing") so Vol III's classes arrive as **relief, not burden.**
+**Architecture note:** Volume II is planned the way Volume I was — **across the existing docs**
+(`SERIES_OUTLINE.md` chapters, `CURRICULUM.md` skills, `GAME_DESIGN.md` deliverable, `DECISIONS.md`
+calls). **No `VOLUME_II_PLAN.md`** — a per-volume plan file would duplicate what four well-factored
+files already own, inviting drift (D-06, no God Object). This decision is the home for the
+thematic/emotional calls that don't belong in a chapter list.
 
 ---
 

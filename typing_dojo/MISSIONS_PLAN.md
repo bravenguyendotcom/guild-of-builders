@@ -114,6 +114,71 @@
 
 ---
 
+## 🎲 Tier II typo rotation — keep the *shape* fresh, not just the categories
+
+> **The audit that produced this (Missions 004–011).** The Typo Palette (D-28) fixed *which
+> categories* the typos come from — and the predictability quietly moved up a level:
+> - **The shape alternated** — three-throwers, two-and-a-ghost, three-throwers, two-and-a-ghost —
+>   for seven missions straight.
+> - **Every silent typo was a consistent variable rename** — five for five. A Builder learns by
+>   mission three that *"the sneaky one is always a misspelled variable"* and stops reading the code.
+> - **The README telegraphed the shape** in the same words each time (*"two will stop the program
+>   cold; the third won't"*) — the mission handed over the answer's shape for free.
+>
+> The palette cured stale *categories*; this cures stale *shapes*. Same disease, one level up.
+
+### The three shapes (how loud the three typos are)
+
+- **Shape A — the cascade:** all three throw. Fix one, the next traceback appears. Pure ladder.
+- **Shape B — two and a ghost:** two throw; one is **silent** (the program runs, the output is wrong).
+- **Shape C — the quiet room:** one throws; **two are silent**. The traceback is the easy part;
+  the real hunt is reading output against expectation.
+
+### The three silent devices (how a typo hides)
+
+- **S1 — consistent variable rename.** Declared and used the same wrong way everywhere: runs clean,
+  nothing to see, only a careful read finds it. *(The classic — now rationed.)*
+- **S2 — silent over-indent.** A line nudged one level in: legal Python, different meaning
+  (runs inside the loop instead of after it). Output is subtly wrong.
+- **S3 — string-literal slip.** A typo inside a quoted string: the program runs *perfectly* and
+  prints something misspelled. Caught **only** by reading your own output against the
+  README's **Expected output** — the Donut Law in miniature.
+  > ⚠️ **Guard:** never use a string-literal slip where the misspelled text is *itself* the lesson
+  > (a prompt the Builder types back, a password, a cipher input). That turns a ghost into a
+  > logic bug and breaks the Tier II contract.
+
+### The two rules (non-negotiable, from here on)
+
+1. **No shape three times running.** A · A · B is fine; A · A · A is not.
+2. **Never the same silent device twice running.** If the last ghost was S1, the next is S2 or S3.
+
+### The one habit (kill the leak at its source)
+
+**Stop telegraphing the shape in the README.** Never write *"two will stop the program; the third
+won't."* Say what Conan would say — *"Three slips are in here. Do you have any clue?"* — and let
+the Builder discover the shape by hunting. The mission must never hand over the answer's outline.
+
+### Volume II typo schedule (planned — adjust as chapters ship)
+
+| Mission | Shape | Silent device | Note |
+|---|---|---|---|
+| **012** The Inventory | B | **S2** (over-indent) | breaks the five-in-a-row variable-rename tell |
+| **013** The Haggler | A | — | pure cascade; no ghost at all |
+| **014** The Safety Net | C | **S1** + **S2** | the quiet room; `try`/`except` is a natural fit |
+| **015** The Save Stone | B | **S3** (string literal) | *(if S3 is in play — else S2)* |
+| **016** The Room Map | A | — | |
+| **017** The Toolbox 🔁 | B | **S1** | S1 has rested three missions; it's fresh again |
+| **018** The Monster Roll | C | **S2** + **S3** | |
+| **019** The Riddle Bank 🔁 | A | — | |
+| **020** The Backlog 🔁 | B | **S1** | |
+| **021** The Colour Box | C | **S3** + **S2** | S3's best home: colour output *is* the read-it-yourself lesson |
+| **022** The Grown Game 🔁 | B | **S2** | capstone echo |
+
+> Shapes and devices are **scheduled in advance on purpose** — a rotation you can *see* is a
+> rotation you can *keep*. Improvising per mission is exactly how the last pattern went stale.
+
+---
+
 ## Build order (next up)
 
 1. ✅ **Volume I complete** — Missions 001–010 all built and bash-verified (engines in
