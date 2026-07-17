@@ -174,7 +174,9 @@ family plays it" (the Widening Circle homecoming) — dare boldly, come home war
 she owns Big-O / planning — see `CHARACTERS.md`, D-36). Cast: **Lady-O-Query debuts.**
 Learn: writing a tiny spec. Game: the v2 wishlist. 🏗️: *spec / requirements.*
 🖼️ Advanced Gallery: **Rocket Launch** 🚀 — *"let your dreams lift off!"* a rising rocket on a
-growing exhaust trail (a moving sprite over time). See `PYCASSO_GALLERY_ADVANCED.md`.
+growing exhaust trail (a moving sprite over time). **Shown *and runnable* here** — the crew dreams
+bigger and the rocket actually lifts off; the full build waits for the volume's later skills.
+Built: `pycasso_gallery/rocket_launch.py`. See `PYCASSO_GALLERY_ADVANCED.md`.
 
 **Ch 2 — The Knapsack** — Story: too much loot, no pockets. Learn: lists & dicts in depth.
 Game: a real inventory system. 🏗️: *state.*

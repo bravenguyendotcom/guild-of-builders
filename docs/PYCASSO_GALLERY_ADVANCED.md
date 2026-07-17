@@ -4,9 +4,9 @@
 
 > **Status:** LIVE (canon per `DECISIONS.md` D-35). The showpiece **code lives in the
 > `pycasso_gallery/` folder** (the art-twin of `typing_dojo/coding_gold_mine/`). Seed topics: 6.
-> **Built so far:** 🟢 Matrix Rain (`pycasso_gallery/matrix_rain.py`) — real, bash-verified,
-> shown-and-runnable at Vol I Ch 13. The other five are planned topics, built as their chapters
-> arrive.
+> **Built so far:** 🟢 Matrix Rain (`pycasso_gallery/matrix_rain.py`) — shown-and-runnable at Vol I
+> Ch 13 · 🚀 Rocket Launch (`pycasso_gallery/rocket_launch.py`) — shown-and-runnable at Vol II Ch 1.
+> Both real and bash-verified. The other four are planned topics, built as their chapters arrive.
 > **What this is:** the *advanced* wing of Professor Pycasso's Gallery — aspirational, animated,
 > math-and-loops-heavy CLI art. These are **not** the per-chapter Guild Extras (D-34). They are
 > a **skill-gated advanced tier**, exactly parallel to the Typing Dojo's higher tiers (D-28):
@@ -99,7 +99,12 @@ All of them share one honest technique, so a Builder who learns it once can buil
 - **Real technique:** an ASCII rocket sprite whose y-position decreases each frame; redraw the
   exhaust trail below it; clear + reprint per frame; a countdown before ignition.
 - **Skills:** multi-line string art, a moving coordinate, loops, `time`. **Level: Medium** (Vol II).
-- **Placement:** Vol II Gallery — and a lovely **"you shipped v1!"** celebration animation.
+- **Placement:** **Built** → `pycasso_gallery/rocket_launch.py` (adaptive to the terminal;
+  `ROCKET`/`FLAME`/`COLOR`/`SPEED` knobs — a Builder can redraw the ship and set `FLAME = "01"` for
+  binary exhaust). **Shown-and-runnable at Vol II Ch 1** ("The Map Grows"): the crew dreams bigger,
+  and the rocket *actually lifts off* — even though the full build waits for the volume's later
+  skills. Its closing line is the volume's thesis: *"Your dreams lift off the same way: one small
+  number, going up, every single frame."* Also a lovely **"you shipped v1!"** celebration animation.
 - **Chapter fit:** a **capstone/shipping chapter** (e.g. end of a volume — liftoff = you shipped).
 
 ### 6. 🌙 The Moon Landing — *"the eagle has landed"*
@@ -120,8 +125,8 @@ All of them share one honest technique, so a Builder who learns it once can buil
 
 | # | Showpiece | Level | Earliest home | Core new idea |
 |---|-----------|-------|---------------|---------------|
-| 1 | Matrix Rain 🟢 | Medium | Vol II | lists + random + colour = motion |
-| 5 | Rocket Launch 🚀 | Medium | Vol II | a moving sprite over time |
+| 1 | Matrix Rain 🟢 **built** | Medium | Vol I Ch 13 | lists + random + colour = motion |
+| 5 | Rocket Launch 🚀 **built** | Medium | Vol II Ch 1 | a moving sprite over time |
 | 6 | Moon Landing 🌙 | Medium–Hard | Vol II–III | change that slows (easing) |
 | 2 | Starfield ✨ | Medium–Hard | Vol III | perspective by division |
 | 3 | Rotating Sphere 🌍 | Hard | Vol III–IV | 3D→2D projection + shading |
